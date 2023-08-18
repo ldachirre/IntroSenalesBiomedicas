@@ -19,3 +19,5 @@ realizaron análisis estadísticos utilizando SocSciStatistics con un nivel de s
 
 
 
+Lo S; Childs C; Mahendra A; Young P; Carse B; Functional quadriceps reconstruction: 3D gait analysis, EMG and environmental simulator outcomes, Journal of plastic, reconstructive &amp; aesthetic surgery : JPRAS. Available at: https://pubmed.ncbi.nlm.nih.gov/36117134/
+
