@@ -29,16 +29,13 @@ Contenido de Materiales.
 Contenido de la Metodologia.
 
 ## Sección 4
-Contenido del curso.
+Contenido de Temática del Proyecto.
 
 ## Sección 5
-Contenido de Participantes.
+Contenido del curso.
 
 ## Sección 6
-Contenido de Docentes del Curso.
+Contenido de Participantes.
 
 ## Sección 7
-Contenido de la Sección 7.
-
-
-
+Contenido de Docentes del Curso.
