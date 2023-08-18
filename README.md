@@ -4,6 +4,6 @@ Repositorio del curso Introducción a Señales Biomédicas
 Integrantes:
 * Katherine Zorrilla (colaborador) kpzorrilla@pucp.edu.pe
 * Dante Rodriguez (colaborador)
-* Luis Chirre (colaborador)
+* Luis Chirre (colaborador) luis.chirre@upch.pe
 * Diego Palacios (colaborador)
   
