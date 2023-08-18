@@ -9,3 +9,5 @@ El estudio se centra en los efectos adversos del uso diario del smartphone, prin
 Entre los aportes de este estudio estan:
 * El uso de un EMG para el mapeado de musculos
 * El analisis de un problema creciente que es el uso indiscriminado de smartphones y sus efectos negativos en los musculos
+
+M. Lee et al., "The effects of smartphone use on upper extremity muscle activity and pain threshold", J. Physical Therapy Sci., vol. 27, n.º 6, pp. 1743–1745, 2015. Accedido el 18 de agosto de 2023. [En línea]. Disponible: https://doi.org/10.1589/jpts.27.1743
