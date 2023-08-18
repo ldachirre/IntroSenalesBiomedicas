@@ -5,5 +5,5 @@ Integrantes:
 * Katherine Zorrilla (colaborador) kpzorrilla@pucp.edu.pe
 * Dante Rodriguez (colaborador)
 * Luis Chirre (colaborador)
-* Diego Palacios (colaborador)
+* Diego Palacios ()
   
