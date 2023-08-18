@@ -6,3 +6,4 @@ La falta de un diagnóstico rápido para el tratamiento de la apnea osbtructiva 
 # Solución:  
 El desarrollo de un sistema biomédico portátil que ofrece monitoreo inalámbrico del sueño en el hogar para la evaluación clínica de la calidad del sueño y la apnea del sueño, a través de un parche integrado multisensor y un algoritmo de aprendizaje profundo; además, este sistema contiene una plataforma portátil que muestra el potencial para un monitoreo y análisis del sueño conveniente, confiable y preciso con accesibilidad y efectividad mejoradas. Asimismo, este sistema proporciona una medición fisiológica multimodal con una integración perfecta y discreta con la piel.
 
+![sciadv adg9671-f1](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/9d882a7e-e74c-40cc-b93f-846aba01da15)
