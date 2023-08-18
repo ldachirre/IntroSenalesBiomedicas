@@ -2,7 +2,7 @@
 Repositorio del curso Introducción a Señales Biomédicas
 Integrantes
 * Katherine Zorrilla kpzorrilla@pucp.edu.pe
-* Dante Rodriguez a20203483@pucp.edu.pe
+* Dante Rodriguez
 * Luis Chirre
 * Diego Palacios
   
