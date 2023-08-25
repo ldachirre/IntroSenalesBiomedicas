@@ -15,7 +15,7 @@
 Primero tenemos la configuracion inicial del osciloscopio, el generador de ondas y el arduino.
 
 Configuración inicial del Osciloscopio
-![B1](imagenes/MISC1.jpg){: width="300" height="200"}
+![B1](imagenes/MISC1.jpg){width: 300px; height: 200px}
 
 Configuracion Inicial del Generador de ondas
 ![B2](imagenes/MISC2.jpg)
