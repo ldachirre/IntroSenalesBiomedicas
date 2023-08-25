@@ -16,6 +16,7 @@ Primero tenemos la configuracion inicial del osciloscopio, el generador de ondas
 
 Configuración inicial del Osciloscopio
 ![B1](imagenes/MISC1.jpg){width: 300px; height: 200px}
+<img src="imagenes/MISC1.jpg" alt="MISC1" width="200"/>
 
 Configuracion Inicial del Generador de ondas
 ![B2](imagenes/MISC2.jpg)
