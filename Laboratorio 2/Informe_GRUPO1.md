@@ -50,8 +50,25 @@ void loop() {
 ---
 ### Señales generadas
 
+#### Onda sinusoidal del generador de señales:
+![B5](imagenes/TEK00001.PNG)
 
+#### Onda sinusoidal a 100Hz En el Serial Plotter de Arduino IDE:
+![B6](imagenes/TEK00002.PNG)
 
+---
+#### Onda cuadrada del generador de señales:
+![B5](imagenes/TEK00002.PNG)
+
+#### Onda cuadrada a 100Hz En el Serial Plotter de Arduino IDE:
+![B6](imagenes/TEK00002.PNG)
+
+---
+#### Onda triangular del generador de señales:
+![B5](imagenes/TEK00003.PNG)
+
+#### Onda triangular a 100Hz En el Serial Plotter de Arduino IDE:
+![B6](imagenes/TEK00002.PNG)
 
 
 
