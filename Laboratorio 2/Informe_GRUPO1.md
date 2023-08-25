@@ -19,11 +19,12 @@ Configuración inicial del Osciloscopio
 <img src="imagenes/MISC1.jpg" width="500" height="350"/>
 
 Configuracion Inicial del Generador de ondas
-![B2](imagenes/MISC2.jpg)
-<img src="imagenes/MISC1.jpg" width="500"/>
+
+<img src="imagenes/MISC2.jpg" width="500" height="350"/>
+<img src="imagenes/TEK00000.PNG" width="600" height="350"/>
 
 Conexión del Arduino NANO 33 IOT con la señal del generador de señales
-![B3](imagenes/MISC3.jpg)
+<img src="imagenes/MISC3.jpg" width="500" height="400"/>
 
 Codigo usado para el arduino
 ```
@@ -52,24 +53,23 @@ void loop() {
 ### Señales generadas
 
 #### Onda sinusoidal del generador de señales:
-![B5](imagenes/TEK00001.PNG)
+<img src="imagenes/TEK00001.PNG" width="600" height="350"/>
 
 #### Onda sinusoidal a 100Hz En el Serial Plotter de Arduino IDE:
-![B6](imagenes/ARD1.jpg)
+<img src="imagenes/ARD1.jpg" width="600" height="350"/>
 
 ---
 #### Onda cuadrada del generador de señales:
-![B5](imagenes/TEK00002.PNG)
+<img src="imagenes/TEK00002.PNG" width="600" height="350"/>
 
 #### Onda cuadrada a 100Hz En el Serial Plotter de Arduino IDE:
-![B6](imagenes/ARD2.jpg)
+<img src="imagenes/ARD2.jpg" width="600" height="350"/>
 
 ---
 #### Onda triangular del generador de señales:
-![B5](imagenes/TEK00003.PNG)
+<img src="imagenes/TEK00003.PNG" width="600" height="350"/>
 
 #### Onda triangular a 100Hz En el Serial Plotter de Arduino IDE:
-![B6](imagenes/ARD3.jpg)
-
+<img src="imagenes/ARD3.jpg" width="600" height="350"/>
 
 
