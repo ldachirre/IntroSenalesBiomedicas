@@ -13,6 +13,7 @@
 ### Ploteo de señales en Arduino
 
 Primero tenemos la configuracion inicial del osciloscopio, el generador de ondas y el arduino.
+![B1](/Laboratorio_2/imagenes/MISC1.jpg)
 
 Configuración inicial del Osciloscopio
 
