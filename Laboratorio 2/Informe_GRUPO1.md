@@ -13,13 +13,15 @@
 ### Ploteo de señales en Arduino
 
 Primero tenemos la configuracion inicial del osciloscopio, el generador de ondas y el arduino.
-![B1](/Laboratorio2/imagenes/MISC1.jpg)
 
 Configuración inicial del Osciloscopio
+![B1](imagenes/MISC1.jpg)
 
 Configuracion Inicial del Generador de ondas
+![B2](imagenes/MISC2.jpg)
 
 Conexión del Arduino NANO 33 IOT con la señal del generador de señales
+![B3](imagenes/MISC3.jpg)
 
 Codigo usado para el arduino
 ```
