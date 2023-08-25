@@ -5,10 +5,10 @@
 # **LABORATORIO 2 – ADQUISICIÓN DE SEÑALES Y GRAFICACIÓN EN ARDUINO**
 
 1. # **Integrantes del GRUPO 1**
-   0. Katherine Zorrilla - kpzorrilla@pucp.edu.pe
-   0. Dante Rodriguez - a20203483@pucp.edu.pe
-   0. Luis Chirre - luis.chirre@upch.pe
-   0. Diego Palacios - <d.palaciose@pucp.edu.pe>
+   * Katherine Zorrilla - kpzorrilla@pucp.edu.pe
+   * Dante Rodriguez - a20203483@pucp.edu.pe
+   * Luis Chirre - luis.chirre@upch.pe
+   * Diego Palacios - <d.palaciose@pucp.edu.pe>
 
 1. # **Entregables**
 
