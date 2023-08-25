@@ -15,11 +15,12 @@
 Primero tenemos la configuracion inicial del osciloscopio, el generador de ondas y el arduino.
 
 Configuración inicial del Osciloscopio
-![B1](imagenes/MISC1.jpg)
-<img src="imagenes/MISC1.jpg" alt="MISC1" width="200"/>
+
+<img src="imagenes/MISC1.jpg" width="500" height="350"/>
 
 Configuracion Inicial del Generador de ondas
 ![B2](imagenes/MISC2.jpg)
+<img src="imagenes/MISC1.jpg" width="500"/>
 
 Conexión del Arduino NANO 33 IOT con la señal del generador de señales
 ![B3](imagenes/MISC3.jpg)
