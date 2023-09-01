@@ -33,6 +33,9 @@ Mientras que la EMG bipolar tradicional brinda una idea de las estrategias de ac
 Planteamiento del Problema: Enunciar el problema y justificar con el estado del arte
 El problema encontrado es la dificultad del diagnóstico de ELA con el uso de la electromiografía superficial, debido a la falta de precisión en sus lecturas.
 
+# Bibliografía:
+[1]
+
 # Propuestas de Solución
 - Propuesta 1: Se podría utilizar BITalino para obtener señales electromiográficas más detalladas y de alta resolución desde los músculos afectados en pacientes con ELA.
 
