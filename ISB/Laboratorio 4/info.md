@@ -100,8 +100,17 @@ plt.show()
 ```
 ## **Resultados** <a name="id6"></a>
 * Sujeto 1
+<p align="center"><img src="/ISB/Images/kathrelajado.jpg" width="600" height="300"></p>
+<p align="center"><img src="/ISB/Images/kathcontraido.jpg" width="600" height="300"></p>
+
 * Sujeto 2
+<p align="center"><img src="/ISB/Images/luisrelajado.jpg" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Images/luiscontraido.jpg" width="600" height="300"></p>
-<p align="center"><img src="/ISB/Images/luiscontraido67.jpg" width="600" height="300"></p>
+
 * Sujeto 3
+<p align="center"><img src="/ISB/Images/paezrelajado.jpg" width="600" height="300"></p>
+<p align="center"><img src="/ISB/Images/paezcontraido.jpg" width="600" height="300"></p>
+
 * Sujeto 4
+<p align="center"><img src="/ISB/Images/danterelajado.jpg" width="600" height="300"></p>
+<p align="center"><img src="/ISB/Images/dantecontraido.jpg" width="600" height="300"></p>
