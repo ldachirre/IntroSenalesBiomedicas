@@ -46,9 +46,12 @@ El presente laboratorio busca analizar la actividad eléctrica de los músculos 
 Se tomó los datos de los participantes en las pruebas de EMG del presente laboratorio, posteriormente se midió su actividad muscular del brazo en reposo y en contracción y posteriormente mostrarlas en gráficas en Python.
 
 1. Toma de las señales en reposo
+<p align="center"><img src="/ISB/Images/sujetoreposo.jpg" width="600" height="400"></p>
 
 2. Toma de las señales en contracción
+<p align="center"><img src="/ISB/Images/sujetocontraccion.jpg" width="600" height="400"></p>
 
 3. Mostrar y comparar ambas señales en Python
-
+<p align="center"><img src="/ISB/Images/luiscontraido.jpg" width="600" height="300"></p>
+<p align="center"><img src="/ISB/Images/luiscontraido67.jpg" width="600" height="300"></p>
 
