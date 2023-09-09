@@ -7,6 +7,10 @@
 4. [Características de los sujetos de prueba](#id4)
 5. [Metodología](#id5)
 6. [Resultados](#id6)
+   - [Subsección 1](#subseccion-1)
+   - [Subsección 2](#subseccion-2)
+   - [Subsección 3](#subseccion-3)
+   - [Subsección 4](#subseccion-4)
 
 ## **Introducción** <a name="id1"></a>
 El presente laboratorio busca analizar la actividad eléctrica de los músculos del brazo mediante señales EMG a través de electrodos de superficie. Se compararán las señales del músculo en reposos y en conrtacción para comprobar la diferencia en la actividad muscular en estos casos.
@@ -99,7 +103,7 @@ plt.grid(True)
 plt.show()
 ```
 ## **Resultados** <a name="id6"></a>
-* Sujeto 1
+* Sujeto 1 (#subseccion-1)
 <p align="center"><img src="/ISB/Images/kathrelajado.jpg" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Images/kathcontraido.jpg" width="600" height="300"></p>
 
