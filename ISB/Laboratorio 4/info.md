@@ -6,6 +6,7 @@
 3. [Materiales y equipos](#id3)
 4. [Características de los sujetos de prueba](#id4)
 5. [Metodología](#id5)
+6. [Resultados](#id6)
 
 ## **Introducción** <a name="id1"></a>
 El presente laboratorio busca analizar la actividad eléctrica de los músculos del brazo mediante señales EMG a través de electrodos de superficie. Se compararán las señales del músculo en reposos y en conrtacción para comprobar la diferencia en la actividad muscular en estos casos.
@@ -64,7 +65,7 @@ https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/8f6fdf56-915
 
 
 
-3. Mostrar y comparar ambas señales en Python
+3. Código del plot de señales en python
 
 ```
 import numpy as np
@@ -97,6 +98,7 @@ plt.grid(True)
 # Mostrar el gráfico
 plt.show()
 ```
+## **Resultados** <a name="id6"></a>
 * Sujeto 1
 * Sujeto 2
 <p align="center"><img src="/ISB/Images/luiscontraido.jpg" width="600" height="300"></p>
