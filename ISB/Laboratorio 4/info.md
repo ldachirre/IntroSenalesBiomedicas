@@ -48,6 +48,7 @@ Se tomó los datos de los participantes en las pruebas de EMG del presente labor
 1. Toma de las señales en reposo
 <p align="center"><img src="/ISB/Images/sujetoreposo.jpg" width="600" height="400"></p>
 <p align="center"><video src="/ISB/Images/dantebrazo0.mp4">
+<p align="center"><video src="https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/0fca5f2f-db37-497a-85f2-8cc29c4ec717">
 
 2. Toma de las señales en contracción
 <p align="center"><img src="/ISB/Images/sujetocontraccion.jpg" width="600" height="400"></p>
