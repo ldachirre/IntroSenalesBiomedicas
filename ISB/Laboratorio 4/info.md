@@ -86,5 +86,9 @@ plt.grid(True)
 # Mostrar el gráfico
 plt.show()
 ```
+* Sujeto 1
+* Sujeto 2
 <p align="center"><img src="/ISB/Images/luiscontraido.jpg" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Images/luiscontraido67.jpg" width="600" height="300"></p>
+* Sujeto 3
+* Sujeto 4
