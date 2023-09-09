@@ -72,6 +72,8 @@ https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/8f6fdf56-915
 3. Código del plot de señales en python
 
 ```
+#Luis Contraido
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -79,42 +81,64 @@ import matplotlib.pyplot as plt
 archivo_txt = "Luiscontraido.txt"
 
 # Cargar los datos desde el archivo TXT
-
 datos_emg = np.loadtxt(archivo_txt)
 
 # Extraer la sexta columna de datos_emg
 # recordamos que el archivo txt me da informacion de todas las entradas del bitalino pero 
 # la única que nos interesa es la que se encuentra en el encabezado A1
-
-solo_emg = datos_emg[:, 5]  # El índice 5 representa la sexta columna (0-indexed)
+columna_sexta = datos_emg[:, 5]  # El índice 5 representa la sexta columna (0-indexed)
 
 # Crear un arreglo de tiempo en segundos
-tiempo = np.arange(len(solo_emg)) / 1000  # Suponiendo una frecuencia de muestreo de 1000 Hz
+frecuencia_muestreo = 1000  # Frecuencia de muestreo en Hz
+tiempo = np.arange(len(columna_sexta)) / frecuencia_muestreo
+
+# Definir el intervalo de tiempo que deseas graficar (segundos 6 al 7)
+inicio_segundo = 6
+fin_segundo = 7
+inicio_muestra = int(inicio_segundo * frecuencia_muestreo)
+fin_muestra = int(fin_segundo * frecuencia_muestreo)
+
+# Extraer los datos del intervalo de tiempo especificado
+tiempo_intervalo = tiempo[inicio_muestra:fin_muestra]
+columna_intervalo = columna_sexta[inicio_muestra:fin_muestra]
 
 # Crear el gráfico
 plt.figure(figsize=(10, 4))  # Ajusta el tamaño del gráfico según tus necesidades
-plt.plot(tiempo, solo_emg, lw=1, color='blue')
+plt.plot(tiempo, columna_sexta, lw=1, color='blue')
 plt.xlabel('Tiempo (s)')
-plt.ylabel('Valor EMG (Sexta Columna)')
-plt.title('Datos de EMG (Sexta Columna)')
+plt.ylabel('Valor EMG ')
+plt.title('Datos de EMG (Luis Contraído)')
 plt.grid(True)
 
 # Mostrar el gráfico
 plt.show()
+
+
+# Crear el gráfico para los datos del intervalo de tiempo especificado
+plt.figure(figsize=(10, 4))  # Ajusta el tamaño del gráfico según tus necesidades
+plt.plot(tiempo_intervalo, columna_intervalo, lw=1, color='blue')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Valor EMG (Sexta Columna)')
+plt.title('Datos de EMG Contracción Muscular (Segundos 6 al 7)')
+plt.grid(True)
+
+# Mostrar el gráfico
+plt.show()
+
 ```
 ## **Resultados** <a name="id6"></a>
-* Sujeto 1 <a id="sujeto-1"></a>
+* Sujeto 1: Katherine <a id="sujeto-1"></a>
 <p align="center"><img src="/ISB/Images/kathrelajado.jpg" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Images/kathcontraido.jpg" width="600" height="300"></p>
 
-* Sujeto 2 <a id="sujeto-2"></a>
+* Sujeto 2: Luis <a id="sujeto-2"></a>
 <p align="center"><img src="/ISB/Images/luisrelajado.jpg" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Images/luiscontraido.jpg" width="600" height="300"></p>
 
-* Sujeto 3 <a id="sujeto-3"></a>
+* Sujeto 3: Italo <a id="sujeto-3"></a>
 <p align="center"><img src="/ISB/Images/paezrelajado.jpg" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Images/paezcontraido.jpg" width="600" height="300"></p>
 
-* Sujeto 4 <a id="sujeto-4"></a>
+* Sujeto 4:  Dante <a id="sujeto-4"></a>
 <p align="center"><img src="/ISB/Images/danterelajado.jpg" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Images/dantecontraido.jpg" width="600" height="300"></p>
