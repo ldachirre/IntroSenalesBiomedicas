@@ -47,13 +47,22 @@ Se tomó los datos de los participantes en las pruebas de EMG del presente labor
 
 1. Toma de las señales en reposo
 <p align="center"><img src="/ISB/Images/sujetoreposo.jpg" width="600" height="400"></p>
-<p align="center"><video src="https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/f4ea7561-5c10-481e-a251-e9a83bfee21a">
+
+
+https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/9bade6f9-01c4-4ec4-b59a-020df3f3c808
+
+
 
 
 
 2. Toma de las señales en contracción
 <p align="center"><img src="/ISB/Images/sujetocontraccion.jpg" width="600" height="400"></p>
-<p align="center"><video src="/ISB/Images/dantebrazo.mp4">
+
+
+
+https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/8f6fdf56-915a-4c6e-a60d-f375c078741a
+
+
 
 3. Mostrar y comparar ambas señales en Python
 
