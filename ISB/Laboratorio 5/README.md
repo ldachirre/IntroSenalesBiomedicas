@@ -13,7 +13,7 @@
    - [Sujeto 4](#sujeto-4)
 
 ## **Introducción** <a name="id1"></a>
-<p align="center"><img src="/ISB/Images/ecg/ondaqt.png" width="600" height="400"></p>
+<p align="center"><img src="/ISB/Images/ecg/ondaqt.png" width="600" height="600"></p>
 
 ## **Objetivos** <a name="id2"></a>
 ## **Materiales y equipos** <a name="id3"></a>
