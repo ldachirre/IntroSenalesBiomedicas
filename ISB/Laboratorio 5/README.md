@@ -13,8 +13,21 @@
    - [Sujeto 4](#sujeto-4)
 
 ## **Introducción** <a name="id1"></a>
+<p align="center"><img src="/ISB/Images/ecg/ondaqt.png" width="600" height="300"></p>
+
 ## **Objetivos** <a name="id2"></a>
 ## **Materiales y equipos** <a name="id3"></a>
+
+<div align="center">
+
+|  **Modelo**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+| (R)EVOLUTION |   Kit BITalino  |       1      |
+|       -      |      Laptop     |       1      |
+
+</div>
+
+<p align="justify">
 ## **Características de los sujetos de prueba** <a name="id4"></a>
 ## **Metodología** <a name="id5"></a>
 ## **Resultados** <a name="id6"></a>
