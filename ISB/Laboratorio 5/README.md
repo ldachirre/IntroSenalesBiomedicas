@@ -4,7 +4,7 @@
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
 3. [Materiales y equipos](#id3)
-4. [Características de los sujetos de prueba](#id4)
+4. [¿Cómo funciona el ECG en un Bitalino? ](#id4)
 5. [Metodología](#id5)
 6. [Resultados](#id6)
    - [Sujeto 1](#sujeto-1)
@@ -48,7 +48,8 @@ Figura 1. Análisis de la señal ECG []
 | **OpenSignals Software**: Se puede conectar mediante Bluetooth a la placa BITalino y permite adquirir y visualizar bioseñales          | ![bi](https://cdn.shopify.com/s/files/1/0595/1068/5887/t/6/assets/opensignalshorizontallogocoloralpha-1-1649366393124.png?v=1649366394)      |
 ***
 
-## **Características de los sujetos de prueba** <a name="id4"></a>
+## **¿Cómo funciona el ECG en un Bitalino? ** <a name="id4"></a>
+La adquisición de la señal de ECG con BITalino es no invasiva; el ECG se detecta mediante tres electrodos de Ag-AgCl. BITalino permite una medición de un solo derivación con una frecuencia de muestreo (fs) de 10/100/1,000 Hz. El ancho de banda es de 0.5-40 Hz, y se garantiza la precisión en este rango. El sistema también transfiere frecuencias desde 40 Hz hasta la mitad de la frecuencia de muestreo, pero con menor magnitud. La resolución de la señal de ECG es de 10 bits. El rango de voltaje adquirido está limitado a (-1.5, +1.5) mV. Los datos pueden visualizarse mediante el software OpenSignals, que permite la adquisición de datos en tiempo real y la exploración fuera de línea. Los datos registrados pueden almacenarse en formato de archivo ASCII estándar (.txt) o en formato HDF5.
 ## **Metodología** <a name="id5"></a>
 ## **Resultados** <a name="id6"></a>
 ## **Referencias** <a name="id7"></a>
