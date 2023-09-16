@@ -23,6 +23,11 @@ La señal de ECG tiene una amplitud pequeña, típicamente 2.5 mV en un entorno 
 Figura 1. Análisis de la señal ECG
 
 ## **Objetivos** <a name="id2"></a>
+
+- Adquirir señal biomédica de ECG.
+- Hacer una correcta configuración de BiTalino.
+- Extraer la información de la señal ECG del software OpenSignals (r)evolution
+- 
 ## **Materiales y equipos** <a name="id3"></a>
 
 
