@@ -17,17 +17,28 @@
 
 La electrocardiografía (ECG) es una señal biológica que registra el proceso de latido del corazón mediante la medición del voltaje a lo largo del tiempo. Se realiza mediante la colocación de electrodos externos en la piel humana [1]. La ECG se utiliza principalmente para obtener información sobre la frecuencia cardíaca (pulso cardíaco), el ritmo y la actividad eléctrica del corazón. Esta técnica captura los puntos clave del cuerpo humano y genera una señal de voltaje cuasiperiódica no lineal y no estacionaria [2]. Asimismo, la ECG ofrece la ventaja de ser un procedimiento de bajo costo y de respuesta inmediata. Para registrar un ECG, se mide la diferencia de potencial entre los electrodos que se colocan en la piel del paciente. Esta medición permite obtener una representación gráfica de los impulsos eléctricos del corazón, lo que proporciona información valiosa sobre su funcionamiento [3].
 
-La señal de ECG tiene una amplitud pequeña, típicamente 2.5 mV en un entorno de desplazamiento de 400 mV, y los componentes de frecuencia de una señal de ECG típica están en el rango de 0.05–150 Hz [4]. Cada señal de ECG tiene puntos fiduciales (P, Q, R, S, T, U) y varios intervalos (S-T, Q-T, P- R, R-R), como se observa en la Figura 1. Además, en la Tabla 1, se explica cada onda e intervalo de la señal de ECG.
+La señal de ECG tiene una amplitud pequeña, típicamente 2.5 mV en un entorno de desplazamiento de 400 mV, y los componentes de frecuencia de una señal de ECG típica están en el rango de 0.05–150 Hz [4]. Cada señal de ECG tiene puntos fiduciales (P, Q, R, S, T, U) y varios intervalos (S-T, Q-T, P- R, R-R) [3], como se observa en la Figura 1.
+
+- La onda P es el resultado de la despolarización de la aurícula y el ventrículo provoca el resto de picos.
+- Intervalo PR representa el tiempo desde el comienzo de la despolarización auricular hasta el comienzo de la despolarización ventricular e incluye el retraso en el nodo AV.
+-El complejo QRS es la despolarización de ambos ventrículos cardiacos, utilizado como punto de referencia para el análisis de señales.
+- El intervalo QT es un indicador de la repolarizacíón ventricular
+- El segmento ST representa el final de la despolarización ventricular y el comienzo de la repolarización ventricular
+- La onda Q representa la despolarización del tabique interventricular.
+- La onda R representa el estímulo eléctrico a medida que pasa por los ventrículos durante la despolarización.
+- La onda S representa la despolarización final de las fibras de Purkinje.
+- La onda T representa la repolarización ventricular [3].
+
 
 <p align="center"><img src="/ISB/Images/ecg/ondaqt.png" width="600" height="600"></p>
-Figura 1. Análisis de la señal ECG
+Figura 1. Análisis de la señal ECG []
 
 ## **Objetivos** <a name="id2"></a>
 
 - Adquirir señal biomédica de ECG.
 - Hacer una correcta configuración de BiTalino.
 - Extraer la información de la señal ECG del software OpenSignals (r)evolution
-- 
+  
 ## **Materiales y equipos** <a name="id3"></a>
 
 
