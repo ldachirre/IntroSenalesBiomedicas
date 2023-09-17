@@ -64,7 +64,46 @@ En el caso de la frecuencia de muestreo se determinó que debe establecerse en f
 Adicionalmente en el estudio se testearon 12 lugares de colocación diferentes. La ubicación de los electrodos se determinó en función de los derivaciones estándar del ECG, la accesibilidad a las partes del cuerpo, las amplitudes supuestas y el diseño de BITalino. El conjunto de derivaciones tiene una longitud de 30 cm, lo que significa que la distancia entre dos electrodos (partes del cuerpo) no debe ser superior a 60 cm. De las derivaciones estándar del ECG, solo tenemos en cuenta las derivaciones de miembros (porque son bipolares). Además, la distancia entre la mano y la pierna es mayor de 60 cm, por lo que la detección resulta muy incómoda. La única derivación estándar que se puede utilizar es la derivación de miembros (mano izquierda, mano derecha). Esta derivación fue la que utilizamos para nuestra adquisición de señales.
 
 ## **Resultados** <a name="id6"></a>
-<img src="Graficos_ECG/S1A.jpg" width="300" height="150"/>
+
+## Sujeto 1 <a id="sujeto-1"></a>
+### Reposo
+<p>
+   <img src="Graficos_ECG/S1R.png" width="500" height="300"/>
+   <img src="Graficos_ECG/S1RR.png" width="500" height="300">
+</p>
+
+### Activo
+<p>
+   <img src="Graficos_ECG/S1A.png" width="500" height="300"/>
+   <img src="Graficos_ECG/S1AA.png" width="500" height="300">
+</p>
+
+## Sujeto 2 <a id="sujeto-2"></a>
+### Reposo
+<p>
+   <img src="Graficos_ECG/S2R.png" width="500" height="300"/>
+   <img src="Graficos_ECG/S2RR.png" width="500" height="300">
+</p>
+
+### Activo
+<p>
+   <img src="Graficos_ECG/S2A.png" width="500" height="300"/>
+   <img src="Graficos_ECG/S2AA.png" width="500" height="300">
+</p>
+
+## Sujeto 3 <a id="sujeto-3"></a>
+### Reposo
+<p>
+   <img src="Graficos_ECG/S3R.png" width="500" height="300"/>
+   <img src="Graficos_ECG/S3RR.png" width="500" height="300">
+</p>
+
+### Activo
+<p>
+   <img src="Graficos_ECG/S3A.png" width="500" height="300"/>
+   <img src="Graficos_ECG/S3AA.png" width="500" height="300">
+</p>
+
 
 ## **Referencias** <a name="id7"></a>
 [1]	A. Sheta et al., «Diagnosis of Obstructive Sleep Apnea from ECG Signals Using Machine Learning and Deep Learning Classifiers», Applied Sciences 2021, Vol. 11, Page 6622, vol. 11, n.o 14, p. 6622, jul. 2021, doi: 10.3390/APP11146622.
