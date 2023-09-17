@@ -64,7 +64,8 @@ En el caso de la frecuencia de muestreo se determinó que debe establecerse en f
 Adicionalmente en el estudio se testearon 12 lugares de colocación diferentes. La ubicación de los electrodos se determinó en función de los derivaciones estándar del ECG, la accesibilidad a las partes del cuerpo, las amplitudes supuestas y el diseño de BITalino. El conjunto de derivaciones tiene una longitud de 30 cm, lo que significa que la distancia entre dos electrodos (partes del cuerpo) no debe ser superior a 60 cm. De las derivaciones estándar del ECG, solo tenemos en cuenta las derivaciones de miembros (porque son bipolares). Además, la distancia entre la mano y la pierna es mayor de 60 cm, por lo que la detección resulta muy incómoda. La única derivación estándar que se puede utilizar es la derivación de miembros (mano izquierda, mano derecha). Esta derivación fue la que utilizamos para nuestra adquisición de señales.
 
 ## **Resultados** <a name="id6"></a>
-
+Para este laboratorio usamos 3 sujetos de prueba los cuales fueron medidos en 2 estados. 
+Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el segundo estado luego de haber efectuado una actividad física (sentadillas con salto y correr 100 metros a maxima velocidad)
 ## Sujeto 1 <a id="sujeto-1"></a>
 ### Reposo
 <p>
