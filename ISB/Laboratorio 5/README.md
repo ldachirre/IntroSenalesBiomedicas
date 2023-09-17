@@ -32,6 +32,21 @@ La señal de ECG tiene una amplitud pequeña, típicamente 2.5 mV en un entorno 
 <p align="center"><img src="/ISB/Images/ecg/ondaqt.png" width="600" height="600"></p>
 Figura 1. Análisis de la señal ECG []
 
+Derivaciones Cardiacas
+
+Son las vistas del corazón que representan su actividad de potencial eléctrico en diferentes planos, estas son 12 y se dividen entre derivaciones de extremidades y precordiales.
+
+*Derivaciones de extremidades: 
+Son el registro de la diferencia de potenciales eléctricos entre dos puntos, ya sea entre dos electrodos (bipolar) o entre un punto virtual y un electrodo (monopolares). Como su nombre indica estas son tomadas en las extremidades, siendo RA (right arm), LA (left arm), RL (right leg) y LL (left leg).
+
+<p align="center"><img src="/ISB/Images/ecg/extremidades.png" width="600" height="600"></p>
+I, II y III: derivaciones bipolares; aVF, aVL y aVR: derivaciones monopolares
+
+*Derivaciones precordiales: 
+Se obtienen registrando la actividad eléctrica del corazón desde puntos en la superficie del tórax. Estas derivaciones son importantes para evaluar la actividad eléctrica del corazón desde una vista frontal y proporcionar información sobre la actividad en diferentes regiones del miocardio.
+
+
+
 ## **Objetivos** <a name="id2"></a>
 
 - Adquirir señal biomédica de ECG.
