@@ -1,5 +1,5 @@
 # Introducción a Señales Biomédicas Grupo 1
-Repositorio del curso Introducción a Señales Biomédicas
+Repositorio del curso Introducción a Señales Biomédicas dictado en la Universidad Peruana Cayetano Heredia en el semestre académico 2023-II
 
 Integrantes:
 * Katherine Zorrilla (colaborador) kpzorrilla@pucp.edu.pe
