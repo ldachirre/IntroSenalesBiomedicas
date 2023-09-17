@@ -10,7 +10,6 @@
    - [Sujeto 1](#sujeto-1)
    - [Sujeto 2](#sujeto-2)
    - [Sujeto 3](#sujeto-3)
-   - [Sujeto 4](#sujeto-4)
 7. [Referencias](#id7)
    
 ## **Introducción** <a name="id1"></a>
