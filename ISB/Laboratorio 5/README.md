@@ -38,7 +38,7 @@ Figura 1. Análisis de la señal ECG
   Son las vistas del corazón que representan su actividad de potencial eléctrico en diferentes planos, estas son 12 y se dividen entre derivaciones de extremidades y precordiales.
 
    * Derivaciones de extremidades:
-     Son el registro de la diferencia de potenciales eléctricos entre dos puntos, ya sea entre dos electrodos (bipolar) o entre un punto virtual y un electrodo (monopolares). Como su nombre indica estas son tomadas en las extremidades, siendo RA (right arm), LA (left arm), RL (right leg) y LL (left leg). <p align="center"><img src="ISB/Images/ecg/extremidades.PNG" width="600" height="600"></p>
+     Son el registro de la diferencia de potenciales eléctricos entre dos puntos, ya sea entre dos electrodos (bipolar) o entre un punto virtual y un electrodo (monopolares). Como su nombre indica estas son tomadas en las extremidades, siendo RA (right arm), LA (left arm), RL (right leg) y LL (left leg). <p align="center"><img src="/ISB/Images/ecg/extremidades.PNG" width="600" height="600"></p>
 I, II y III: derivaciones bipolares; aVF, aVL y aVR: derivaciones monopolares
 
    * Derivaciones precordiales:
