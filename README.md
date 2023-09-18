@@ -1,1 +1,1 @@
-# Diagnóstico y Tratamiento de Problemas de Espalda y Cuello en Jóvenes, debido al Uso de Dispositivos Electrónicos: Aplicación de Electromiografía Superficial
+# Diagnóstico y Tratamiento de problemas de Espalda y Cuello en Jóvenes, debido al excesivo uso de Dispositivos Electrónicos: Aplicación de Electromiografía Superficial
