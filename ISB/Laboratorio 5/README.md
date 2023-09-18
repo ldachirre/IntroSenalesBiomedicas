@@ -120,53 +120,53 @@ https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/cdbe9a4f-1ba
 ## **Resultados** <a name="id7"></a>
 
 ### Sujeto 1 <a id="sujeto-1"></a>
- * Reposo
+   * Reposo
 <p>
    <img src="Graficos_ECG/S1R.png" width="500" height="300"/>
    <img src="Graficos_ECG/S1RR.png" width="500" height="300">
 </p>
 
- * Activo
+   * Activo
 <p>
    <img src="Graficos_ECG/S1A.png" width="500" height="300"/>
    <img src="Graficos_ECG/S1AA.png" width="500" height="300">
 </p>
 
- * Observaciones
+   * Observaciones
  
    asdasd
 
 ### Sujeto 2 <a id="sujeto-2"></a>
- * Reposo
+   * Reposo
 <p>
    <img src="Graficos_ECG/S2R.png" width="500" height="300"/>
    <img src="Graficos_ECG/S2RR.png" width="500" height="300">
 </p>
 
- * Activo
+   * Activo
 <p>
    <img src="Graficos_ECG/S2A.png" width="500" height="300"/>
    <img src="Graficos_ECG/S2AA.png" width="500" height="300">
 </p>
 
- * Observaciones
+   * Observaciones
    
    En este caso se colocaron los electrodos positivo y negativo en lugares opuestos, razon por la cual la señal se ve de esa forma, no obstante, este tipo de gráfico nos puede servir para ver como se vería una señal ecg con polaridad invertida, y saber identificarla para evitar esta misma ocurrencia a futuro.
 
 ### Sujeto 3 <a id="sujeto-3"></a>
- * Reposo
+   * Reposo
 <p>
    <img src="Graficos_ECG/S3R.png" width="500" height="300"/>
    <img src="Graficos_ECG/S3RR.png" width="500" height="300">
 </p>
 
- * Activo
+   * Activo
 <p>
    <img src="Graficos_ECG/S3A.png" width="500" height="300"/>
    <img src="Graficos_ECG/S3AA.png" width="500" height="300">
 </p>
 
- * Observaciones
+   * Observaciones
  
    asdasd
 
