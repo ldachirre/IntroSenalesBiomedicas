@@ -98,6 +98,9 @@ Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el s
    <img src="Graficos_ECG/S1AA.png" width="500" height="300">
 </p>
 
+**Observaciones**
+* asdasd
+
 ## Sujeto 2 <a id="sujeto-2"></a>
 ### Reposo
 <p>
@@ -110,6 +113,9 @@ Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el s
    <img src="Graficos_ECG/S2A.png" width="500" height="300"/>
    <img src="Graficos_ECG/S2AA.png" width="500" height="300">
 </p>
+
+**Observaciones**
+* En este caso se colocaron los electrodos positivo y negativo en lugares opuestos, razon por la cual la señal se ve de esa forma, no obstante, este tipo de gráfico nos puede servir para ver como se vería una señal ecg con polaridad invertida, y saber identificarla para evitar esta misma ocurrencia a futuro.
 
 ## Sujeto 3 <a id="sujeto-3"></a>
 ### Reposo
@@ -124,6 +130,8 @@ Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el s
    <img src="Graficos_ECG/S3AA.png" width="500" height="300">
 </p>
 
+**Observaciones**
+* asdasd
 
 ## **Referencias** <a name="id8"></a>
 [1]	A. Sheta et al., «Diagnosis of Obstructive Sleep Apnea from ECG Signals Using Machine Learning and Deep Learning Classifiers», Applied Sciences 2021, Vol. 11, Page 6622, vol. 11, n.o 14, p. 6622, jul. 2021, doi: 10.3390/APP11146622.
