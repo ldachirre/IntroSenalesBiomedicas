@@ -17,6 +17,8 @@
 
 La electrocardiografía (ECG) es una señal biológica que registra el proceso de latido del corazón mediante la medición del voltaje a lo largo del tiempo. Se realiza mediante la colocación de electrodos externos en la piel humana [1]. La ECG se utiliza principalmente para obtener información sobre la frecuencia cardíaca (pulso cardíaco), el ritmo y la actividad eléctrica del corazón. Esta técnica captura los puntos clave del cuerpo humano y genera una señal de voltaje cuasiperiódica no lineal y no estacionaria [2]. Asimismo, la ECG ofrece la ventaja de ser un procedimiento de bajo costo y de respuesta inmediata. Para registrar un ECG, se mide la diferencia de potencial entre los electrodos que se colocan en la piel del paciente. Esta medición permite obtener una representación gráfica de los impulsos eléctricos del corazón, lo que proporciona información valiosa sobre su funcionamiento [3].
 
+![principal](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/baf389ba-6f3d-450f-92db-c54e1db0ffd3)
+
 La señal de ECG tiene una amplitud pequeña, típicamente 2.5 mV en un entorno de desplazamiento de 400 mV, y los componentes de frecuencia de una señal de ECG típica están en el rango de 0.05–150 Hz [4]. Cada señal de ECG tiene puntos fiduciales (P, Q, R, S, T, U) y varios intervalos (S-T, Q-T, P- R, R-R) [3], como se observa en la Figura 1.
 
 - La onda P es el resultado de la despolarización de la aurícula y el ventrículo provoca el resto de picos.
@@ -29,7 +31,6 @@ La señal de ECG tiene una amplitud pequeña, típicamente 2.5 mV en un entorno 
 - La onda S representa la despolarización final de las fibras de Purkinje.
 - La onda T representa la repolarización ventricular [3].
 <p align="center">
-![principal](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/baf389ba-6f3d-450f-92db-c54e1db0ffd3)
 <img src="/ISB/Images/ecg/ondaqt.png" width="600" height="600"></p>
 Figura 1. Análisis de la señal ECG 
 
