@@ -46,7 +46,7 @@ Este curso desarrollar√° los conocimientos necesarios para el tratamiento de se√
 * Katherine Zorrilla (colaborador) kpzorrilla@pucp.edu.pe
 * Dante Rodriguez (colaborador) a20203483@pucp.edu.pe
 * Luis Chirre (colaborador) luis.chirre@upch.pe
-* Diego Palacios (colaborador) d.palaciose@pucp.edu.pe
+* Diego Palacios (colaborador) d.palaciose@pucp.edu.pe / diego.palacios@upch.pe
 
   ![imagen1](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/173f6325-e66d-4766-83f2-2f93f91e4b50)
 
