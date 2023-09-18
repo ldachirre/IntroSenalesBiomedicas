@@ -132,10 +132,6 @@ https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/cdbe9a4f-1ba
    <img src="Graficos_ECG/S1AA.png" width="500" height="300">
 </p>
 
-   * Observaciones
- 
-   asdasd
-
 ### Sujeto 2 <a id="sujeto-2"></a>
    * Reposo
 <p>
@@ -149,9 +145,9 @@ https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/cdbe9a4f-1ba
    <img src="Graficos_ECG/S2AA.png" width="500" height="300">
 </p>
 
-   * Observaciones
+   * Observaciones para el caso del Sujeto 1 y Sujeto 2
    
-   En este caso se colocaron los electrodos positivo y negativo en lugares opuestos, razon por la cual la señal se ve de esa forma, no obstante, este tipo de gráfico nos puede servir para ver como se vería una señal ecg con polaridad invertida, y saber identificarla para evitar esta misma ocurrencia a futuro.
+   En este caso se colocaron los electrodos positivo y negativo en lugares opuestos, razón por la cual la señal se ve de esa forma, no obstante, este tipo de gráfico nos puede servir para ver como se vería una señal ecg con polaridad invertida, y saber identificarla para evitar esta misma ocurrencia a futuro.
 
 ### Sujeto 3 <a id="sujeto-3"></a>
    * Reposo
