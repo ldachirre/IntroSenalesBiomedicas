@@ -27,13 +27,18 @@ Una señal biomédica es una señal eléctrica, mecánica, química u óptica qu
 </div>
 
 ## Metodología
-Contenido de la Metodologia.
+![contenidos-1](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/9e9e1624-7696-483a-bc9d-30f8631b85de)
 
 ## Proyecto
-Contenido de Temática del Proyecto.
+**Diagnóstico y Tratamiento de Problemas de Espalda y Cuello en Jóvenes, debido al Uso de Dispositivos Electrónicos: Aplicación de Electromiografía Superficial**
 
 ## Contenido del Curso
-Contenido del curso.
+Este curso desarrollará los conocimientos necesarios para el tratamiento de señales provenientes de dispositivos médicos. Se abordaron temas como: el estudio de los sensores, la tecnología de adquisición, los procesos clínicos en los que se dan y protocolos que se usan para compartir la información entre los diferentes equipos que brindan señales. Las clases se desarrollarán en un laboratorio donde se complementará la teoría brindada con simulaciones en computadora utilizando programas desarrollados en Python y kits de desarrollo para la adquisición de bioseñales.
+**Objetivos del curso**
+* Describir las características intrínsecas de las diferentes señales biomédicas teniendo en cuenta los principios fisiológicos y la metodología de adquisición.
+* Implementa algoritmos de procesamiento de señales electrocardiográficas, electromiográficas y electroencefalográficas en un computador o en un microcontrolador usando el lenguaje de programación Python.
+* Integrar los principios básicos de la construcción de sistemas de información a la telemedicina aplicando los conocimientos sobre señales biomédicas.
+* Producir soluciones de ingeniería mediante un prototipo aplicando los conocimientos discutidos en el curso y los principios del método científico.
 
 ## Integrantes
 * Katherine Zorrilla (colaborador) kpzorrilla@pucp.edu.pe
