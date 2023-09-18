@@ -12,7 +12,11 @@ Repositorio del curso Introducción a Señales Biomédicas dictado en la Univers
 - [Docentes del Curso](#sección-7)
 
 ## Bioseñal
-Una señal biomédica es una señal eléctrica, mecánica, química u óptica que se origina en el cuerpo humano o en un animal y que puede ser medida y analizada con fines médicos o biológicos. Las señales biomédicas son generadas por los procesos fisiológicos y patológicos del cuerpo, y pueden ser medidas en diferentes partes del cuerpo, tales como el cerebro, el corazón, los músculos, la piel, entre otros.
+Una señal biomédica es una señal eléctrica, mecánica, química u óptica que se origina en el cuerpo humano o en un animal y que puede ser medida y analizada con fines médicos o biológicos. Las señales biomédicas son generadas por los procesos fisiológicos y patológicos del cuerpo, y pueden ser medidas en diferentes partes del cuerpo, tales como el cerebro, el corazón, los músculos, la piel, entre otros. Algunas de las señales más usadas son:
+* Señales EEG: Corresponden a una señal proveniente de la actividad eléctrica de las células cerebrales durante la polarización de las neuronas.
+* Señales ECG: Estas señales son producidas por la actividad electrica generada por la actividad de despolarización y repolarización del corazón.
+* Señales EMG: Son señales producidas por las corrientes electricas que son generadas por la contracción de un músculo.
+* Señales EOG: Este tipo de señal se produce gracias al potencial eléctrico que se genera por la cornea y la actividad retinal durante el movimiento del ojo.
 
 ## Materiales
 <div align="center">
