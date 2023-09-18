@@ -6,11 +6,12 @@
 3. [Materiales y equipos](#id3)
 4. [¿Cómo funciona el ECG en un Bitalino? ](#id4)
 5. [Metodología](#id5)
-6. [Resultados](#id6)
+6. [Pruebas](#id6)
+7. [Resultados](#id7)
    - [Sujeto 1](#sujeto-1)
    - [Sujeto 2](#sujeto-2)
    - [Sujeto 3](#sujeto-3)
-7. [Referencias](#id7)
+8. [Referencias](#id8)
    
 ## **Introducción** <a name="id1"></a>
 
@@ -30,7 +31,7 @@ La señal de ECG tiene una amplitud pequeña, típicamente 2.5 mV en un entorno 
 
 
 <p align="center"><img src="/ISB/Images/ecg/ondaqt.png" width="600" height="600"></p>
-Figura 1. Análisis de la señal ECG []
+Figura 1. Análisis de la señal ECG 
 
 * Derivaciones Cardiacas:
   Son las vistas del corazón que representan su actividad de potencial eléctrico en diferentes planos, estas son 12 y se dividen entre derivaciones de extremidades y precordiales.
@@ -77,8 +78,10 @@ Adicionalmente en el estudio se testearon 12 lugares de colocación diferentes. 
 ![WhatsApp Image 2023-09-16 at 6 05 37 PM](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/b7716515-12cc-4b5b-b3c9-3317eb2738f8)
 Figura 2. Ubicación de electrodos en las pruebas
 
+## **Pruebas** <a name="id6"></a>
 
-## **Resultados** <a name="id6"></a>
+
+## **Resultados** <a name="id7"></a>
 Para este laboratorio usamos 3 sujetos de prueba los cuales fueron medidos en 2 estados. 
 Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el segundo estado luego de haber efectuado una actividad física (sentadillas con salto y correr 100 metros a maxima velocidad)
 ## Sujeto 1 <a id="sujeto-1"></a>
@@ -121,7 +124,7 @@ Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el s
 </p>
 
 
-## **Referencias** <a name="id7"></a>
+## **Referencias** <a name="id8"></a>
 [1]	A. Sheta et al., «Diagnosis of Obstructive Sleep Apnea from ECG Signals Using Machine Learning and Deep Learning Classifiers», Applied Sciences 2021, Vol. 11, Page 6622, vol. 11, n.o 14, p. 6622, jul. 2021, doi: 10.3390/APP11146622.
 
 [2]	S. Chatterjee, R. S. Thakur, R. N. Yadav, L. Gupta, y D. K. Raghuvanshi, «Review of noise removal techniques in ECG signals», IET Signal Processing, vol. 14, n.o 9, pp. 569-590, dic. 2020, doi: 10.1049/IET-SPR.2020.0104.
