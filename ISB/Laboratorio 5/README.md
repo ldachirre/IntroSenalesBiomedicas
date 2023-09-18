@@ -64,27 +64,61 @@ I, II y III: derivaciones bipolares; aVF, aVL y aVR: derivaciones monopolares
 ## **¿Cómo funciona el ECG en un Bitalino?** <a name="id4"></a>
 La adquisición de la señal de ECG con BITalino es no invasiva; el ECG se detecta mediante tres electrodos de Ag-AgCl. BITalino permite una medición de un solo derivación con una frecuencia de muestreo (fs) de 10/100/1,000 Hz. El ancho de banda es de 0.5-40 Hz, y se garantiza la precisión en este rango. El sistema también transfiere frecuencias desde 40 Hz hasta la mitad de la frecuencia de muestreo, pero con menor magnitud. La resolución de la señal de ECG es de 10 bits. El rango de voltaje adquirido está limitado a (-1.5, +1.5) mV. Los datos pueden visualizarse mediante el software OpenSignals, que permite la adquisición de datos en tiempo real y la exploración fuera de línea. Los datos registrados pueden almacenarse en formato de archivo ASCII estándar (.txt) o en formato HDF5.
 
-## **Metodología: Configuración de ECG en Bitalino:** <a name="id5"></a>
+## **Metodología** <a name="id5"></a>
 
-Mientras realizamos la revisión de guías clínicas encontramos una titulada: *“Recommendations for ECG adquisition using Bitalino”*. En este estudio se enfocaron en encontrar cuales serían las mejores formas de adquirir la señal de electrocardiograma con el dispositivo en el que consideraban factores como la frecuencia de muestreo y el lugar de colocación de los electrodos por lo que seguimos sus recomendaciones.
+1. Configuración de ECG en Bitalino
 
-**Frecuencia de Sampleo**
+   Mientras realizamos la revisión de guías clínicas encontramos una titulada: *“Recommendations for ECG adquisition using Bitalino”*. En este estudio se enfocaron en encontrar cuales serían las mejores formas de adquirir la señal de electrocardiograma con el dispositivo en el que consideraban factores como la frecuencia de muestreo y el lugar de colocación de los electrodos por lo que seguimos sus recomendaciones.
 
-En el caso de la frecuencia de muestreo se determinó que debe establecerse en función de la información diagnóstica requerida. Una frecuencia de muestreo (Fs) de 100 Hz es suficiente para el monitoreo del ritmo. Para la evaluación de la morfología, es necesario utilizar una frecuencia de muestreo de 1,000 Hz.
+   * Frecuencia de Sampleo
+   En el caso de la frecuencia de muestreo se determinó que debe establecerse en función de la información diagnóstica requerida. Una frecuencia de muestreo (Fs) de 100 Hz es suficiente para el monitoreo del ritmo.    Para la evaluación de la morfología, es necesario utilizar una frecuencia de muestreo de 1,000 Hz.
 
-**Colocación de electrodos**
+3. Colocación de electrodos
 
-Adicionalmente en el estudio se testearon 12 lugares de colocación diferentes. La ubicación de los electrodos se determinó en función de los derivaciones estándar del ECG, la accesibilidad a las partes del cuerpo, las amplitudes supuestas y el diseño de BITalino. El conjunto de derivaciones tiene una longitud de 30 cm, lo que significa que la distancia entre dos electrodos (partes del cuerpo) no debe ser superior a 60 cm. De las derivaciones estándar del ECG, solo tenemos en cuenta las derivaciones de miembros (porque son bipolares). Además, la distancia entre la mano y la pierna es mayor de 60 cm, por lo que la detección resulta muy incómoda. La única derivación estándar que se puede utilizar es la derivación de miembros (mano izquierda, mano derecha). Esta derivación fue la que utilizamos para nuestra adquisición de señales, como se observa la Figura 2.
+   Adicionalmente en el estudio se testearon 12 lugares de colocación diferentes. La ubicación de los electrodos se determinó en función de los derivaciones estándar del ECG, la accesibilidad a las partes del cuerpo, las amplitudes supuestas y el diseño de BITalino. El conjunto de derivaciones tiene una longitud de 30 cm, lo que significa que la distancia entre dos electrodos (partes del cuerpo) no debe ser superior a 60 cm. De las derivaciones estándar del ECG, solo tenemos en cuenta las derivaciones de miembros (porque son bipolares). Además, la distancia entre la mano y la pierna es mayor de 60 cm, por lo que la detección resulta muy incómoda. La única derivación estándar que se puede utilizar es la derivación de miembros (mano izquierda, mano derecha). Esta derivación fue la que utilizamos para nuestra adquisición de señales, como se observa la Figura 2. Este posicionamiento fue obtenido en base a la guía RECOMMENDATIONS FOR ECG ACQUISITIONS USING BITALINO.
+
+<div align="center">Posicionamiento probado de electrodos. RECOMMENDATIONS FOR ECG ACQUISITIONS USING BITALINO</div>
+<p align="center"><img src="/ISB/Images/ecg/Captura.PNG" width="600"></p>
 
 ![WhatsApp Image 2023-09-16 at 6 05 37 PM](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/b7716515-12cc-4b5b-b3c9-3317eb2738f8)
-Figura 2. Ubicación de electrodos en las pruebas
+<div align="center">Figura 2. Ubicación de electrodos en las pruebas</div>
+
+3. Muestreo
+   Para este laboratorio usamos 3 sujetos de prueba los cuales fueron medidos en 2 estados (reposo y pos-actividad física). 
+Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el segundo estado luego de haberse sometido a actividad física durante un periodo de 2 minutos aproximadamente.
+
+4. Comparación con blanco
+  Adicionalmente se utilizó al Fluke ProSim 4 Vital Signs Patient Simulator para poder tener una señal estándar del reposo y actividad física, esto con la finalidad de poder verificar y compara si los datos obtenidos con nuestros sujetos tienen un comportamiento similar.
+
+5. Procesamiento y análisis
+Finalmente la data fue exportada a una computadora para poder ser trabajada con un programa en lenguaje Python donde se ploteó y filtró las señales obtenidas del ECG para un mejor análisis.
 
 ## **Pruebas** <a name="id6"></a>
 
 
+<div align="center">Sujeto en reposo</div>
+
+https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/0bca8e1f-652a-4c36-8cbf-ab0e2a7ca2e4
+
+
+<div align="center">Sujeto realizando actividad física</div>
+
+https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/6aebd87e-c506-4346-b3d2-5370700e3712
+
+
+<div align="center">Muestreo del sujeto luego de actividad física</div>
+
+https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/85e89cd7-02d0-4197-a919-6183e7c962a9
+
+
+<div align="center">Fluke ProSim 4 Vital Signs Patient Simulator: simulación reposo</div>
+
+https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/cdbe9a4f-1bab-47c4-924d-916aaabcef79
+
+
+
 ## **Resultados** <a name="id7"></a>
-Para este laboratorio usamos 3 sujetos de prueba los cuales fueron medidos en 2 estados. 
-Primero en reposo sentados con ambos brazos recostados sobre las piernas. Y el segundo estado luego de haber efectuado una actividad física (sentadillas con salto y correr 100 metros a maxima velocidad)
+
 ## Sujeto 1 <a id="sujeto-1"></a>
 ### Reposo
 <p>
