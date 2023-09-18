@@ -15,7 +15,16 @@ Repositorio del curso Introducción a Señales Biomédicas dictado en la Univers
 Una señal biomédica es una señal eléctrica, mecánica, química u óptica que se origina en el cuerpo humano o en un animal y que puede ser medida y analizada con fines médicos o biológicos. Las señales biomédicas son generadas por los procesos fisiológicos y patológicos del cuerpo, y pueden ser medidas en diferentes partes del cuerpo, tales como el cerebro, el corazón, los músculos, la piel, entre otros.
 
 ## Materiales
-Contenido de Materiales.
+<div align="center">
+
+|  **Nombre**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+| Kit BITalino | Kit de desarrollo de hardware y software de bajo costo utilizado para la monitorizacion y adquisición de datos biométricos, para su uso en aplicaciones de investigacion, educacion y proyectos de IoT | 1 |
+| Fluke ProSim 4 | Simulador de pacientes utilizado para la calibracion y verificacion de equipos médicos | 1 |
+| Arduino nano 33 IoT | Placa de desarrollo de tamaño reducido que integra capacidades de conectividad inalámbrica, procesamiento de datos y sensores, diseñada para proyectos de IoT  | 1 |
+| Ultracortex EEG Headset | Dispositivo portátil que se coloca en la cabeza para medir la actividad eléctrica del cerebro y permitir la monitorización y análisis de las ondas cerebrales en tiempo real | 1 |
+
+</div>
 
 ## Metodología
 Contenido de la Metodologia.
