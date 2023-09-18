@@ -11,7 +11,8 @@
    - [Sujeto 1](#sujeto-1)
    - [Sujeto 2](#sujeto-2)
    - [Sujeto 3](#sujeto-3)
-8. [Referencias](#id8)
+8. [Conclusiones](#id8)     
+9. [Referencias](#id9)
    
 ## **Introducción** <a name="id1"></a>
 
@@ -147,7 +148,7 @@ https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/cdbe9a4f-1ba
 
    * Observaciones para el caso del Sujeto 1 y Sujeto 2
    
-   En este caso se colocaron los electrodos positivo y negativo en lugares opuestos, razón por la cual la señal se ve de esa forma, no obstante, este tipo de gráfico nos puede servir para ver como se vería una señal ecg con polaridad invertida, y saber identificarla para evitar esta misma ocurrencia a futuro.
+   En este caso se colocaron los electrodos positivo y negativo en lugares opuestos, razón por la cual la señal se ve de esa forma (segmento R cóncava hacia arriba); no obstante, este tipo de gráfico nos puede servir para ver como se vería una señal ecg con polaridad invertida, y saber identificarla para evitar esta misma ocurrencia a futuro. Además, si no hubiera sido un error de colocación de los electrodos, se podría inferir que el sujeto está sufriendo un infarto de miocardio (ataque al corazón) por la inversión del segmento R.
 
 ### Sujeto 3 <a id="sujeto-3"></a>
    * Reposo
@@ -164,9 +165,18 @@ https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/cdbe9a4f-1ba
 
    * Observaciones
  
-   asdasd
+   Para este caso del Sujeto 3, se observa una correcta adquisición de la señal de ECG, en comparación con los dos anteriores casos.
 
-## **Referencias** <a name="id8"></a>
+## **Conclusiones** <a name="id8"></a>
+
+- Se evidencia una variación entre los niveles de pico conforme avanzamos de sujeto (1-3) esto puede deberse a que como sabemos uno de los aspectos más importantes del ECG es la correcta colocación de los electrodos sobre el cuerpo. Si bien los pasos seguidos fueron de acuerdo al manual de uso RECOMMENDATIONS FOR ECG ACQUISITON USING BITALINO los electrodos utilizados en los participantes fueron los mismos y se pudo evidenciar que el adhesivo en los electrodos fue perdiendo su agarre pues se reutilizaron los electrodos, práctica que no debe llevarse a cabo.
+- Respecto a la suavidad de la curva, es dificil reducir el ruido inherente obtenido por la resistencia de la piel y otros factores como dispositivos electrónicos cerca. Una recomendación sería utilizar un gel conductor para poder disminuirlo y con ello obtener muestras más precisas y con menos ruido.
+- En lo que respecta al escenario posterior a la realización de actividad física, se anticipa que la demanda de oxígeno en el organismo y, en consecuencia, en el corazón, aumentará, lo que se ha constatado en los sujetos (1-3). Después de la actividad física, se espera que la señal del ECG regrese gradualmente a su estado normal de reposo.
+- Luego de realizar el proceso de análisis de ECG en los sujetos de prueba en sus dos tomas (reposo y pos-actividad física) y compararlos con el Fluke ProSim 4 Vital Signs Patient Simulator (blanco), se pudo observar variaciones en los datos obtenidos entre sujetos y nuestro blanco. 
+- Cuando comparamos visualmente los gráficos del paciente con los del ProSim4, podemos notar que las señales del ProSim4 tienen un nivel de ruido significativamente menor que las señales del paciente. Además, observamos que las ondas en la señal del ProSim4 son consistentes en todo su trayecto, mientras que en la señal del paciente, las ondas varían tanto en forma como en amplitud. Esto podría deberse al hecho de que el dispositivo ProSim4 se conecta directamente a los electrodos, mientras que en el caso del paciente, los electrodos se colocan sobre la piel.
+- La colocación adecuada de los electrodos desempeña un papel crucial en la calidad de la señal, ya que si se sitúan en las muñecas, se puede notar un aumento en el ruido, ya que los músculos del brazo generan interferencias en la señal.
+  
+## **Referencias** <a name="id9"></a>
 [1]	A. Sheta et al., «Diagnosis of Obstructive Sleep Apnea from ECG Signals Using Machine Learning and Deep Learning Classifiers», Applied Sciences 2021, Vol. 11, Page 6622, vol. 11, n.o 14, p. 6622, jul. 2021, doi: 10.3390/APP11146622.
 
 [2]	S. Chatterjee, R. S. Thakur, R. N. Yadav, L. Gupta, y D. K. Raghuvanshi, «Review of noise removal techniques in ECG signals», IET Signal Processing, vol. 14, n.o 9, pp. 569-590, dic. 2020, doi: 10.1049/IET-SPR.2020.0104.
