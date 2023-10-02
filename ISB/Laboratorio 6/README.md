@@ -118,6 +118,7 @@ Una vez obtenidas y grabadas de manera independiente, exportarlas al programa de
 Se observa que la señal ploteada es la de menor amplitud con respecto al resto de casos, pues el paciente no realiza ningún esfuerzo que incremente la señal. Asimismo, la señal típicamente muestra patrones de actividad eléctrica cerebral característicos de un cerebro en reposo. En este estado, la señal de EEG se caracteriza por presentar una actividad cerebral de baja frecuencia y amplitud en las ondas alfa (8-13 Hz) y beta (13-30 Hz) [3].
 
 ##### **Ciclo de ojos abiertos y cerrados**
+Se puede observar que la señal exhibe un aumento en su amplitud cuando la persona abre los ojos, lo cual se atribuye a la presencia de destellos de luz en el entorno. Del mismo modo, la señal experimenta una disminución en su amplitud cuando la persona cierra los ojos. Los datos indican que la potencia de las ondas cerebrales en la banda alfa occipital puede aumentar debido a procesos visuales sensibles al movimiento que persisten incluso cuando los ojos están cerrados.
 
 ### **UltraCortex** <a name="id12"></a>
 
