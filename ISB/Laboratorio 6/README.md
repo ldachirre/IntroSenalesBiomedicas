@@ -125,6 +125,11 @@ asdadsas
 #### **Gráfica UltraCortex** <a name="id14"></a>
 
 <img src="EEG_Ultracortex/e1.png">
+<img src="EEG_Ultracortex/e2.png">
+<img src="EEG_Ultracortex/e3.png">
+<img src="EEG_Ultracortex/e4.png">
+<img src="EEG_Ultracortex/e5.png">
+<img src="EEG_Ultracortex/e6.png">
 
 #### **Observaciones** <a name="id15"></a>
 
