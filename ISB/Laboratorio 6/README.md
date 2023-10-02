@@ -114,7 +114,10 @@ Una vez obtenidas y grabadas de manera independiente, exportarlas al programa de
 <img src="EEG_Bitalino/BitEEG_hard2.jpeg" width="650" height="250">
 
 #### **Observaciones** <a name="id11"></a>
-asdadsas
+##### **Fase de Referencia Inicial**
+Se observa que la señal ploteada es la de menor amplitud con respecto al resto de casos, pues el paciente no realiza ningún esfuerzo que incremente la señal. Asimismo, la señal típicamente muestra patrones de actividad eléctrica cerebral característicos de un cerebro en reposo. En este estado, la señal de EEG se caracteriza por presentar una actividad cerebral de baja frecuencia y amplitud en las ondas alfa (8-13 Hz) y beta (13-30 Hz) [3].
+
+##### **Ciclo de ojos abiertos y cerrados**
 
 ### **UltraCortex** <a name="id12"></a>
 
@@ -132,14 +135,15 @@ asdadsas
 <img src="EEG_Ultracortex/e6.png">
 
 #### **Observaciones** <a name="id15"></a>
-
-
+Para el caso de la medición mediante el UltraCortex, se espera realizar una siguiente medición, ya que al tomar la señal no resultó lo que se esperaba en comparación a la medición mediante Bitalino. Esto se debe a que la medición fue apresurada por el tiempo limitante que se tuvo en el laboratorio.
 
 ## **Conclusiones** <a name="id16"></a>
 
 En el caso de las señales obtenidas con el OpenBIC, se pudo observar que estas eran ideales, presentando un bajo nivel de ruido y una alta sensibilidad ante las variaciones y estímulos mentales del sujeto de prueba. Esta observación se hizo evidente después de llevar a cabo los ejercicios de estimulación correspondientes. Durante estos ejercicios, se utilizó una señal de reposo como referencia, y se pudo notar que los picos y patrones de la señal se incrementaban y alteraban de manera progresiva en función del esfuerzo mental que el sujeto realizaba.
 
-Por otro lado, se pudo notar que los picos o potenciales más grandes de la señal se presentaban principalmente durante los periodos de parpadeo o en los intervalos entre las pruebas. Esto sugiere que la señal del EEG era altamente sensible a los parpadeos, pero no mostraba una sensibilidad tan pronunciada ante el razonamiento lógico empleado durante las preguntas, ya que no se observaban diferencias tan significativas en esos momentos.
+Por otro lado, se pudo notar que los picos o potenciales más grandes de la señal se presentaban principalmente durante los periodos de parpadeo o en los intervalos entre las pruebas. Esto sugiere que la señal del EEG era altamente sensible a los parpadeos, pero no mostraba una sensibilidad tan pronunciada ante el razonamiento lógico empleado durante las preguntas, ya que no se observaban diferencias tan significativas en esos momentos, es decir, la actividad cerebral no se incrementó en las ondas beta. Sin embargo, pudimos identificar que cuando una persona se encuentra en reposo la señal EEG comúnmente mostrará actividad cerebral con frecuencias bajas y amplitud en las ondas alfa.
+
+Además, algo a resaltar cuando se obtuvieron las señales ploteadas y con la revisión bibliográfica es que los ruidos ambientales, la luz y distintos factores que nos rodean con frecuencia interfieren con la capacidad del intérprete para identificar con precisión tanto los ritmos normales como los patrones patológicos. 
 
 ## **Referencias** <a name="id17"></a>
 [1]    	S. Herculano-Houzel, «The Human Brain in Numbers: A Linearly Scaled-up Primate Brain», Front Hum Neurosci, vol. 3, n.o NOV, nov. 2009, doi: 10.3389/NEURO.09.031.2009.
