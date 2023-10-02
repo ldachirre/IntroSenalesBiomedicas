@@ -8,14 +8,14 @@
 4.1 [Medición y Adquisición por electrodos](#id5)\
 4.2 [Protocolo de adquisición](#id6)
 5. [Resultados](#id7)\
-5.1 [Bitalino](#id8)\
-    5.1.1 [Fotos de Conexión](#id9)\
-    5.1.2 [Gráficas del Bitalino](#id10)\
-    5.1.3 [Observaciones](#id11)\
-5.2 [UltraCortex](#id12)\
-    5.2.1 [Foto Conexion](#id13)\
-    5.2.2 [Gráficas del UltraCortex](#id14)\
-    5.2.3 [Observaciones](#id15)
+    5.1 [Bitalino](#id8)\
+        5.1.1 [Fotos de Conexión](#id9)\
+        5.1.2 [Gráficas del Bitalino](#id10)\
+        5.1.3 [Observaciones](#id11)\
+    5.2 [UltraCortex](#id12)\
+        5.2.1 [Foto Conexion](#id13)\
+        5.2.2 [Gráficas del UltraCortex](#id14)\
+        5.2.3 [Observaciones](#id15)
 6. [Conclusiones](#id16)
 7. [Referencias](#id17)
    
