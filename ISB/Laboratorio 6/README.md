@@ -101,16 +101,27 @@ Una vez obtenidas y grabadas de manera independiente, exportarlas al programa de
 <img src="EEG_Bitalino/B1.png" width="400" height="300"></p>
 
 #### **Gráficas del BItalino** <a name="id10"></a>
-<p align="center">
-<img src="EEG_Bitalino/BitEEG_repA1.png" width="500" height="300">
-<img src="EEG_Bitalino/BitEEG_repA2.png" width="500" height="300">
-</p>
+
+<img src="EEG_Bitalino/BitEEG_repA1.png" width="1000" height="250">
+<img src="EEG_Bitalino/BitEEG_repA2.png" width="650" height="250">
+<img src="EEG_Bitalino/BitEEG_blink.jpeg" width="1000" height="250">
+<img src="EEG_Bitalino/BitEEG_blink2.jpeg" width="650" height="250">
+<img src="EEG_Bitalino/BitEEG_repB1.png" width="1000" height="250">
+<img src="EEG_Bitalino/BitEEG_repB2.png" width="650" height="250">
+<img src="EEG_Bitalino/BitEEG_ez.jpeg" width="1000" height="250">
+<img src="EEG_Bitalino/BitEEG_ez2.jpeg" width="650" height="250">
+<img src="EEG_Bitalino/BitEEG_hard.jpeg" width="1000" height="250">
+<img src="EEG_Bitalino/BitEEG_hard2.jpeg" width="650" height="250">
 
 #### **Observaciones** <a name="id11"></a>
+asdadsas
 
 ### **UltraCortex** <a name="id12"></a>
 
 #### **Conexión & Uso** <a name="id13"></a>
+<p align="left">
+<img src="EEG_Ultracortex/U2.png" width="250" height="300"></p>
+
 #### **Gráfica UltraCortex** <a name="id14"></a>
 #### **Observaciones** <a name="id15"></a>
 
