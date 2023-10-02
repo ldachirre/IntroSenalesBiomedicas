@@ -97,6 +97,7 @@ Una vez obtenidas y grabadas de manera independiente, exportarlas al programa de
 ### **Bitalino** <a name="id8"></a>
 
 #### **Conexión & Uso** <a name="id9"></a>
+
 #### **Gráficas del BItalino** <a name="id10"></a>
 #### **Observaciones** <a name="id11"></a>
 
