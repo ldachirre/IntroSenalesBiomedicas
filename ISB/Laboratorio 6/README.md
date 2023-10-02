@@ -15,7 +15,7 @@
 5.2 [UltraCortex](#id12)\
     5.2.1 [Foto Conexion](#id13)\
     5.2.2 [Gráficas del UltraCortex](#id14)\
-    5.2.3 [Observaciones](#id15)\
+    5.2.3 [Observaciones](#id15)
 6. [Conclusiones](#id16)
 7. [Referencias](#id17)
    
