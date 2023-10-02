@@ -62,7 +62,7 @@ Los pasos son los siguientes:
 #### ULTRACORTEX:
 * Descargar el programa OpenBCI GUI para la conexión y visualización con el ULTRACORTEX headset
 * Insertar el OpenBCI USB Dongle en su ordenador y encenderlo junto al ULTRACORTEX headset (mediante un switch), se encenderá una luz azul en ambas placas.
-* Emparejar el 
+* Emparejar el dongle con el Ultracortex
 
 
 
