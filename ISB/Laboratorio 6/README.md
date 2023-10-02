@@ -63,7 +63,7 @@ Figura 2. EEG bandas de frecuencia, ocurrencia y tareas para activar la potencia
 ### **Fotos de conexión usada** <a name="id8"></a>
 
 
-### **Señal con MarckOpenBCI4** <a name="id9"></a>
+### **Señal con Ultra Cortex** <a name="id9"></a>
 #### **Gráficas del OpenBCI** <a name="id10"></a>
 
 
