@@ -1,4 +1,4 @@
-# LABORATORIO 5: Procedimiento de registro EEG*
+# LABORATORIO 5: Procedimiento de registro EEG
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
@@ -31,5 +31,60 @@ Figura 1. El cerebro y sus lóbulos superficiales [3]
 Un electroencefalograma (EEG) es un procedimiento médico que registra la actividad eléctrica en el cerebro utilizando electrodos colocados en el cuero cabelludo o cerca de la parte superior de la cabeza. Las neuronas en el cerebro se comunican entre sí mediante impulsos eléctricos que están en constante actividad. Esta actividad se representa como patrones de ondas en el registro del EEG. [4]
 El sistema de colocación de electrodos denominado "internacional 10-20" se utiliza para posicionar los electrodos en lugares estandarizados identificados por las letras F (frontal), C (central), P (parietal), T (temporal) y O (occipital) en el cuero cabelludo. El EEG se emplea para diagnosticar diversos trastornos, como convulsiones, problemas en el tronco encefálico, lesiones cerebrales y alteraciones en el estado de conciencia. Las señales eléctricas generadas por la actividad cerebral normal presentan amplitudes atípicas en el rango de 30 a 100 milivoltios y exhiben variaciones irregulares en el tiempo. El EEG permite medir cinco sub-bandas de frecuencia que definen las frecuencias de las señales cerebrales, desde las más rápidas, conocidas como gamma, hasta las más lentas, denominadas delta, como se ilustra en la Figura 2. [5]
 
-![Captura de pantalla 2023-10-01 200816](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/3491545d-f923-4ba3-9c86-8a0a17b9562d)
+![Captura de pantalla 2023-10-01 200816](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/3491545d-f923-4ba3-9c86-8a0a17b9562d) 
+
 Figura 2. EEG bandas de frecuencia, ocurrencia y tareas para activar la potencia de banda [3]
+
+## **Objetivos** <a name="id2"></a>
+- Adquirir señal biomédica de EEG.
+- Hacer una correcta configuración de BiTalino.
+- Extraer la información de la señal EEG del software OpenSignals (r)evolution.
+- Analizar la señal EEG obtenida con el OpenBCI.
+
+## **Materiales y Equipos** <a name="id3"></a>
+
+| Material   | Imagen Referencial  |
+|:-------------: |:---------------:| 
+| **BITalino:** es un kit de herramientas de prototipado rápido para proyectos de salud y bienestar personal. Incluye sensores inalámbricos y una plataforma de software para adquirir, procesar y visualizar datos biomédicos         | ![lot](https://camo.githubusercontent.com/d4a44aa322d672288a9f7497916a86b024eaa53d3fa5c9b670ee08258c660f22/68747470733a2f2f63646e2e737061726b66756e2e636f6d2f2f6173736574732f70617274732f312f312f382f322f382f31343032322d3031612e6a7067)       |
+| **OpenBCI GUI:** es un software crea herramientas de código abierto para biodetección y neurociencia.         |  ![BCI](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/4487e76b-cdbd-406b-866d-c72fdf69ed54)    |
+| **OpenSignals Software:**: Se puede conectar mediante Bluetooth a la placa BITalino y permite adquirir y visualizar bioseñales          | ![bi](https://cdn.shopify.com/s/files/1/0595/1068/5887/t/6/assets/opensignalshorizontallogocoloralpha-1-1649366393124.png?v=1649366394)      |
+| **Ultracortex "Mark IV" EEG Headset:** permite adquirir hasta 16 canales de datos de EEG y puede combinarse con la placa OpenBCI Ganglion, Cyton o CytonDaisy.          | ![ultra](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/17d1dc05-fecb-462b-a074-b1da9c4c1420)     |
+
+## **Procedimiento** <a name="id4"></a>
+### **Medición y Adquisición por electrodos** <a name="id5"></a>
+
+
+### **Protocolo de adquisición** <a name="id6"></a>
+
+
+## **Resultados** <a name="id7"></a>
+
+
+### **Fotos de conexión usada** <a name="id8"></a>
+
+
+### **Señal con MarckOpenBCI4** <a name="id9"></a>
+#### **Gráficas del OpenBCI** <a name="id10"></a>
+
+
+### **Señal con Bitalino** <a name="id11"></a>
+#### **Videos utilizando el Bitalino** <a name="id12"></a>
+
+#### **Análisis de gráficas** <a name="id13"></a>
+
+
+## **Conclusiones** <a name="id14"></a>
+
+
+## **Referencias** <a name="id15"></a>
+[1]    	S. Herculano-Houzel, «The Human Brain in Numbers: A Linearly Scaled-up Primate Brain», Front Hum Neurosci, vol. 3, n.o NOV, nov. 2009, doi: 10.3389/NEURO.09.031.2009.
+
+[2]    	«EEG (Electroencephalography): The Complete Pocket Guide - iMotions». Accedido: 30 de septiembre de 2023. [En línea]. Disponible en: https://imotions.com/blog/learning/best-practice/eeg/
+
+[3] 	“BITalino (r)evolution Lab Guide.” Disponible en: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
+
+[4] 	Graetzer DG PhD. “Electroencephalography (EEG)”. Magill’s Medical Guide. 
+Accedido: 30 de septiembre de 2023. [En línea]. Disponible en:
+https://search-ebscohost-com.ezproxybib.pucp.edu.pe/login.aspx?direct=true&db=ers&AN=87690502&lang=es&site=eds-live&scope=site
+
+[5]    	S. U. C. M. Ehrotra, Introduction To EEG- and Emotion Recognition. 2018. Accedido: 30 de septiembre de 2023. [En línea]. Disponible en: http://www.sciencedirect.com:5070/book/9780128044902/introduction-to-eeg-and-speech-based-emotion-recognition
