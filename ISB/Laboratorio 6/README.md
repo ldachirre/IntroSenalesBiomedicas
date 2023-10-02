@@ -8,14 +8,16 @@
 4.1 [Medición y Adquisición por electrodos](#id5)\
 4.2 [Protocolo de adquisición](#id6)
 5. [Resultados](#id7)\
-5.1 [Fotos de conexión usada](#id8)\
-5.2 [Señal con MarckOpenBCI4](#id9)\
-    5.2.1 [Gráficas del OpenBCI](#id10)\
-5.3 [Señal con Bitalino](#id11)\
-    5.3.1 [Videos utilizando el Bitalino](#id12)\
-    5.3.2 [Análisis de gráficas](#id13)
-6. [Conclusiones](#id14)
-7. [Referencias](#id15)
+5.1 [Bitalino](#id8)\
+    5.1.1 [Fotos de Conexión](#id9)\
+    5.1.2 [Gráficas del Bitalino](#id10)\
+    5.1.3 [Observaciones](#id11)\
+5.2 [UltraCortex](#id12)\
+    5.2.1 [Foto Conexion](#id13)\
+    5.2.2 [Gráficas del UltraCortex](#id14)
+    5.2.3 [Observaciones](#id15)\
+6. [Conclusiones](#id16)
+7. [Referencias](#id17)
    
 ## **Introducción** <a name="id1"></a>
 
@@ -92,24 +94,21 @@ Una vez obtenidas y grabadas de manera independiente, exportarlas al programa de
 
 ## **Resultados** <a name="id7"></a>
 
+### **Bitalino** <a name="id8"></a>
 
-### **Fotos de conexión usada** <a name="id8"></a>
+#### **Conexión & Uso** <a name="id9"></a>
+#### **Gráficas del BItalino** <a name="id10"></a>
+#### **Observaciones** <a name="id11"></a>
 
+### **UltraCortex** <a name="id12"></a>
 
-### **Señal con Ultra Cortex** <a name="id9"></a>
-#### **Gráficas del OpenBCI** <a name="id10"></a>
+#### **Conexión & Uso** <a name="id13"></a>
+#### **Gráfica UltraCortex** <a name="id14"></a>
+#### **Observaciones** <a name="id15"></a>
 
+## **Conclusiones** <a name="id16"></a>
 
-### **Señal con Bitalino** <a name="id11"></a>
-#### **Videos utilizando el Bitalino** <a name="id12"></a>
-
-#### **Análisis de gráficas** <a name="id13"></a>
-
-
-## **Conclusiones** <a name="id14"></a>
-
-
-## **Referencias** <a name="id15"></a>
+## **Referencias** <a name="id17"></a>
 [1]    	S. Herculano-Houzel, «The Human Brain in Numbers: A Linearly Scaled-up Primate Brain», Front Hum Neurosci, vol. 3, n.o NOV, nov. 2009, doi: 10.3389/NEURO.09.031.2009.
 
 [2]    	«EEG (Electroencephalography): The Complete Pocket Guide - iMotions». Accedido: 30 de septiembre de 2023. [En línea]. Disponible en: https://imotions.com/blog/learning/best-practice/eeg/
