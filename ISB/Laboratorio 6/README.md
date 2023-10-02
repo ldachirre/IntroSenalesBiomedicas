@@ -139,7 +139,7 @@ asdadsas
 
 En el caso de las señales obtenidas con el OpenBIC, se pudo observar que estas eran ideales, presentando un bajo nivel de ruido y una alta sensibilidad ante las variaciones y estímulos mentales del sujeto de prueba. Esta observación se hizo evidente después de llevar a cabo los ejercicios de estimulación correspondientes. Durante estos ejercicios, se utilizó una señal de reposo como referencia, y se pudo notar que los picos y patrones de la señal se incrementaban y alteraban de manera progresiva en función del esfuerzo mental que el sujeto realizaba.
 
-Por otro lado, se pudo notar que los picos o potenciales más grandes de la señal se presentaban principalmente durante los periodos de parpadeo o en los intervalos entre las pruebas. Esto sugiere que la señal del EEG era altamente sensible a los parpadeos, pero no mostraba una sensibilidad tan pronunciada ante el razonamiento lógico empleado durante las preguntas, ya que no se observaban diferencias significativas en esos momentos.
+Por otro lado, se pudo notar que los picos o potenciales más grandes de la señal se presentaban principalmente durante los periodos de parpadeo o en los intervalos entre las pruebas. Esto sugiere que la señal del EEG era altamente sensible a los parpadeos, pero no mostraba una sensibilidad tan pronunciada ante el razonamiento lógico empleado durante las preguntas, ya que no se observaban diferencias tan significativas en esos momentos.
 
 ## **Referencias** <a name="id17"></a>
 [1]    	S. Herculano-Houzel, «The Human Brain in Numbers: A Linearly Scaled-up Primate Brain», Front Hum Neurosci, vol. 3, n.o NOV, nov. 2009, doi: 10.3389/NEURO.09.031.2009.
