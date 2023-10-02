@@ -51,10 +51,43 @@ Figura 2. EEG bandas de frecuencia, ocurrencia y tareas para activar la potencia
 | **Ultracortex "Mark IV" EEG Headset:** permite adquirir hasta 16 canales de datos de EEG y puede combinarse con la placa OpenBCI Ganglion, Cyton o CytonDaisy.          | ![ultra](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/17d1dc05-fecb-462b-a074-b1da9c4c1420)     |
 
 ## **Procedimiento** <a name="id4"></a>
+
 ### **Medición y Adquisición por electrodos** <a name="id5"></a>
 
+Como se mencionó al inicio, en el presente laboratorio se medirán las señales EEG mediante 2 dispositivos diferentes: ULTRACORTEX y BITalino
+Los pasos son los siguientes:
+
+#### ULTRACORTEX:
+* Descargar el programa OpenBCI GUI para la conexión y visualización con el ULTRACORTEX headset
+* Insertar el OpenBCI USB Dongle en su ordenador y encenderlo junto al ULTRACORTEX headset (mediante un switch), se encenderá una luz azul en ambas placas.
+* Emparejar el 
+
+
+
+Para información más detallada revisar el siguiente enlace:
+Guía de inicio: https://docs.openbci.com/GettingStarted/Boards/CytonGS/
+
+#### BITalino:
+* Descargar el programa OpenSignals
+* Encender la placa del BITalino (mediante un switch), se encenderá una luz blanca intermitente
+* Conectar mediante bluetooth a su ordenador, luego emparejarlo con el programa OpenSignals utilizando el canal de EEG (canal 3)
+* Una vez establecida la conexión, colocar los electrodos (positivo, negativo y referencia) como se muestra a continuación
+
+
+
+Para información más detallada revisar el siguiente enlace:
+Guía de inicio: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-quickstart-guide-10010-print.pdf
+Manual de usuario: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-revolution-user-manual.pdf
 
 ### **Protocolo de adquisición** <a name="id6"></a>
+Para empezar a realizar la medición de señales se le pide al sujeto de prueba realizar las siguientes actividades a continuación
+
+* Estado de reposo (respiración normal)
+* Sin movimientos oculares (ojos cerrados)
+* 5 ciclos de ojos abiertos - ojos cerrados durante 5 segundos cada fase
+* Resolución mental de ejercicios matemáticos 3 fáciles y 3 difíciles
+
+Una vez obtenidas y grabadas de manera independiente, exportarlas al programa de su preferencia, en este caso se trabajará con lenguaje Python para su muestreo y análisis.
 
 
 ## **Resultados** <a name="id7"></a>
