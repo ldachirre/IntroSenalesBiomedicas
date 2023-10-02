@@ -123,6 +123,9 @@ asdadsas
 <img src="EEG_Ultracortex/U2.png" width="250" height="300"></p>
 
 #### **Gráfica UltraCortex** <a name="id14"></a>
+
+<img src="EEG_Ultracortex/e1.png" width="650" height="250">
+
 #### **Observaciones** <a name="id15"></a>
 
 ## **Conclusiones** <a name="id16"></a>
