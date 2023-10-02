@@ -97,8 +97,15 @@ Una vez obtenidas y grabadas de manera independiente, exportarlas al programa de
 ### **Bitalino** <a name="id8"></a>
 
 #### **Conexión & Uso** <a name="id9"></a>
+<p align="left">
+<img src="EEG_Bitalino/B1.png" width="400" height="300"></p>
 
 #### **Gráficas del BItalino** <a name="id10"></a>
+<p align="center">
+<img src="EEG_Bitalino/BitEEG_repA1.png" width="500" height="300">
+<img src="EEG_Bitalino/BitEEG_repA2.png" width="500" height="300">
+</p>
+
 #### **Observaciones** <a name="id11"></a>
 
 ### **UltraCortex** <a name="id12"></a>
