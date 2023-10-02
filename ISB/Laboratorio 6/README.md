@@ -1,4 +1,4 @@
-# **LABORATORIO 5: Procedimiento de registro EEG*
+# *LABORATORIO 5: Procedimiento de registro EEG*
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
