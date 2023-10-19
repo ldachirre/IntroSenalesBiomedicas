@@ -1,4 +1,4 @@
-# LABORATORIO 6: Procedimiento de registro EEG
+# LABORATORIO 7: Filtrado de Señales Biológicas
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
