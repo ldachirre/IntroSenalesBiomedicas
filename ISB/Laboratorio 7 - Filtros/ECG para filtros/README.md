@@ -1,4 +1,4 @@
-# LABORATORIO 6: Procedimiento de registro EEG
+# LABORATORIO 7: Procedimiento de registro EEG
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
