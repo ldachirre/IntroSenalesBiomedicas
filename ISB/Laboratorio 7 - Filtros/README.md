@@ -37,6 +37,11 @@ La característica distintiva de un filtro IIR es que su respuesta al impulso es
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/c3bf4378-68a8-4270-8506-f644b7ecaf5c)
 Figura 4. Filtro IIR [2]
 
+### **Transformada Wavelet**
+Descompone una señal en función de funciones llamadas wavelets, que son pequeñas funciones con una forma particular. La principal característica de la transformada wavelet es que las wavelets son localizadas en el tiempo y la frecuencia, lo que significa que pueden capturar detalles tanto en el dominio del tiempo como en el dominio de la frecuencia en una señal. Esto la hace especialmente adecuada para analizar señales que contienen características que cambian con el tiempo, como se  muestra en la Figura 6 [5]. 
+
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/edfc34ed-f507-468e-b687-f201a1b1ada2)
+Figura 6. Transformada Wavelet [5]
 
 
 ## **Objetivos** <a name="id2"></a>
