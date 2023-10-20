@@ -3,13 +3,18 @@
 
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
-3. [Procedimiento](#id3)\
-4. [Resultados](#id4)\
+3. [Procedimiento](#id3)
+4. [Resultados](#id4)
 5. [Conclusiones](#id5)
 6. [Referencias](#id6)
    
 ## **Introducción** <a name="id1"></a>
-Un filtro se define como un sistema que discrimina una señal de entrada y produce cambios en su salida, siendo estos cambios determinados por ciertos parámetros. Los filtros operan tomando una señal de entrada y generan una señal de salida, que ambas pueden ser de naturaleza analógica o digital. Esta señal de salida experimenta modificaciones en términos de su amplitud, frecuencia o fase, dependiendo de las características específicas del filtro [1]. Además, los filtros digitales tienen una amplia aplicación en la actualidad, en comparación a los filtros analógicos, debido en parte a la facilidad de acceso a las computadoras, y a su capacidad de almacenamiento y registro.
+En los sistemas eléctricos y electrónicos, en ciertas ocasiones, se necesita manejar información a ciertas frecuencias; es por esto que solo se deja pasar a ciertos grupos de frecuencias y las demás se eliminan. Esta función la realizan los filtros que son sistemas electrónicos que presentan características selectivas de frecuencias. Un filtro se define como un sistema que discrimina una señal de entrada y produce cambios en su salida, siendo estos cambios determinados por ciertos parámetros. Los filtros operan tomando una señal de entrada y generan una señal de salida, asimismo existen dos tipos de filtros: analógicos y digitales. Esta señal de salida experimenta modificaciones en términos de su amplitud, frecuencia o fase, dependiendo de las características específicas del filtro [1]. En comparación con los filtros analógicos, los filtros digitales tienen una amplia aplicación en la actualidad, debido en parte a la facilidad de acceso a las computadoras, y a su capacidad de almacenamiento y registro.
+
+### **Filtros IIR**
+
+
+### **Filtros FIR**
 
 
 ## **Objetivos** <a name="id2"></a>
