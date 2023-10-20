@@ -64,7 +64,7 @@ Figura 6. Transformada Wavelet [5]
 - Se calcula la transformada rápida de Fourier mediante el comando fft y se grafica.
 - Se procede a diseñar el filtro FIR pasa bajos con una frecuencia de corte en 50Hz y una ventana de tipo Hamming de longitud 37.
 - Se grafica la señal en el dominio de a frecuencia, junto a su frecuencia de corte.
-- Se aplica el filtro a las señales ECG.
+- Se aplica el filtro al tipo de señal que desees.
 - Finalmente se grafican las señales filtradas en el dominio del tiempo.
 
 ### Filtro IIR
@@ -72,19 +72,9 @@ Figura 6. Transformada Wavelet [5]
 - Se calcula la transformada rápida de Fourier mediante el comando fft y se grafica.
 - Se realiza el análisis espectral de las señales y se identifican los picos de frecuencia.
 - Se procede a diseñar el filtro IIR pasa bajos de orden 9 con una frecuencia de corte calculada en 14.96Hz.
-- Se realiza la transformada bilineal y posteriormente se aplica el filtro a las señales ECG.
-- Finalmente se grafica las señales filtradas en conjunto con las señales no filtradas con el fin de compararlas y analizar el efecto del filtro a la señal ECG.
+- Se realiza la transformada bilineal y posteriormente se aplica el filtro al tipo de señal que desees.
+- Finalmente se grafica las señales filtradas en conjunto con las señales no filtradas con el fin de compararlas y analizar el efecto del filtro a la señal.
   
-## **Filtrado de ECG** <a name="id4"></a>
-
-### **Medición y Adquisición por electrodos** <a name="id5"></a>
-
-
-
-#### ULTRACORTEX:
-
-
-
 ## **Resultados** <a name="id4"></a>
 
 
