@@ -1,4 +1,4 @@
-# LABORATORIO 7: Filtrado de Señales Biológicas
+# LABORATORIO 8: Filtrado de EMG y obtención de sus características
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
