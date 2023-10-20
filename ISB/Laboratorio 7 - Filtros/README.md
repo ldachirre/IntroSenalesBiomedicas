@@ -142,6 +142,7 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
+```
 
 
 | Creación de Filtros|
