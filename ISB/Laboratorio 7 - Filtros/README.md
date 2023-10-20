@@ -72,6 +72,6 @@ Figura 6. Transformada Wavelet [5]
 
 [3] 	   “Window function - figure of merits - GaussianWaves”. Accedido: 14 de octubre de 2023. [En línea]. Disponible en: https://www.gaussianwaves.com/2020/09/window-function-figure-of-merits/
 
-[4] 	
+[4] 	   JuanS, “IIR vs FIR: Entendiendo realmente sus diferencias,” JuanSaudio, Apr. 23, 2020. https://www.juansaudio.com/post/iir-vs-fir-entendiendo-realmente-sus-diferencias (accessed May 04, 2023).
 
-[5]   
+[5]      I. J. Rubén y A. Montoya, “LA TRANSFORMADA WAVELET”.
