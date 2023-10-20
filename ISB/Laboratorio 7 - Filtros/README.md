@@ -40,7 +40,8 @@ Figura 4. Filtro IIR [4]
 - Butterworth: proporciona una respuesta suave y uniforme en la banda se paso, sin picos ni caídas pronunciadas. Este tipo de filtro se utiliza comúnmente cuando se requiere una respuesta en frecuencia plana en la banda de paso, sin importar la atenuación en la banda de rechazo.
 - Bessel: diseñados para tener una fase lineal en las bandas pasantes, por lo que no distorsionan las señales; por el contrario tienen una mayor zona de transición entre las bandas pasantes y no pasantes.
 - Elíptico: se consigue estrechar la zona de transición entre bandas y también acota el rizado en estas bandas.
-- Chebyshev: se consigue una caída de la respuesta en frecuencia más pronunciada en frecuencias bajas debido a que permiten rizado en alguna de sus bandas (paso o rechazo). Existen 2 tipos de filtro de chebyshev: los de tipo I, que solo tienen polos; y los de tipo II, que tienen ceros y polos [4]. 
+- Chebyshev: se consigue una caída de la respuesta en frecuencia más pronunciada en frecuencias bajas debido a que permiten rizado en alguna de sus bandas (paso o rechazo). Existen 2 tipos de filtro de chebyshev: los de tipo I, que solo tienen polos; y los de tipo II, que tienen ceros y polos [4].
+- 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/d6b7e13a-aa95-4d7c-8373-188394d0097d)                                            
 Figura 5. Tipos de filtros IIR [4]
 
