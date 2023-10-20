@@ -58,13 +58,16 @@ Figura 6. Transformada Wavelet [5]
 - Analizar la capacidad de cada filtro para limpiar la señal de interés
 
 ## **Filtrado ECG** <a name="id3"></a>
-
+| Señal |Señal cruda| Filtro IIR | Filtro FIR | Filtro Wavelet |
+| :---:  |  :----: | :----: | :----: | :----: |
 
 ## **Filtrado EMG** <a name="id4"></a>
-
+| Señal |Señal cruda| Filtro IIR | Filtro FIR | Filtro Wavelet |
+| :---:  |  :----: | :----: | :----: | :----: |
 
 ## **Filtrado EEG** <a name="id5"></a>
-
+| Señal |Señal cruda| Filtro IIR | Filtro FIR | Filtro Wavelet |
+| :---:  |  :----: | :----: | :----: | :----: |
   
 
 ## **Conclusiones** <a name="id6"></a>
