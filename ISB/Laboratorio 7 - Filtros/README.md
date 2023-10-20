@@ -32,10 +32,15 @@ Figura 3. Ventanas de filtro FIR [3]
 
 
 ### **Filtros IIR (Infinite Impulse Response)**
-La característica distintiva de un filtro IIR es que su respuesta al impulso es de duración infinita, lo que significa que su respuesta a una ntrada puede persistir indefinidamente en el tiempo. En otras palabras, la salida de un filtro IIR se calcula como una combinación ponderada de muestras actuales y anteriores de la señal de entrada, así como de las salidas anteriores del filtro. Además, son conocidos por su eficiencia en términos de recursos computacionales y por su capacidad para proporcionar una respuesta en frecuencia más nítida en comparación con los filtros FIR de igual longitud. Sin embargo, suelen introducir una fase no lineal en la señal filtrada, lo que puede ser problemático en algunas aplicaciones que requieren una respuesta de fase lineal, como se observa en la Figura 4 [2].
+La característica distintiva de un filtro IIR es que su respuesta al impulso es de duración infinita, lo que significa que su respuesta a una ntrada puede persistir indefinidamente en el tiempo. En otras palabras, la salida de un filtro IIR se calcula como una combinación ponderada de muestras actuales y anteriores de la señal de entrada, así como de las salidas anteriores del filtro. Además, son conocidos por su eficiencia en términos de recursos computacionales y por su capacidad para proporcionar una respuesta en frecuencia más nítida en comparación con los filtros FIR de igual longitud. Sin embargo, suelen introducir una fase no lineal en la señal filtrada, lo que puede ser problemático en algunas aplicaciones que requieren una respuesta de fase lineal, como se observa en la Figura 4 [4].
 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/c3bf4378-68a8-4270-8506-f644b7ecaf5c)
-Figura 4. Filtro IIR [2]
+Figura 4. Filtro IIR [4]
+
+- Butterworth: proporciona una respuesta suave y uniforme en la banda se paso, sin picos ni caídas pronunciadas. Este tipo de filtro se utiliza comúnmente cuando se requiere una respuesta en frecuencia plana en la banda de paso, sin importar la atenuación en la banda de rechazo.
+- Bessel: diseñados para tener una fase lineal en las bandas pasantes, por lo que no distorsionan las señales; por el contrario tienen una mayor zona de transición entre las bandas pasantes y no pasantes.
+- Elíptico: se consigue estrechar la zona de transición entre bandas y también acota el rizado en estas bandas.
+- Chebyshev: se consigue una caída de la respuesta en frecuencia más pronunciada en frecuencias bajas debido a que permiten rizado en alguna de sus bandas (paso o rechazo). Existen 2 tipos de filtro de chebyshev: los de tipo I, que solo tienen polos; y los de tipo II, que tienen ceros y polos [4].
 
 ### **Transformada Wavelet**
 Descompone una señal en función de funciones llamadas wavelets, que son pequeñas funciones con una forma particular. La principal característica de la transformada wavelet es que las wavelets son localizadas en el tiempo y la frecuencia, lo que significa que pueden capturar detalles tanto en el dominio del tiempo como en el dominio de la frecuencia en una señal. Esto la hace especialmente adecuada para analizar señales que contienen características que cambian con el tiempo, como se  muestra en la Figura 6 [5]. 
