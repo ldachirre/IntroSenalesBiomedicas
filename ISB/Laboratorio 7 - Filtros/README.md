@@ -61,7 +61,8 @@ Figura 6. Transformada Wavelet [5]
 En el código proporcionado, se llevó a cabo un proceso de filtrado de la señal de electrocardiograma (ECG) del "sujeto 3 activo" del laboratorio de electrocardiografía. El objetivo del filtrado es mejorar la calidad de la señal ECG y reducir el ruido no deseado.
 | Creación de Filtros|
 | :---:  |
-![WhatsApp Image 2023-10-19 at 4 21 42 PM (1)](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/6bdbb4fd-9a10-4940-bbcf-946ea9d9bc71)
+![filtros ecg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/7edf2449-4e4d-4bd0-ae79-c3c2306442b3)
+
 
 | Señal |
 | :---:  |
