@@ -17,6 +17,13 @@ Se diferencia por su respuesta al impulso de duración finita, lo que significa 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/fe76f0f7-cc84-4a57-bcd1-e0bf438f78dd)
 Figura 1. Filtro FIR [2]
 
+Uno de los métodos de diseño de filtros FIR es el uso de ventanas ("windowing"). Este se basa en acortar la respuesta en impulsos de la señal, mediante la multiplicación de la señal con la ventana. Existen diferentes tipos de ventanas, entre las más conocidas tenemos: Barthann, Barlett, Blackman y Blackmanharris, como se observa en la Figura 2 y 3 [3]. 
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/5da3795e-183d-429a-8f3a-056678011e44)
+Figura 2. Funciones de "windowing" [3]
+
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/ed0246fb-8227-4ea9-9ef4-02e303967279)
+Figura 3. Ventanas de filtro FIR [3]
+
 ### **Filtros IIR**
 
 
@@ -48,9 +55,9 @@ Figura 1. Filtro FIR [2]
 
 [2]    	JuanS, “IIR vs FIR: Entendiendo realmente sus diferencias,” JuanSaudio, Apr. 23, 2020. https://www.juansaudio.com/post/iir-vs-fir-entendiendo-realmente-sus-diferencias (accessed May 04, 2023).
 
-[3] 	
+[3] 	   “Window function - figure of merits - GaussianWaves”. Accedido: 14 de octubre de 2023. [En línea]. Disponible en: https://www.gaussianwaves.com/2020/09/window-function-figure-of-merits/
 
-[4] 	Graetzer DG PhD. “Electroencephalography (EEG)”. Magill’s Medical Guide. 
+[4] 	
 Accedido: 30 de septiembre de 2023. [En línea]. Disponible en:
 https://search-ebscohost-com.ezproxybib.pucp.edu.pe/login.aspx?direct=true&db=ers&AN=87690502&lang=es&site=eds-live&scope=site
 
