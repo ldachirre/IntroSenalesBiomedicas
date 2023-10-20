@@ -3,10 +3,11 @@
 
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
-3. [Filtrado de ECG](#id3)
-4. [Resultados](#id4)
-5. [Conclusiones](#id5)
-6. [Referencias](#id6)
+3. [Procedimiento](#id3)
+4. [Filtrado de ECG](#id4)
+5. [Resultados](#id5)
+6. [Conclusiones](#id6)
+7. [Referencias](#id7)
    
 ## **Introducción** <a name="id1"></a>
 En los sistemas eléctricos y electrónicos, en ciertas ocasiones, se necesita manejar información a ciertas frecuencias; es por esto que solo se deja pasar a ciertos grupos de frecuencias y las demás se eliminan. Esta función la realizan los filtros que son sistemas electrónicos que presentan características selectivas de frecuencias. Un filtro se define como un sistema que discrimina una señal de entrada y produce cambios en su salida, siendo estos cambios determinados por ciertos parámetros. Los filtros operan tomando una señal de entrada y generan una señal de salida, asimismo existen dos tipos de filtros: analógicos y digitales. Esta señal de salida experimenta modificaciones en términos de su amplitud, frecuencia o fase, dependiendo de las características específicas del filtro [1]. En comparación con los filtros analógicos, los filtros digitales tienen una amplia aplicación en la actualidad, debido en parte a la facilidad de acceso a las computadoras, y a su capacidad de almacenamiento y registro.
@@ -55,7 +56,26 @@ Figura 6. Transformada Wavelet [5]
 - Diseñar un 3 tipos de filtros diferentes IIR , FIR y Wavelet
 - Filtrar las señales de ECG, EMG y EEG obtenidas en laboratorios pasados
 - Analizar la capacidad de cada filtro para limpiar la señal de interés
-## **Filtrado de ECG** <a name="id3"></a>
+
+## **Procedimiento** <a name="id3"></a>
+
+### Filtro FIR
+- Primero se plotean las señales sin filtrar.
+- Se calcula la transformada rápida de Fourier mediante el comando fft y se grafica.
+- Se procede a diseñar el filtro FIR pasa bajos con una frecuencia de corte en 50Hz y una ventana de tipo Hamming de longitud 37.
+- Se grafica la señal en el dominio de a frecuencia, junto a su frecuencia de corte.
+- Se aplica el filtro a las señales ECG.
+- Finalmente se grafican las señales filtradas en el dominio del tiempo.
+
+### Filtro IIR
+- Primero se plotean las señales sin filtrar.
+- Se calcula la transformada rápida de Fourier mediante el comando fft y se grafica.
+- Se realiza el análisis espectral de las señales y se identifican los picos de frecuencia.
+- Se procede a diseñar el filtro IIR pasa bajos de orden 9 con una frecuencia de corte calculada en 14.96Hz.
+- Se realiza la transformada bilineal y posteriormente se aplica el filtro a las señales ECG.
+- Finalmente se grafica las señales filtradas en conjunto con las señales no filtradas con el fin de compararlas y analizar el efecto del filtro a la señal ECG.
+  
+## **Filtrado de ECG** <a name="id4"></a>
 
 ### **Medición y Adquisición por electrodos** <a name="id5"></a>
 
