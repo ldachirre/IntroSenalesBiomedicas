@@ -3,9 +3,9 @@
 
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
-3. [Procedimiento](#id3)
-4. [Filtrado de ECG](#id4)
-5. [Resultados](#id5)
+3. [Filtrado de ECG](#id3)
+4. [Filtrado de EMG](#id4)
+5. [Filtrado de EEG](#id5)
 6. [Conclusiones](#id6)
 7. [Referencias](#id7)
    
@@ -57,33 +57,21 @@ Figura 6. Transformada Wavelet [5]
 - Filtrar las señales de ECG, EMG y EEG obtenidas en laboratorios pasados
 - Analizar la capacidad de cada filtro para limpiar la señal de interés
 
-## **Procedimiento** <a name="id3"></a>
+## **Filtrado ECG** <a name="id3"></a>
 
-### Filtro FIR
-- Primero se plotean las señales sin filtrar.
-- Se calcula la transformada rápida de Fourier mediante el comando fft y se grafica.
-- Se procede a diseñar el filtro FIR pasa bajos con una frecuencia de corte en 50Hz y una ventana de tipo Hamming de longitud 37.
-- Se grafica la señal en el dominio de a frecuencia, junto a su frecuencia de corte.
-- Se aplica el filtro al tipo de señal que desees.
-- Finalmente se grafican las señales filtradas en el dominio del tiempo.
 
-### Filtro IIR
-- Primero se plotean las señales sin filtrar.
-- Se calcula la transformada rápida de Fourier mediante el comando fft y se grafica.
-- Se realiza el análisis espectral de las señales y se identifican los picos de frecuencia.
-- Se procede a diseñar el filtro IIR pasa bajos de orden 9 con una frecuencia de corte calculada en 14.96Hz.
-- Se realiza la transformada bilineal y posteriormente se aplica el filtro al tipo de señal que desees.
-- Finalmente se grafica las señales filtradas en conjunto con las señales no filtradas con el fin de compararlas y analizar el efecto del filtro a la señal.
+## **Filtrado EMG** <a name="id4"></a>
+
+
+## **Filtrado EEG** <a name="id5"></a>
+
   
-## **Resultados** <a name="id4"></a>
 
-
-
-## **Conclusiones** <a name="id15"></a>
+## **Conclusiones** <a name="id6"></a>
 - Se comprobó que el filtrado con el filtro IIR son menos eficientes que con el filtro FIR, ya que estos ultimos son más estables, lo que los hace más adecuados para esta aplicación.
 - Después de aplicar el proceso de filtrado a las señales, se notaron mejoras significativas, incluyendo la reducción del ruido y la amplitud no deseada, lo que resultó en una señal más clara y con los componentes de interés de manera más destacada.
 
-## **Referencias** <a name="id6"></a>
+## **Referencias** <a name="id7"></a>
 [1]    	J. Cedillo et al., “IMPLEMENTATION OF DIGITAL FILTERS OF FIR TYPE IN FPGA Implementación de Filtros Digitales Tipo FIR en FPGA,” vol. 37, 2008, Available: https://www.scielo.org.mx/pdf/poli/n37/n37a12.pdf
 
 [2]    	JuanS, “IIR vs FIR: Entendiendo realmente sus diferencias,” JuanSaudio, Apr. 23, 2020. https://www.juansaudio.com/post/iir-vs-fir-entendiendo-realmente-sus-diferencias (accessed May 04, 2023).
