@@ -61,13 +61,11 @@ Figura 6. Transformada Wavelet [5]
 En el código proporcionado, se llevó a cabo un proceso de filtrado de la señal de electrocardiograma (ECG) del "sujeto 3 activo" del laboratorio de electrocardiografía. El objetivo del filtrado es mejorar la calidad de la señal ECG y reducir el ruido no deseado.
 | Creación de Filtros|
 | :---:  |
-![ECG FILTRADO](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/d4b6d196-c8c2-4486-9435-c4cd81e859f1)
-
+![WhatsApp Image 2023-10-19 at 4 21 42 PM (1)](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/6bdbb4fd-9a10-4940-bbcf-946ea9d9bc71)
 
 | Señal |
 | :---:  |
-![WhatsApp Image 2023-10-19 at 4 21 42 PM (1)](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/6bdbb4fd-9a10-4940-bbcf-946ea9d9bc71)
-
+![ECG FILTRADO](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/d4b6d196-c8c2-4486-9435-c4cd81e859f1)
 En base a la observación de las señales resultantes y las respuestas en frecuencia presentadas en el código,se observa que la señal resultante del filtro wavelet parece mostrar un escalado peculiar, y es evidente que persiste cierto nivel de ruido o distorsión en la señal. Sin embargo,tanto el filtro FIR como el filtro IIR tienden a preservar mejor la forma de onda de la señal original. Por lo que se puede concluir que para esta señal de electrocardiograma (ECG) específica, los filtros FIR e IIR (Butterworth) parecen ser más adecuados en comparación con el filtro wavelet.
 
 ## **Filtrado EMG** <a name="id4"></a>
