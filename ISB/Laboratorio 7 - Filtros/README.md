@@ -41,13 +41,14 @@ Figura 4. Filtro IIR [4]
 - Bessel: diseñados para tener una fase lineal en las bandas pasantes, por lo que no distorsionan las señales; por el contrario tienen una mayor zona de transición entre las bandas pasantes y no pasantes.
 - Elíptico: se consigue estrechar la zona de transición entre bandas y también acota el rizado en estas bandas.
 - Chebyshev: se consigue una caída de la respuesta en frecuencia más pronunciada en frecuencias bajas debido a que permiten rizado en alguna de sus bandas (paso o rechazo). Existen 2 tipos de filtro de chebyshev: los de tipo I, que solo tienen polos; y los de tipo II, que tienen ceros y polos [4].
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/d6b7e13a-aa95-4d7c-8373-188394d0097d)
+Figura 5. Tipos de filtros IIR [4]
 
 ### **Transformada Wavelet**
 Descompone una señal en función de funciones llamadas wavelets, que son pequeñas funciones con una forma particular. La principal característica de la transformada wavelet es que las wavelets son localizadas en el tiempo y la frecuencia, lo que significa que pueden capturar detalles tanto en el dominio del tiempo como en el dominio de la frecuencia en una señal. Esto la hace especialmente adecuada para analizar señales que contienen características que cambian con el tiempo, como se  muestra en la Figura 6 [5]. 
 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/edfc34ed-f507-468e-b687-f201a1b1ada2)
 Figura 6. Transformada Wavelet [5]
-
 
 ## **Objetivos** <a name="id2"></a>
 - Diseñar un 3 tipos de filtros diferentes IIR , FIR y Wavelet
