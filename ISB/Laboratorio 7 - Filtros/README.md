@@ -17,14 +17,25 @@ Se diferencia por su respuesta al impulso de duración finita, lo que significa 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/fe76f0f7-cc84-4a57-bcd1-e0bf438f78dd)
 Figura 1. Filtro FIR [2]
 
-Uno de los métodos de diseño de filtros FIR es el uso de ventanas ("windowing"). Este se basa en acortar la respuesta en impulsos de la señal, mediante la multiplicación de la señal con la ventana. Existen diferentes tipos de ventanas, entre las más conocidas tenemos: Barthann, Barlett, Blackman y Blackmanharris, como se observa en la Figura 2 y 3 [3]. 
+Uno de los métodos de diseño de filtros FIR es el uso de ventanas ("windowing"). Este se basa en acortar la respuesta en impulsos de la señal, mediante la multiplicación de la señal con la ventana, como se observa en la Figura 2 [3]. 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/5da3795e-183d-429a-8f3a-056678011e44)
 Figura 2. Funciones de "windowing" [3]
 
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/ed0246fb-8227-4ea9-9ef4-02e303967279)
+Existen diversos tipos de ventanas, entre las más usadas tenemos [2]: 
+- Rectangular: Los valores de estas ventanas sólo varían entre 1 y 0, este filtro logra que la señal no cambie en 1 y se elimine en 0.
+- Barlett: se puede observar que tiene una forma triangular, se suele usar para suavizar señales.
+- Hanning: Usa transformada de Fourier para su filtrado y busca casi eliminar los lados laterales de la señal.
+- Hamming: Busca reducir las discontinuidades de los laterales.
+  
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/6d6f90c1-1f6b-4d85-9f6f-34f68d5743ba)                     
 Figura 3. Ventanas de filtro FIR [3]
 
-### **Filtros IIR**
+
+### **Filtros IIR (Infinite Impulse Response)**
+La característica distintiva de un filtro IIR es que su respuesta al impulso es de duración infinita, lo que significa que su respuesta a una ntrada puede persistir indefinidamente en el tiempo. En otras palabras, la salida de un filtro IIR se calcula como una combinación ponderada de muestras actuales y anteriores de la señal de entrada, así como de las salidas anteriores del filtro. Además, son conocidos por su eficiencia en términos de recursos computacionales y por su capacidad para proporcionar una respuesta en frecuencia más nítida en comparación con los filtros FIR de igual longitud. Sin embargo, suelen introducir una fase no lineal en la señal filtrada, lo que puede ser problemático en algunas aplicaciones que requieren una respuesta de fase lineal, como se observa en la Figura 4 [2].
+
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/c3bf4378-68a8-4270-8506-f644b7ecaf5c)
+Figura 4. Filtro IIR [2]
 
 
 
@@ -58,7 +69,5 @@ Figura 3. Ventanas de filtro FIR [3]
 [3] 	   “Window function - figure of merits - GaussianWaves”. Accedido: 14 de octubre de 2023. [En línea]. Disponible en: https://www.gaussianwaves.com/2020/09/window-function-figure-of-merits/
 
 [4] 	
-Accedido: 30 de septiembre de 2023. [En línea]. Disponible en:
-https://search-ebscohost-com.ezproxybib.pucp.edu.pe/login.aspx?direct=true&db=ers&AN=87690502&lang=es&site=eds-live&scope=site
 
-[5]    	S. U. C. M. Ehrotra, Introduction To EEG- and Emotion Recognition. 2018. Accedido: 30 de septiembre de 2023. [En línea]. Disponible en: http://www.sciencedirect.com:5070/book/9780128044902/introduction-to-eeg-and-speech-based-emotion-recognition
+[5]   
