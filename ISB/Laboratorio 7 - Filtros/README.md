@@ -156,13 +156,27 @@ plt.show()
 En base a la observación de las señales resultantes y las respuestas en frecuencia presentadas en el código,se observa que la señal resultante del filtro wavelet parece mostrar un escalado peculiar, y es evidente que persiste cierto nivel de ruido o distorsión en la señal. Sin embargo,tanto el filtro FIR como el filtro IIR tienden a preservar mejor la forma de onda de la señal original. Por lo que se puede concluir que para esta señal de electrocardiograma (ECG) específica, los filtros FIR e IIR (Butterworth) parecen ser más adecuados en comparación con el filtro wavelet.
 
 ## **Filtrado EMG** <a name="id4"></a>
+| Creación de Filtros|
+| :---:  |
+![filtroemg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/85604920-0edc-40c1-939c-d548d78fc5b2)
+
+
+
 | Señal |
 | :---:  |
+![filtradoemg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/52173e1d-6fae-47d0-b178-1050bf7084ea)
+Para el filtrado de esta señal se uso una frecuencia de corte de 50hz, dado que esta es la frecuencia maxima de las señales analizadas en eeg
 
 ## **Filtrado EEG** <a name="id5"></a>
+| Creación de Filtros|
+| :---:  |
+![filtroeeg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/b33afe3b-c68c-4e3d-9ae1-38b8718da4b2)
+Se observa como el filtro IIR conserva un poco de ruido, en comparacion al FIR pese a estar ambos a la misma frecuencia de corte. Mientras que el wavelet muestra una forma mas limpia, pero con una mayor perdida de puntos característicos.
+
 | Señal |
 | :---:  |
-  
+![filtradoeeg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/ec80136e-2b81-4d24-b73d-37112f096cf5)
+
 
 ## **Conclusiones** <a name="id6"></a>
 - Se comprobó que el filtrado con el filtro IIR son menos eficientes que con el filtro FIR, ya que estos ultimos son más estables, lo que los hace más adecuados para esta aplicación.
