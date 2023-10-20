@@ -61,7 +61,8 @@ Figura 6. Transformada Wavelet [5]
 | Señal |Señal cruda| Filtro IIR | Filtro FIR | Filtro Wavelet |
 | :---:  |  :----: | :----: | :----: | :----: |
 ![WhatsApp Image 2023-10-19 at 4 21 42 PM](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/94c1507e-fc68-444d-81dd-27191852f07d)
-![WhatsApp Image 2023-10-19 at 4 21 42 PM](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/5c9f72d3-6bab-47bd-adb7-6311b543ee7d)
+![WhatsApp Image 2023-10-19 at 4 21 42 PM (1)](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/6bdbb4fd-9a10-4940-bbcf-946ea9d9bc71)
+
 
 
 ## **Filtrado EMG** <a name="id4"></a>
