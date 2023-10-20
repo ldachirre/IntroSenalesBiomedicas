@@ -80,7 +80,8 @@ Figura 6. Transformada Wavelet [5]
 
 
 ## **Conclusiones** <a name="id15"></a>
-
+- Se comprobó que el filtrado con el filtro IIR son menos eficientes que con el filtro FIR, ya que estos ultimos son más estables, lo que los hace más adecuados para esta aplicación.
+- Después de aplicar el proceso de filtrado a las señales, se notaron mejoras significativas, incluyendo la reducción del ruido y la amplitud no deseada, lo que resultó en una señal más clara y con los componentes de interés de manera más destacada.
 
 ## **Referencias** <a name="id6"></a>
 [1]    	J. Cedillo et al., “IMPLEMENTATION OF DIGITAL FILTERS OF FIR TYPE IN FPGA Implementación de Filtros Digitales Tipo FIR en FPGA,” vol. 37, 2008, Available: https://www.scielo.org.mx/pdf/poli/n37/n37a12.pdf
