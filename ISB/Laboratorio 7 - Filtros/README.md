@@ -3,7 +3,7 @@
 
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
-3. [Procedimiento](#id3)
+3. [Filtrado de ECG](#id3)
 4. [Resultados](#id4)
 5. [Conclusiones](#id5)
 6. [Referencias](#id6)
@@ -40,11 +40,10 @@ Figura 4. Filtro IIR [2]
 
 
 ## **Objetivos** <a name="id2"></a>
-- Diseñar un IIR eligiendo si es Bessel, Butterworth, Chebyshev o Eliptico.
-- Elegir 2 métodos de ventana para diseñar un filtro FIR.
-- Filtrar el Dataset de las señales ECG realizado en el laboratorio anterior.
-
-## **Procedimiento** <a name="id3"></a>
+- Diseñar un 3 tipos de filtros diferentes IIR , FIR y Wavelet
+- Filtrar las señales de ECG, EMG y EEG obtenidas en laboratorios pasados
+- Analizar la capacidad de cada filtro para limpiar la señal de interés
+## **Filtrado de ECG** <a name="id3"></a>
 
 ### **Medición y Adquisición por electrodos** <a name="id5"></a>
 
