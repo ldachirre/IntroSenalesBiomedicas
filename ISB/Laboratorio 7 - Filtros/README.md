@@ -171,12 +171,11 @@ Para el filtrado de esta señal se uso una frecuencia de corte de 50hz, dado que
 | Creación de Filtros|
 | :---:  |
 ![filtroeeg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/b33afe3b-c68c-4e3d-9ae1-38b8718da4b2)
-Se observa como el filtro IIR conserva un poco de ruido, en comparacion al FIR pese a estar ambos a la misma frecuencia de corte. Mientras que el wavelet muestra una forma mas limpia, pero con una mayor perdida de puntos característicos.
 
 | Señal |
 | :---:  |
 ![filtradoeeg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/ec80136e-2b81-4d24-b73d-37112f096cf5)
-
+Se observa como el filtro IIR conserva un poco de ruido, en comparacion al FIR pese a estar ambos a la misma frecuencia de corte. Mientras que el wavelet muestra una forma mas limpia, pero con una mayor perdida de puntos característicos.
 
 ## **Conclusiones** <a name="id6"></a>
 - Se comprobó que el filtrado con el filtro IIR son menos eficientes que con el filtro FIR, ya que estos ultimos son más estables, lo que los hace más adecuados para esta aplicación.
