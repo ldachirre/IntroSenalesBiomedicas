@@ -28,29 +28,34 @@ Una tesis de pregrado de la UNMSM (Universidad Nacional Mayor de San Marcos) en 
 * Determinar si existen diferencias significativas en la fatiga muscular 
 
 ## **Metodología** <a name="id4"></a>
-Para llevar a cabo el estudio, utilizaremos la Electromiografía Superficial (sEMG) para medir la actividad eléctrica de los músculos de la región cervical y la parte superior del cuerpo. A continuación, se describe el protocolo a seguir:
+La técnica de análisis a usar será la Electromiografía Superficial (sEMG) para medir la actividad eléctrica de los músculos de la región cervical y la parte superior del cuerpo. Esto debido a que se desea analizar la actividad de la zona muscular (conjunto de motoneuronas).
 
-Selección de participantes: Se reclutará un grupo de voluntarios entre compañeros de clase, de diferentes edades y niveles de intensidad en el uso de dispositivos electrónicos, y se clasificarán según la Escala de actitudes y uso de los medios de comunicación y la tecnología (MTUAS).
+A continuación, se describe el protocolo a seguir:
 
-Colocación de electrodos EMG: Se colocarán electrodos EMG en músculos específicos, como el trapecio, para registrar la actividad muscular. La colocación se realizará siguiendo los estándares de posicionamiento de electrodos. [https://www.jstage.jst.go.jp/article/jpts/27/6/27_jpts-2015-015/_pdf/-char/en]
+* Selección de participantes: Se reclutará un grupo de voluntarios entre compañeros de clase, de diferentes edades y niveles de intensidad en el uso de dispositivos electrónicos, y se clasificarán según la Escala de actitudes y uso de los medios de comunicación y la tecnología (MTUAS).
 
-Prueba de referencia o control : Se tomará una medición de referencia de la actividad muscular en condiciones iniciales, sin el uso de dispositivos electrónicos por 30 mins.
+* Colocación de electrodos EMG: Se colocarán electrodos EMG en músculos específicos, como el trapecio, para registrar la actividad muscular. La colocación se realizará siguiendo los estándares de posicionamiento de electrodos. [https://www.jstage.jst.go.jp/article/jpts/27/6/27_jpts-2015-015/_pdf/-char/en]
 
-Uso prolongado de dispositivos electrónicos:
+* Prueba de referencia o control : Se tomará una medición de referencia de la actividad muscular en condiciones iniciales, sin el uso de dispositivos electrónicos por 30 mins.
+
+* Uso prolongado de dispositivos electrónicos:
  Los participantes usarán dispositivos electrónicos (por ejemplo, smartphones o computadoras) durante un período determinado (30mins).
 
-Los participantes deberán sentarse en posición erguida  en una silla sin reposadores de brazo. Con las rodillas flexionadas a 90° y los pies sobre el suelo, los hombros neutros . 
+* Los participantes deberán sentarse en posición erguida  en una silla sin reposadores de brazo. Con las rodillas flexionadas a 90° y los pies sobre el suelo, los hombros neutros . 
 
-Medición post-uso: Después de la interacción con los dispositivos electrónicos, se realizará una segunda medición de la actividad muscular en los mismos músculos.
+* Medición post-uso: Después de la interacción con los dispositivos electrónicos, se realizará una segunda medición de la actividad muscular en los mismos músculos.
 
-Análisis de datos: Se compararán los valores de umbral de dolor y las frecuencias medianas antes y después del uso de dispositivos electrónicos para determinar cualquier cambio significativo.
+* Análisis de datos: Se compararán los valores de umbral de dolor y las frecuencias medianas antes y después del uso de dispositivos electrónicos para determinar cualquier cambio significativo.
 
-Análisis comparativo: Se realizará un análisis comparativo entre los grupos de uso de smartphones y computadoras para identificar posibles diferencias en la fatiga muscular.
+* Análisis comparativo: Se realizará un análisis comparativo entre los grupos de uso de smartphones y computadoras para identificar posibles diferencias en la fatiga muscular.
 
-Interpretación de resultados: Se interpretarán los resultados a la luz de los objetivos del estudio y se analizarán las implicaciones para la salud musculoesquelética.
+* Interpretación de resultados: Se interpretarán los resultados a la luz de los objetivos del estudio y se analizarán las implicaciones para la salud musculoesquelética.
 
 Este protocolo permitirá evaluar de manera objetiva y cuantitativa el efecto del uso prolongado de dispositivos electrónicos en la fatiga muscular del cuello y la parte superior del cuerpo, proporcionando información valiosa para comprender y abordar este importante problema de salud.
 
+## **Resultados** <a name="id5"></a>
+
+## **Conclusiones** <a name="id6"></a>
 
 ## **Referencias** <a name="id7"></a>
 [1] Cieza, A., Causey, K., Kamenov, K., Hanson, S. W., Chatterji, S., & Vos, T. (2020). Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019. The Lancet, 396(10267), 2006-2017.
