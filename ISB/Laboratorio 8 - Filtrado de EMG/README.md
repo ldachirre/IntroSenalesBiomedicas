@@ -11,12 +11,13 @@
    
 ## **Introducción** <a name="id1"></a>
 La electromiografía (EMG) es una técnica utilizada para registrar la actividad eléctrica de los músculos. Una vez que se ha adquirido la señal EMG, es necesario procesarla adecuadamente para extraer información relevante que permita comprender la función muscular y diagnosticar posibles trastornos neuromusculares. La EMG es especialmente valiosa en aplicaciones como el control de prótesis, donde las señales EMG del antebrazo se utilizan para dirigir manos protésicas en lo que se conoce como 'control mioeléctrico'. Tras el procesamiento de las señales EMG, los sistemas de reconocimiento de patrones involucran segmentación de datos, extracción de características, clasificación y control. Esto implica la reducción de dimensiones de las señales y el uso de un clasificador para identificar patrones de señales y clasificarlos en categorías predefinidas, como movimientos de mano y dedos.
-<p align="center">
-  <img src="https://github.com/ldachirre/IntroSenalesBiomedicas/blob/main/assets/90112793/68f03451-e07c-4edb-8360-027e1e7f5211" width="400" />
-  <img src="https://github.com/ldachirre/IntroSenalesBiomedicas/blob/main/assets/90112793/76a55d3d-0ebb-48e0-9310-fb0428fb3c72" width="400" />
-</p>
+![EMG1](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/47778e6b-1e32-4e8f-9ee0-6fa6a856073f)
+![EMG2](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/9abcb971-7b53-456d-a828-ee152d92e313)
 
-
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/47778e6b-1e32-4e8f-9ee0-6fa6a856073f" alt="EMG1">
+  <img src="https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/9abcb971-7b53-456d-a828-ee152d92e313" alt="EMG2">
+</div>
 ### **Filtros FIR (Finite Impulse Response)**
 Se diferencia por su respuesta al impulso de duración finita, lo que significa que su salida se calcula como una suma ponderada de un número limitado de muestras de entrada y coeficientes del filtro, como se muestra en la Figura 1. Son predecibles y fáciles de analizar, y se ajustan según las necesidades de filtrado. Los filtros FIR son útiles para filtrar señales, reducir ruido y procesar audio e imágenes. Su ventaja clave es que proporcionan una respuesta de fase lineal, es decir, tiene un retardo de tiempo puro como respuesta de fase, y que es estable, por lo que siempre que la entrada del filtro esté acotada, la salida de este también lo estará. Estas propiedades ayudan al diseño de filtros FIR para que cumplan con ciertas especificaciones necesarias lo que es esencial en aplicaciones donde la precisión de la fase es crucial, como en sistemas de comunicación y audio de alta calidad [2].
 
