@@ -38,7 +38,10 @@ Las características de EMG pueden ser utilizadas para diagnosticar una variedad
 
 
 ## **Filtrado EMG** <a name="id3"></a>
-En el laboratorio previo, aplicamos un proceso de filtrado a la señal EMG con una frecuencia de corte de 50Hz. Este paso es esencial para obtener una señal EMG limpia y lista para su posterior análisis.
+Según los datos obtenidos en la experiencia de laboratorio pasada (Filtrado de señales) se tiene lo siguiente: Filtrado de la señal EMG mediante filtros digitales FIR e IIR. Sabemos que las frecuencias de EMG se encuentran en un rango entre 50-150 Hz es por ello que se le aplicó un filtro pasa baja con frecuencia de corte de 200 Hz. Respecto al tiempo de análisis, la ventana utilizada fue de 2 segundos. 
+
+Se presentan los valores EMG de los sujetos (4 ejemplares) analizados en la experiencia de laboratorio 4.
+
 
 | Creación de Filtros|
 | :---:  |
@@ -50,6 +53,9 @@ En el laboratorio previo, aplicamos un proceso de filtrado a la señal EMG con u
 
 
 ## **Obtencion de Características** <a name="id4"></a>
+
+Respecto a las características de la señal, para este laboratorio se decidió obtener y analizar las características estadísticas de esta. Se presenta el análisis de:
+
 
 ## **Discusión ** <a name="id5"></a>
 
