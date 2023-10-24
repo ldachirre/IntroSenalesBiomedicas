@@ -67,6 +67,8 @@ Respecto a las características de la señal, para este laboratorio se decidió 
 | Pico-pico |
 ![pico-pico](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/ef88a7df-3daf-4516-821e-f1b3d72d08f1)
 
+| Área bajo la curva |
+![areas](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/1154290c-dc34-4091-8856-63d210e8ba6c)
 
 ## **Conclusiones** <a name="id5"></a>
 - La evaluación de la amplitud, tendencia central y variabilidad de las señales EMG permite identificar diversas afecciones y situaciones asociadas al sistema neuromuscular. En este contexto, el análisis de señales EMG es de particular interés debido a su aplicación en el diagnóstico clínico y en diversas aplicaciones biomédicas, como se explico en la introducción, tales como miopatías, neuropatías periféricas, Esclerosis lateral amiotrófica (ELA), Síndrome del túnel carpiano, entre otros.
