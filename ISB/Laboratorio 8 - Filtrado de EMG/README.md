@@ -54,8 +54,7 @@ En el laboratorio previo, aplicamos un proceso de filtrado a la señal EMG con u
 ## **Discusión ** <a name="id5"></a>
 
 ## **Conclusiones** <a name="id6"></a>
-- Se comprobó que el filtrado con el filtro IIR son menos eficientes que con el filtro FIR, ya que estos ultimos son más estables, lo que los hace más adecuados para esta aplicación.
-- Después de aplicar el proceso de filtrado a las señales, se notaron mejoras significativas, incluyendo la reducción del ruido y la amplitud no deseada, lo que resultó en una señal más clara y con los componentes de interés de manera más destacada.
+- La evaluación de la amplitud, tendencia central y variabilidad de las señales EMG permite identificar diversas afecciones y situaciones asociadas al sistema neuromuscular. En este contexto, el análisis de señales EMG es de particular interés debido a su aplicación en el diagnóstico clínico y en diversas aplicaciones biomédicas, como se explico en la introducción.
 
 ## **Referencias** <a name="id7"></a>
 [1] A. Farina, M. C. Romano, and A. V. Masci, "Electromyography: Signal analysis and processing," IEEE Signal Processing Magazine, vol. 27, no. 5, pp. 106-121, Sep. 2010.
