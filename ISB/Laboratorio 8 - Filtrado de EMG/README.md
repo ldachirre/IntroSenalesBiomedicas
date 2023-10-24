@@ -54,7 +54,7 @@ En el laboratorio previo, aplicamos un proceso de filtrado a la señal EMG con u
 ## **Discusión ** <a name="id5"></a>
 
 ## **Conclusiones** <a name="id6"></a>
-- La evaluación de la amplitud, tendencia central y variabilidad de las señales EMG permite identificar diversas afecciones y situaciones asociadas al sistema neuromuscular. En este contexto, el análisis de señales EMG es de particular interés debido a su aplicación en el diagnóstico clínico y en diversas aplicaciones biomédicas, como se explico en la introducción.
+- La evaluación de la amplitud, tendencia central y variabilidad de las señales EMG permite identificar diversas afecciones y situaciones asociadas al sistema neuromuscular. En este contexto, el análisis de señales EMG es de particular interés debido a su aplicación en el diagnóstico clínico y en diversas aplicaciones biomédicas, como se explico en la introducción, tales como miopatías, neuropatías periféricas, Esclerosis lateral amiotrófica (ELA), Síndrome del túnel carpiano, entre otros.
 
 ## **Referencias** <a name="id7"></a>
 [1] A. Farina, M. C. Romano, and A. V. Masci, "Electromyography: Signal analysis and processing," IEEE Signal Processing Magazine, vol. 27, no. 5, pp. 106-121, Sep. 2010.
