@@ -38,6 +38,8 @@ Las características de EMG pueden ser utilizadas para diagnosticar una variedad
 
 
 ## **Filtrado EMG** <a name="id3"></a>
+En el laboratorio previo, aplicamos un proceso de filtrado a la señal EMG con una frecuencia de corte de 50Hz. Este paso es esencial para obtener una señal EMG limpia y lista para su posterior análisis.
+
 | Creación de Filtros|
 | :---:  |
 ![filtroemg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/85604920-0edc-40c1-939c-d548d78fc5b2)
@@ -45,7 +47,7 @@ Las características de EMG pueden ser utilizadas para diagnosticar una variedad
 | Señal |
 | :---:  |
 ![filtradoemg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/52173e1d-6fae-47d0-b178-1050bf7084ea)
-Para el filtrado de esta señal se uso una frecuencia de corte de 50hz
+
 
 ## **Obtencion de Características** <a name="id4"></a>
 
