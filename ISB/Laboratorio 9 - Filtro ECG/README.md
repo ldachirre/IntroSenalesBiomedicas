@@ -1,4 +1,4 @@
-# LABORATORIO 8: Filtrado de EMG y obtención de sus características
+# LABORATORIO 9: Filtrado de ECG y obtención de sus características
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
