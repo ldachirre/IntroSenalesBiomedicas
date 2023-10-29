@@ -9,9 +9,7 @@
 7. [Referencias](#id6)
    
 ## **Introducción** <a name="id1"></a>
-La electromiografía (EMG) es una técnica utilizada para registrar la actividad eléctrica de los músculos. Una vez que se ha adquirido la señal EMG, es necesario procesarla adecuadamente para extraer información relevante que permita comprender la función muscular y diagnosticar posibles trastornos neuromusculares. La EMG es especialmente valiosa en aplicaciones como el control de prótesis, donde las señales EMG del antebrazo se utilizan para dirigir manos protésicas en lo que se conoce como 'control mioeléctrico'. Tras el procesamiento de las señales EMG, los sistemas de reconocimiento de patrones involucran segmentación de datos, extracción de características, clasificación y control. Esto implica la reducción de dimensiones de las señales y el uso de un clasificador para identificar patrones de señales y clasificarlos en categorías predefinidas, como movimientos de mano y dedos.
-![EMG1](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/47778e6b-1e32-4e8f-9ee0-6fa6a856073f)
-![EMG2](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/9abcb971-7b53-456d-a828-ee152d92e313)
+
 
 Una vez que se ha eliminado el ruido y se ha obtenido una señal limpia y precisa, el siguiente paso es la extracción de características. Las características que se extraen de una señal EMG son esenciales para evaluar y analizar la actividad muscular de manera cuantitativa.
 
@@ -29,11 +27,11 @@ Las características de EMG pueden ser utilizadas para diagnosticar una variedad
 
 
 ## **Objetivos** <a name="id2"></a>
-1. **Obtener características estadísticas de la señal:** Incluye la extracción de características como la amplitud de la señal, el valor promedio (media), la frecuencia y el valor Root Mean Square (RMS) de la señal EMG.
+1. **Obtener características estadísticas de la señal:** Incluye la extracción de características como la amplitud de la señal, el valor promedio (media), la frecuencia y el valor Root Mean Square (RMS) de la señal ECG.
 
 2. **Realizar el análisis de las características y compararlo con valores de la literatura:** Evalúa las características extraídas y compáralas con valores de referencia disponibles en la literatura. Esto ayuda a entender cómo se comporta la señal en relación con los datos previamente documentados.
 
-3. **Verificar el comportamiento de la señal EMG:** Asegúrate de examinar el comportamiento general de la señal EMG para identificar patrones, tendencias o anomalías que puedan ser relevantes para tu análisis o aplicación específica.
+3. **Verificar el comportamiento de la señal ECG:** Asegúrate de examinar el comportamiento general de la señal EMG para identificar patrones, tendencias o anomalías que puedan ser relevantes para tu análisis o aplicación específica.
 
 
 ## **Filtrado EMG** <a name="id3"></a>
