@@ -3,11 +3,10 @@
 
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
-3. [Filtrado de EMG](#id3)
-4. [Protocolo de Procesamiento](#id8)
-5. [Obtencion de Características](#id4)
-6. [Conclusiones](#id5)
-7. [Referencias](#id6)
+3. [Protocolo de Procesamiento](#id3)
+4. [Procesamiento y obtención de características de EMG](#id4)
+5. [Conclusiones](#id5)
+6. [Referencias](#id6)
    
 ## **Introducción** <a name="id1"></a>
 
@@ -44,7 +43,7 @@ Pueden extraerse varias características de una señal de electrocardiograma (EC
 
 3. **Verificar el comportamiento de la señal ECG:** Asegúrate de examinar el comportamiento general de la señal EMG para identificar patrones, tendencias o anomalías que puedan ser relevantes para tu análisis o aplicación específica.
 
-## **Protocolo de Procesamiento de la señal ECG** <a name="id8"></a>
+## **Protocolo de Procesamiento de la señal ECG** <a name="id3"></a>
 
 El procesamiento de la señal ECG involucra una serie de pasos esenciales para obtener información clara y precisa de la señal. Estos pasos son los siguientes:
 
@@ -72,7 +71,7 @@ El procesamiento de la señal ECG involucra una serie de pasos esenciales para o
 
 
 
-## **Procesamiento de ECG** <a name="id3"></a>
+## **Procesamiento de ECG** <a name="id4"></a>
 
 ### 1. Lectura del Dataset
 La señal ECG a utilizar en este entregable es la señal del sujeto 3 en estado activo (en ejercicio) obtenida en el entregable 4. Esta señal no se encuentra en unidades de voltaje, por lo que habrá que realizar una conversión de unidades para poseer la señal en mV. Para ello, se realizará una conversión de unidades con la fórmula de la Figura 3.
@@ -164,50 +163,42 @@ En esta sección se describe el proceso de identificación y delimitación de lo
 observamos los picos P y T
 ![picos P y T](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/b3f0c4ac-7663-4475-81ba-4a43b90efffd)
 
-5. **Establecimiento de los límites de cada onda:** Se definen los límites de cada onda en el ECG, incluyendo la onda T, la onda P y la onda R. Esto permite una descripción detallada de la actividad eléctrica cardíaca y es fundamental en el diagnóstico de afecciones cardíacas.
+4. **Establecimiento de los límites de cada onda:** Se definen los límites de cada onda en el ECG, incluyendo la onda T, la onda P y la onda R. Esto permite una descripción detallada de la actividad eléctrica cardíaca y es fundamental en el diagnóstico de afecciones cardíacas.
+![limites de cada onda](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/fb1abf59-7437-46f2-9696-c479385c657e)
+![sigue limites de cada onda](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/99919e38-872e-4eb5-94d7-d52189d89120)
+![sigueeee](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/0296f619-6454-4484-8e18-5c33283e02aa)
 
-6. **Delineación del ECG utilizando el método wavelet con la señal previamente filtrada por un filtro FIR:** Al pasar la señal ECG a través del método de Wavelet Discreta con la señal previamente filtrada por un filtro FIR, se logra una identificación aún más precisa de los límites de las ondas en la señal. Este enfoque refinado mejora la calidad del análisis.
+5. **Delineación del ECG utilizando el método wavelet con la señal previamente filtrada por un filtro FIR:** Al pasar la señal ECG a través del método de Wavelet Discreta con la señal previamente filtrada por un filtro FIR, se logra una identificación aún más precisa de los límites de las ondas en la señal. Este enfoque refinado mejora la calidad del análisis.
+![wavelet fir](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/334450c1-4e60-4101-a2eb-d5dba8fc9bb2)
 
-7. **RR distance y BPM (en los primeros 5 segundos):** Finalmente, se calculan algunas métricas importantes, como el intervalo máximo R-R, el intervalo mínimo R-R, el intervalo promedio R-R y el promedio de latidos por minuto (BPM). Estas métricas proporcionan información vital sobre la variabilidad de la frecuencia cardíaca y el ritmo cardíaco en los primeros 5 segundos de la señal ECG.
+6. **RR distance y BPM (en los primeros 5 segundos):** Finalmente, se calculan algunas métricas importantes, como el intervalo máximo R-R, el intervalo mínimo R-R, el intervalo promedio R-R y el promedio de latidos por minuto (BPM). Estas métricas proporcionan información vital sobre la variabilidad de la frecuencia cardíaca y el ritmo cardíaco en los primeros 5 segundos de la señal ECG.
 
-Este proceso de delineación y análisis detallado de los complejos QRS es esencial en la interpretación de un electrocardiograma y en la identificación de posibles anomalías cardíacas.
+**RR distance y BPM (en los primeros 5 segundos)**
 
+El intervalo máximo R-R es: 0.43 ms
+El intervalo mínimo R-R es: 0.23 ms
+El intervalo promedio R-R es: 0.368 ms
+El BPM promedio es: 162 latidos por minuto
+![ultima](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/f26293c1-4f34-4b02-afaa-9c4a22259c2d)
 
-
-| Creación de Filtros|
-| :---:  |
-![filtroemg](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/85604920-0edc-40c1-939c-d548d78fc5b2)
-
-| Señal |
-| :---:  |
-![IMG-20231023-WA0033](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/2604d181-9725-4e0d-acc8-dce22b64892a)
-![IMG-20231023-WA0034](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/ef63c4e1-bb9c-4da6-afb9-e0a3a72c32cb)
-![IMG-20231023-WA0035](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/8e3de7ec-fdd7-42cc-931c-dee8cb4d08b0)
-![IMG-20231023-WA0036](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/4df81fd9-b71f-42eb-97ce-9befd8b932e4)
-
-
-## **Obtencion de Características** <a name="id4"></a>
-
-Respecto a las características de la señal, para este laboratorio se decidió obtener y analizar las características estadísticas de esta. Se presenta el análisis y comparación entre los 4 sujetos en:
-
-| Mean value |
-![medias](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/df32664e-35ea-4390-b29f-0b829a52bb06)
-
-| RMS |
-![rms](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/840099f0-9734-47a5-939b-e33347409e42)
-
-| Pico-pico |
-![pico-pico](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/ef88a7df-3daf-4516-821e-f1b3d72d08f1)
-
-| Área bajo la curva |
-![areas](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/1154290c-dc34-4091-8856-63d210e8ba6c)
 
 ## **Conclusiones** <a name="id5"></a>
-- La evaluación de la amplitud, tendencia central y variabilidad de las señales EMG permite identificar diversas afecciones y situaciones asociadas al sistema neuromuscular. En este contexto, el análisis de señales EMG es de particular interés debido a su aplicación en el diagnóstico clínico y en diversas aplicaciones biomédicas, como se explico en la introducción, tales como miopatías, neuropatías periféricas, Esclerosis lateral amiotrófica (ELA), Síndrome del túnel carpiano, entre otros.
-- En el laboratorio, se llevó a cabo un análisis de las señales de EMG utilizando un conjunto de datos previamente recopilado. El objetivo principal fue identificar la actividad muscular en función de los movimientos realizados y los músculos involucrados. Este análisis de señales EMG tiene una gran importancia en el ámbito de la biomecánica, ya que proporciona información detallada acerca de la contracción muscular, la fatiga, la coordinación y otros aspectos relacionados con el funcionamiento de los músculos y su relación con los movimientos corporales. Para obtener resultados óptimos a partir de una señal EMG, es esencial realizar una serie de etapas que incluyen el preprocesamiento, la extracción de características y la aplicación de métodos de análisis y clasificación apropiados. Estos procedimientos son cruciales para obtener datos valiosos que se emplean en el diagnóstico y tratamiento de trastornos neuromusculares, así como en otras áreas de la medicina e investigación
+- Los coeficientes de wavelet en diferentes escalas y posiciones revelan información sobre la morfología de las ondas en el ECG, permitiendo identificar los complejos QRS, picos R, límites de onda P, onda T y onda R.
+
+- Al analizar la transformada wavelet discreta de la señal ECG, se identifican las componentes de alta frecuencia que corresponden a la actividad cardíaca. Esto permite calcular la frecuencia cardíaca (beat rate) a partir de los picos R identificados.
+
+- Es posible detectar arritmias cardíacas al analizar las irregularidades en la forma de las ondas ECG y la variabilidad de los intervalos RR.
+
+- La aplicación de filtros Notch y pasa banda resultó eficaz para reducir el ruido en la señal ECG, mejorando la calidad de los datos y permitiendo una detección más precisa de eventos cardíacos.
+
 
 ## **Referencias** <a name="id6"></a>
-[1] A. Farina, M. C. Romano, and A. V. Masci, "Electromyography: Signal analysis and processing," IEEE Signal Processing Magazine, vol. 27, no. 5, pp. 106-121, Sep. 2010.
-[2] M. A. E. El-Borgy, "Electromyography (EMG) signal processing for biomedical applications," Journal of Biomedical Engineering, vol. 32, no. 1, pp. 1-12, Jan. 2010.
-[3] J. C. De Luca, "The use of surface electromyography in assessing muscle function," Journal of Electromyography and Kinesiology, vol. 18, no. 3, pp. 333-345, Jun. 2008.
+[1] Singh, A.K., Krishnan, S. ECG signal feature extraction trends in methods and applications. BioMed Eng OnLine 22, 22 (2023). https://doi.org/10.1186/s12938-023-01075-1
+
+[2] Sörnmo, L. (2009). Electrocardiogram (ECG) Signal Processing. En L. Sörnmo (Ed.), Electrocardiogram (ECG) Signal Processing (pp. 12-20). Wiley.
+
+[3] Gacek, A. (2012). An Introduction to ECG Signal Processing and Analysis. In: Gacek, A., Pedrycz, W. (eds) ECG Signal Processing, Classification and Interpretation. Springer, London. https://doi.org/10.1007/978-0-85729-868-3_2
+
+[4]“Locate P, Q, S and T waves in ECG — NeuroKit2 0.2.7 documentation”, Github.io. [En línea]. Disponible en: https://neuropsychology.github.io/NeuroKit/examples/ecg_delineate/ecg_delineate.html.
+
 
