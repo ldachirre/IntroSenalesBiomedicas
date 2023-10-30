@@ -87,18 +87,28 @@ Una vez realizada esta conversión, se obtiene los valores de la señal ECG en m
 ### 2. Análisis en frecuencia
 Se procede a realizar la FFT de la señal ECG.
 Se puede apreciar en la figura. que existe ruido de frecuencias de 60 y 120 Hz, por lo que se procede a realizar un filtrado con filtro digital Notch.
+![f2](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/4b477854-581e-4b53-a075-3de07b08203d)
 
 ### 3. Filtro Notch
 
 Se aprecia cómo el ruido de 60 y 180 Hz desaparece después del filtrado.
+![f3](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/b8677b1f-a2b0-42cc-8db7-28ee1ee6c98a)
+
+![f333](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/738a26cd-413c-42f9-8994-782e84401645)
 
 ### 4. Filtro pasa banda
 
 Creación de filtro pasa banda.
+![f4](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/d3583507-45c1-48dc-8b07-8849268f2e4a)
+![f44](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/f3265c5a-f299-4c6e-baf1-8c15c1f1ea33)
+
 
 ### 5. Filtro pasa alto
 
 Creación de filtro pasa alto.
+![f5](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/27bc7db4-c9be-4fa0-8e5b-c5428e2a5679)
+![f55](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/1e470728-e8fb-41c0-b56a-dd1f617cf419)
+
 
 ### 6. Filtrado derivativo
 
