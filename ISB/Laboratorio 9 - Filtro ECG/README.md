@@ -201,4 +201,5 @@ El BPM promedio es: 162 latidos por minuto
 
 [4]“Locate P, Q, S and T waves in ECG — NeuroKit2 0.2.7 documentation”, Github.io. [En línea]. Disponible en: https://neuropsychology.github.io/NeuroKit/examples/ecg_delineate/ecg_delineate.html.
 
+[5][10]	“hrv_parameters”, Pluxbiosignals.com. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html. 
 
