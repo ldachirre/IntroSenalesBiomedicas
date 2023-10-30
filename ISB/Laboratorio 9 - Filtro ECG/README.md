@@ -68,12 +68,43 @@ El procesamiento de la señal ECG involucra una serie de pasos esenciales para o
 
 10. **Realizar el análisis de Threshold:** Se determina el umbral de detección de los picos R y se distingue entre estos picos y el ruido.
 
-11. **Obtener los complejos QRS en la señal ECG inicial:** Finalmente, se identifican y extraen los complejos QRS, que representan la actividad eléctrica de los ventrículos del corazón en la señal ECG original.
+11. **Obtener los complejos QRS en la señal ECG inicial:** Finalmente, se identifican y extraen los complejos QRS, que representan la actividad eléctrica de los ventrículos del corazón en la señal ECG original.[2]
 
-## **Filtrado EMG** <a name="id3"></a>
-Según los datos obtenidos en la experiencia de laboratorio pasada (Filtrado de señales) se tiene lo siguiente: Filtrado de la señal EMG mediante filtros digitales FIR e IIR. Sabemos que las frecuencias de EMG se encuentran en un rango entre 50-150 Hz es por ello que se le aplicó un filtro pasa baja con frecuencia de corte de 200 Hz. Respecto al tiempo de análisis, la ventana utilizada fue de 2 segundos. 
 
-Se presentan los valores EMG de los sujetos (4 ejemplares) analizados en la experiencia de laboratorio 4.
+
+## **Procesamiento de ECG** <a name="id3"></a>
+
+### 1. Lectura del Dataset
+La señal ECG a utilizar en este entregable es la señal del sujeto 3 en estado activo (en ejercicio) obtenida en el entregable 4. Esta señal no se encuentra en unidades de voltaje, por lo que habrá que realizar una conversión de unidades para poseer la señal en mV. Para ello, se realizará una conversión de unidades con la fórmula de la Figura 3.
+
+![1](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/a55347a5-8a04-4ea1-9448-1799101a16de)
+![2](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/3cd10b0f-9450-40c4-b966-d36be5fafded)
+**Figura 3.** Conversión de unidades 
+Una vez realizada esta conversión, se obtiene los valores de la señal ECG en mV.
+
+![3](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/f999fa22-c9f2-4373-a211-be805ad1e9df)
+
+### 2. Análisis en frecuencia
+Se procede a realizar la FFT de la señal ECG.
+Se puede apreciar en la figura. que existe ruido de frecuencias de 60 y 120 Hz, por lo que se procede a realizar un filtrado con filtro digital Notch.
+
+### 3. Filtro Notch
+
+Se aprecia cómo el ruido de 60 y 180 Hz desaparece después del filtrado.
+
+### 4. Filtro pasa banda
+
+Creación de filtro pasa banda.
+
+### 5. Filtro pasa alto
+
+Creación de filtro pasa alto.
+
+### 6. Filtrado derivativo
+
+En el artículo nos dan la siguiente función que describe al operador:
+
+
 
 
 | Creación de Filtros|
