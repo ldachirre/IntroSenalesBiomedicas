@@ -10,20 +10,30 @@
    
 ## **Introducción** <a name="id1"></a>
 
+El electrocardiograma, comúnmente conocido como EKG o ECG, es una herramienta fundamental en el mundo de la medicina, ofreciendo una ventana única para observar la actividad eléctrica del corazón. Esta representación gráfica de la función cardíaca no solo es crucial para el diagnóstico y seguimiento de trastornos cardíacos, sino que también desempeña un papel esencial en la comprensión de la salud cardiovascular.
+En términos generales, el pico del ECG oscila en torno a 1 mV y sigue un patrón de ondas denominado PQRST, ilustrado en la Figura 1. Este patrón sigue una periodicidad que se reproduce a lo largo de las ondas características del ECG. Debido a la similitud en la forma de las ondas, los profesionales de la medicina a menudo pueden extraer información visualmente del ECG basándose en la forma de la señal. Por lo tanto, si la forma de la onda no coincide con la morfología esperada y saludable, se puede inferir que existe una enfermedad cardiovascular subyacente causando la anomalía. Esto subraya la importancia de una precisa extracción de las características de una señal ECG. Los usos comunes del ECG abarcan desde el diagnóstico de condiciones como el dolor torácico, taquicardia, bradicardia, hipertensión, hipotensión, lesiones miocárdicas, hasta enfermedades cardíacas reumáticas, y mucho más [1].
+![ecg imagen x](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/aeaeb658-9f72-4ea1-8234-31a8a3fb7b42)
+**Figura 1.** Señal ECG que muestra los componentes PQRST
 
-Una vez que se ha eliminado el ruido y se ha obtenido una señal limpia y precisa, el siguiente paso es la extracción de características. Las características que se extraen de una señal EMG son esenciales para evaluar y analizar la actividad muscular de manera cuantitativa.
+Pueden extraerse varias características de una señal de electrocardiograma (ECG), y cada una de ellas proporciona información valiosa para el análisis de la señal de ECG. A continuación se presentan algunas características comunes y lo que significan en el análisis de la señal de ECG [2], además, se muestra en la **Figura 2**:
 
-Las características de EMG pueden ser utilizadas para diagnosticar una variedad de trastornos musculares y nerviosos. Por ejemplo, la amplitud de la señal puede ser utilizada para evaluar la fuerza muscular, la frecuencia puede ser utilizada para evaluar la actividad muscular, y la duración puede ser utilizada para evaluar el estado de las unidades motoras. Se presentan estas características a continuación:
+- La **frecuencia cardíaca:** La frecuencia cardiaca representa el número de latidos por minuto y se calcula midiendo el tiempo entre los picos R en la forma de onda del ECG. La frecuencia cardíaca suele estar entre 60-90 lpm.
 
-- **Amplitud de la señal:** La amplitud representa la magnitud de la señal EMG y se relaciona con la fuerza muscular. Se puede medir en términos de voltaje y proporciona información sobre la intensidad de la contracción muscular.
+- El **intervalo PR:** es la distancia entre el inicio de la onda P hasta el inicio del complejo QRS y está típicamente entre 0,12-0,20 seg.
 
-- **Frecuencia de la señal:** La frecuencia se refiere a la cantidad de oscilaciones por segundo en la señal EMG y puede ayudar a identificar patrones de actividad muscular. Se mide en Hertz (Hz) y puede ser útil para distinguir entre contracciones musculares normales y patológicas.
+- El **complejo QRS:** mide el tiempo que tardan los ventrículos en despolarizarse. Una duración prolongada del QRS puede sugerir anomalías en la conducción, la cual debe tener una duración inferior a 0,12 seg.
 
-- **Duración de los eventos:** Esta característica indica el tiempo durante el cual un músculo se encuentra activo, lo que es crucial para evaluar la fatiga muscular y determinar cuánto tiempo puede mantener una contracción un músculo antes de debilitarse.
+- El **intervalo QT:** su duración representa el tiempo que tarda la despolarización y repolarización ventricular. Un intervalo QT prolongado puede indicar un mayor riesgo de arritmias.
 
-- **RMS (Root Mean Square):** El valor RMS proporciona una medida cuantitativa de la amplitud de la señal EMG y se utiliza comúnmente para cuantificar la fuerza muscular.
+- El **segmento ST:** representa el tiempo entre la despolarización ventricular y la repolarización y debe ser isoeléctrico. Es crucial en el diagnóstico de afecciones cardiacas como el infarto de miocardio.
 
-- **Área bajo la curva:** Esta medida proporciona información sobre la energía total en la señal EMG y puede estar relacionada con la intensidad y la duración de la actividad muscular.
+- La **onda T:** representa la repolarización ventricular y debe ser vertical en las derivaciones I y II. Asimismo, su amplitud puede ser útil para evaluar ciertas afecciones cardíacas y desequilibrios electrolíticos.
+
+- **Variabilidad de la frecuencia cardiaca (VFC):** mide la variación en el tiempo entre picos R sucesivos. Refleja la influencia del sistema nervioso autónomo sobre el corazón y puede ser un indicador de la salud general, el estrés y los factores de riesgo de diversas afecciones.
+
+- **Frecuencia de la señal:** puede revelar bandas de frecuencia específicas asociadas a arritmias y otras afecciones cardiacas.
+
+- **RMS (Root Mean Square):** El valor RMS proporciona una medida cuantitativa de la amplitud de la señal ECG y se utiliza comúnmente para describir las propiedades estadísticas de la señal de ECG y pueden ser indicativas de condiciones cardiacas específicas.
 
 
 ## **Objetivos** <a name="id2"></a>
