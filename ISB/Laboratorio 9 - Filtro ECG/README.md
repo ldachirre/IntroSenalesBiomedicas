@@ -4,7 +4,8 @@
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
 3. [Filtrado de EMG](#id3)
-4. [Obtencion de Características](#id4)
+4. [Protocolo de Procesamiento](#id8)
+5. [Obtencion de Características](#id4)
 6. [Conclusiones](#id5)
 7. [Referencias](#id6)
    
@@ -43,6 +44,31 @@ Pueden extraerse varias características de una señal de electrocardiograma (EC
 
 3. **Verificar el comportamiento de la señal ECG:** Asegúrate de examinar el comportamiento general de la señal EMG para identificar patrones, tendencias o anomalías que puedan ser relevantes para tu análisis o aplicación específica.
 
+## **Protocolo de Procesamiento de la señal ECG** <a name="id8"></a>
+
+El procesamiento de la señal ECG involucra una serie de pasos esenciales para obtener información clara y precisa de la señal. Estos pasos son los siguientes:
+
+1. **Leer el DataSet:** En esta etapa, se accede a los datos del electrocardiograma para su posterior análisis.
+
+2. **Analizar el ECG en frecuencia:** Se examina la señal en el dominio de la frecuencia para identificar componentes relevantes y características.
+
+3. **Reducir los ruidos con filtro Notch:** Se utiliza un filtro Notch para eliminar ruidos específicos, como interferencias de frecuencia de la red eléctrica.
+
+4. **Filtrar la señal con un filtro pasa banda:** Aplicar un filtro pasa banda ayuda a aislar las frecuencias de interés en la señal ECG.
+
+5. **Filtrar la señal con un filtro pasa alto:** Este filtro permite eliminar componentes de baja frecuencia no deseados.
+
+6. **Realizar el filtrado derivativo:** Se aplica un filtro derivativo para resaltar los cambios en la señal, como las pendientes asociadas a los complejos QRS.
+
+7. **Elevar al cuadrado la señal:** El cuadrado de la señal puede destacar características importantes y suprimir el ruido.
+
+8. **Emplear el operador Moving Window Integration:** Este operador se utiliza para suavizar la señal y resaltar características específicas.
+
+9. **Marcar los picos:** Se detectan los picos R en la señal, que corresponden a la despolarización ventricular.
+
+10. **Realizar el análisis de Threshold:** Se determina el umbral de detección de los picos R y se distingue entre estos picos y el ruido.
+
+11. **Obtener los complejos QRS en la señal ECG inicial:** Finalmente, se identifican y extraen los complejos QRS, que representan la actividad eléctrica de los ventrículos del corazón en la señal ECG original.
 
 ## **Filtrado EMG** <a name="id3"></a>
 Según los datos obtenidos en la experiencia de laboratorio pasada (Filtrado de señales) se tiene lo siguiente: Filtrado de la señal EMG mediante filtros digitales FIR e IIR. Sabemos que las frecuencias de EMG se encuentran en un rango entre 50-150 Hz es por ello que se le aplicó un filtro pasa baja con frecuencia de corte de 200 Hz. Respecto al tiempo de análisis, la ventana utilizada fue de 2 segundos. 
