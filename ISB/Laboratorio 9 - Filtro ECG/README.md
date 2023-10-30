@@ -113,7 +113,64 @@ Creación de filtro pasa alto.
 ### 6. Filtrado derivativo
 
 En el artículo nos dan la siguiente función que describe al operador:
+En el artículo nos dan la siguiente función que describe al operador:
+y[n]=(1/8)(−x[n−2]−2x[n−1]+2x[n+1]+x[n+2])
+Para que esta ecuación pueda ser utilizada necesitamos encuadrarla en un rango de [0,+∞] haciendo que n=+2 entonces tenemos:
+y[n]=(1/8)(−x[n]−2x[n+1]+2x[n+3]+x[n+4])
+Por lo tanto:
+b=[−1,−2,0,2,1]
+![f6](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/0c5f28d5-0d26-496e-8dd3-d78fab6cc823)
+![f66](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/aca200f2-7f4e-4fc0-9917-662d92bcd4e4)
 
+### 7. Operador cuadrático
+
+El operador cuadrático se emplea para destacar ciertas características de la señal, como la amplitud, que puede ser relevante para la detección de arritmias y otras afecciones cardíacas.
+y[n]=x^2[n]
+![f7](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/17a34c73-1024-4169-b7bc-143412517c06)
+
+
+### 8. Operador Moving Window Integration
+
+Este operador se usa para suavizar la señal y extraer características específicas, lo que facilita la identificación de patrones en la señal EKG.
+y[n]=(1/N)(x[n−(N−1)]+x[n−(N−2)]+..+x[n])
+![f8](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/0ed228fc-a959-4d3d-9791-bb0fe1e88a71)
+
+
+### 9. Marcar picos
+Marcar los picos R es esencial para identificar la actividad eléctrica ventricular y medir la frecuencia cardíaca.
+![f9](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/6cb43acf-b0a0-43d6-bb4f-deb747085104)
+
+
+
+### 10. Análisis Threshold
+
+El análisis de Threshold es fundamental para distinguir entre picos R y ruido, garantizando una detección precisa de los complejos QRS.
+![f10](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/1f2fc3f0-651a-4892-aaee-edeccd48c97f)
+![f1010](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/9a77cc6f-bc17-48b5-b854-704dd0305d93)
+![f101010](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/635a03e1-bb6b-4c09-9dc3-b7e0195d8e81)
+
+### 11. Complejos QRS
+
+En esta sección se describe el proceso de identificación y delimitación de los complejos QRS utilizando el método de Wavelet Discreta. Este método permite una representación más precisa de la actividad eléctrica ventricular en la señal ECG lo que es crucial en el diagnóstico de afecciones cardíacas y la evaluación de la salud del corazón.. El proceso se lleva a cabo en varias etapas:
+![f11](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/f6f29bf3-98cb-4796-9bc7-db465003e603)
+1. **Identificación de los picos R:** El primer paso consiste en identificar los picos R en la señal ECG. Estos picos representan la despolarización ventricular y son fundamentales para determinar la frecuencia cardíaca y la actividad eléctrica del corazón.
+![picos r](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/cb1fa991-571b-4277-9563-38f81941e151)
+
+2. **Delimitando el complejo QRS con la librería Neurokit:** Una vez que se han identificado los picos R, se utiliza la librería Neurokit para delimitar el complejo QRS en la señal. Esto implica identificar los puntos iniciales y finales de la onda QRS, lo que permite un análisis más preciso de esta importante parte del ECG.
+![qrs neurokit](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/285fb533-4de0-4a3c-b32b-fc2073605618)
+
+3. **Delineación de las ondas P y T:** Después de delimitar el complejo QRS, se enfoca en la identificación de los picos P y T en la señal. Estos picos representan la despolarización de las aurículas (onda P) y la repolarización ventricular (onda T). Para una identificación precisa, se centra en el período entre -0.2 y 0.2 segundos, ya que fuera de este rango se pueden encontrar repeticiones de las mismas ondas.
+![wavelet discreto](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/0fcbc64d-d1b7-4d45-b6cb-2d30c93dd83f)
+observamos los picos P y T
+![picos P y T](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/b3f0c4ac-7663-4475-81ba-4a43b90efffd)
+
+5. **Establecimiento de los límites de cada onda:** Se definen los límites de cada onda en el ECG, incluyendo la onda T, la onda P y la onda R. Esto permite una descripción detallada de la actividad eléctrica cardíaca y es fundamental en el diagnóstico de afecciones cardíacas.
+
+6. **Delineación del ECG utilizando el método wavelet con la señal previamente filtrada por un filtro FIR:** Al pasar la señal ECG a través del método de Wavelet Discreta con la señal previamente filtrada por un filtro FIR, se logra una identificación aún más precisa de los límites de las ondas en la señal. Este enfoque refinado mejora la calidad del análisis.
+
+7. **RR distance y BPM (en los primeros 5 segundos):** Finalmente, se calculan algunas métricas importantes, como el intervalo máximo R-R, el intervalo mínimo R-R, el intervalo promedio R-R y el promedio de latidos por minuto (BPM). Estas métricas proporcionan información vital sobre la variabilidad de la frecuencia cardíaca y el ritmo cardíaco en los primeros 5 segundos de la señal ECG.
+
+Este proceso de delineación y análisis detallado de los complejos QRS es esencial en la interpretación de un electrocardiograma y en la identificación de posibles anomalías cardíacas.
 
 
 
