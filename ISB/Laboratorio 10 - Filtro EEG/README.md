@@ -53,7 +53,8 @@ El tratamiento de la señal EEG fue realizado en Google Colab. En el siguiente e
 `<link>` : https://colab.research.google.com/drive/1vgRHCh9aj3bNEJZHtLRCnnZxudpAYNSe?usp=sharing
 
 ### 1. Leer el DataSet
-Las señales EEG a utilizar en este entregable son en los 4 escenarios obtenidos en el entregable 6: En reposo, Parpadeando, Resolviendo preguntas díficiles y Resolviendo preguntas fáciles.
+Las señales EEG a utilizar en este entregable son en los 4 escenarios obtenidos en el entregable 6:
+En reposo, Parpadeando, Resolviendo preguntas díficiles y Resolviendo preguntas fáciles.
 
 Se plotea las señales, luego de haber realizo la conversión a uV.
 
@@ -61,7 +62,9 @@ Se plotea las señales, luego de haber realizo la conversión a uV.
 > Fig 2. Señales EEG en uV
 
 ### 2. Señal EEG en el Dominio de la Frecuencia
-Se procede a graficar la señal EEG en el Dominio de la Frecuencia.
+Se procede a graficar la señal EEG en el Dominio de la Frecuencia. Plotear la señal de EEG en el dominio de la frecuencia FFT nos permite visualizar la distribución de la energía de la señal en diferentes frecuencias. Esto es útil para identificar diferentes patrones de actividad cerebral, que pueden estar asociados a diferentes estados mentales o procesos cognitivos. Por ejemplo, las ondas alfa, que tienen frecuencias de 8 a 12 Hz, están asociadas a un estado de relajación y atención relajada. Las ondas beta, que tienen frecuencias de 13 a 30 Hz, están asociadas a un estado de alerta y atención concentrada. Las ondas gamma, que tienen frecuencias de 30 a 100 Hz, están asociadas a procesos cognitivos complejos, como el aprendizaje y la memoria.
+
+Además, plotear la señal de EEG en el dominio de la frecuencia FFT nos permite identificar la presencia de ruido. El ruido puede ser causado por una variedad de factores, como el movimiento del paciente, la interferencia electromagnética o la mala calidad del equipo de EEG. Presentamos las ffts de la señal a continuación 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/eb552874-dd0e-43bc-b039-244708c3bd7e)
 > Fig 3. Señales EEG en el Dominio de la Frecuencia
 
