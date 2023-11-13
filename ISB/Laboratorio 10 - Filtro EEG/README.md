@@ -11,6 +11,7 @@
 ## **Introducción** <a name="id1"></a>
 
 Como se ha discutido anteriormente, el EEG es un procedimiento valioso para registrar la actividad eléctrica en el cerebro. Esto debido a que nos permite ver dicha actividad en forma de ondas a diferentes frecuencias, proporcionando una visión detallada de la actividad cerebral en distintos estados. Durante el análisis de los datos de EEG, se examinaron varias bandas de frecuencia que reflejan patrones específicos de actividad neuronal. [1]
+
 A continuación se presenta una figura resumen con las diferentes señales obtenidas y su representación en la actividad cerebral. Para mayor información revisar el entregable pasado sobre señales EEG [aquí](https://github.com/ldachirre/IntroSenalesBiomedicas/tree/8d0f69448327d5be9a3340be16b55933ab11a1d4/ISB/Laboratorio%206%20-%20EEG).
 
 ![Captura de pantalla 2023-10-01 200816](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/3491545d-f923-4ba3-9c86-8a0a17b9562d) 
