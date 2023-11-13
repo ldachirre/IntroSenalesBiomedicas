@@ -87,6 +87,7 @@ Las ondas alfa, con una frecuencia de 8 a 13 Hz, son observadas durante los 4 es
 
 ## **Conclusiones** <a name="id5"></a>
 
+
 ## **Referencias** <a name="id6"></a>
 [1] S. U. C. M. Ehrotra, Introduction To EEG- and Emotion Recognition. 2018. Accedido: 30 de septiembre de 2023. [En línea]. Disponible en: http://www.sciencedirect.com:5070/book/9780128044902/introduction-to-eeg-and-speech-based-emotion-recognition
 
