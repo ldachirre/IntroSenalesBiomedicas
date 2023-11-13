@@ -84,6 +84,14 @@ Para detectar ERP, se utilizó un procedimiento llamado promediación. En este p
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/658a2f35-7255-447e-b850-06d73ba15406)
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/6914c851-719f-4964-b368-c7b8d1ed50be)
 > Fig 5. Detección de ERP
+#### Discusión de Resultados de ERP
+Los resultados de la detección de ERP mostraron que los ERP asociados a la presentación de preguntas matemáticas difíciles y fáciles eran diferentes. En particular, los ERP asociados a las preguntas matemáticas difíciles eran más grandes y tenían una latencia más temprana que los ERP asociados a las preguntas matemáticas fáciles. Estas diferencias pueden indicar que la presentación de preguntas matemáticas difíciles activa diferentes regiones del cerebro que la presentación de preguntas matemáticas fáciles.
+
+Una posibilidad es que las preguntas matemáticas difíciles requieran una mayor cantidad de procesamiento cognitivo que las preguntas matemáticas fáciles. Esto podría conducir a una activación más temprana y más intensa de las regiones del cerebro involucradas en el procesamiento cognitivo.
+
+Sin embargo otra posibilidad es que las preguntas matemáticas difíciles sean más emocionalmente desafiantes que las preguntas matemáticas fáciles debido a que se está frente a varias personas y debido a que la probabilidad de fallar en la respuesta es mayor. Esto podría conducir a una activación de las regiones del cerebro involucradas en la emoción.
+
+
 
 ### 5. Extracción de la Banda Alfa
 Las ondas alfa, con una frecuencia de 8 a 13 Hz, son observadas durante los 4 escenarios: En reposo, Parpadeando, Resolviendo preguntas díficiles y Resolviendo preguntas fáciles. Se caracterizan por ser lentas y menos intensas que las ondas beta y theta, con mayor amplitud en las regiones occipital y frontal, y ocasional presencia en las zonas parietales y temporales. Conocer estas ondas es crucial para el diagnóstico y tratamiento de trastornos neurológicos, ya que las diferencias topográficas en su distribución han demostrado ser específicas para distintos tipos de patologías. [4]
