@@ -107,6 +107,9 @@ Las ondas alfa, con una frecuencia de 8 a 13 Hz, son observadas durante los 4 es
 > Fig 6. Extracción de la Banda Alfa
 
 ## **Conclusiones** <a name="id5"></a>
+- El filtrado de señales EEG permitió eliminar el ruido de las señales EEG. Esto facilitó la identificación de patrones de actividad cerebral asociados a los diferentes escenarios en los que se registraron las señales EEG.
+- En este caso, la detección de ERP permitió identificar diferencias en la actividad cerebral entre los diferentes escenarios. En particular, se observaron diferencias significativas en los ERP asociados a la presentación de preguntas matemáticas difíciles y fáciles.
+- La extracción de ondas alfa mostró que la amplitud de las ondas alfa es mayor en estado de reposo que en los otros escenarios. Esto es consistente con la literatura científica, que muestra que las ondas alfa están asociadas a un estado de relajación y atención relajada.
 
 
 ## **Referencias** <a name="id6"></a>
