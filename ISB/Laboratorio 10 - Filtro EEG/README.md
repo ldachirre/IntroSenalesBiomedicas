@@ -115,7 +115,7 @@ Las ondas beta, de frecuencia 13 a 30 Hz, se observan en los 4 escenarios.
 
 
 ### 5.3 Extracción de la Banda Gamma
-Las ondas beta, de frecuencia 30 a 100 Hz, se observan en los 4 escenarios.
+Las ondas gamma, de frecuencia 30 a 100 Hz, se observan en los 4 escenarios.
 
 > Fig 8. Extracción de la Banda Gamma
 ![download](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/c035000a-a2c3-4f3e-912c-a8d2839a4a73)
