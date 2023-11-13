@@ -69,7 +69,8 @@ Además, plotear la señal de EEG en el dominio de la frecuencia FFT nos permite
 > Fig 3. Señales EEG en el Dominio de la Frecuencia
 
 ### 3. Señal EEG Filtrada
-Se procede a filtrar la señal EEG.
+Se procede a filtrar la señal EEG. Las señales de EEG fueron filtradas utilizando un filtro pasabanda. Este filtro permitió que solo las frecuencias entre 3 Hz y 30 Hz pasaran a través del filtro. El filtro pasabanda fue implementado utilizando una función de la biblioteca bsnb. 
+En este caso, se utilizó un orden de filtro de 2. Esto significa que las frecuencias fuera de la banda de paso fueron atenuadas en un factor de 4.Una vez que las señales EEG fueron filtradas, se graficaron utilizando la biblioteca Matplotlib de Python. Los gráficos muestran las señales EEG en el dominio del tiempo.
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/485ff6a0-ad78-4bdb-920a-09ae5057929e)
 > Fig 4. Señales EEG filtrada
 
