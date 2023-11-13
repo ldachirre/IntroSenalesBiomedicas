@@ -19,7 +19,7 @@ A continuación se presenta una figura resumen con las diferentes señales obten
 
 La extracción de características es un proceso por el cual a una señal le son extraídas información relevante (características) las cuales son más sencillas de interpretar que la señal original. Dicha información extraída refleja la fisiología y anatomía de la actividad ocurrida en el cerebro donde se puede observar el comportamiento que responde a cierta actividad y/o estímulo. Este proceso requiere un gran número de dataset donde se utilizan algoritmos para su extracción y análisis, por ejemplo Hilbert-Huang Transform (HHT), Principal Component Analysis (PCA), Independent Component Analysis (ICA), etc. [2]
 
-En este entregable se analizarán las señales obtenidas previamente las cuales se les serán extraídas principalmente mediante:
+En este entregable se analizarán las señales obtenidas previamente (entregable 6) en las cuales se usará la biblioteca de [biosignalsnotebooks](https://github.com/pluxbiosignals/biosignalsnotebooks) para practicidad en la visualización y obtención de data.
 
 
 
