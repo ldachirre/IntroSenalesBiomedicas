@@ -108,14 +108,14 @@ Las ondas alfa, con una frecuencia de 8 a 13 Hz, son observadas durante los 4 es
 
 
 ### 5.2 Extracción de la Banda Beta
-Las ondas beta, de frecuencia 13 a 30 Hz, se observan en los 4 escenarios.
+Las ondas beta, de frecuencia 13 a 30 Hz, se observan en los 4 escenarios. La amplitud de las ondas beta es relativamente baja en comparación con las ondas alfa o theta. La amplitud puede variar dependiendo de la tarea en la que se encuentra el sujeto. Para nuestro caso, debido a la posicion de los electrodos del Bitalino se analizaron las ondas beta frontales las cuales estan asociadas con procesos cognitivos superiores y la toma de decisiones.
 
 ![download](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/676e0320-0b95-411e-905c-9ab314d5d310)
 > Fig 7. Extracción de la Banda Beta
 
 
 ### 5.3 Extracción de la Banda Gamma
-Las ondas gamma, de frecuencia 30 a 100 Hz, se observan en los 4 escenarios.
+Las ondas gamma, de frecuencia 30 a 100 Hz, se observan en los 4 escenarios. Las ondas gamma se caracterizan por su alta frecuencia y amplitud relativamente baja en comparación con otras frecuencias de ondas cerebrales. Las ondas gamma pueden aumentar en amplitud y sincronización durante tareas cognitivas que requieren la integración de información, como la resolución de problemas, la memoria de trabajo, la atención selectiva y la percepción visual. Se observa un pico a 60 Hz, el cual suele ser es el resultado de interferencias de fuentes eléctricas externas, como sistemas eléctricos, lámparas fluorescentes, o incluso dispositivos electrónicos cercanos al Bitalino. Este tipo de interferencia electromagnética a menudo se conoce como "ruido de línea"
 
 > Fig 8. Extracción de la Banda Gamma
 ![download](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/c035000a-a2c3-4f3e-912c-a8d2839a4a73)
