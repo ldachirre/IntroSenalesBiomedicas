@@ -15,9 +15,7 @@ Como se ha discutido anteriormente, el EEG es un procedimiento valioso para regi
 A continuación se presenta una figura resumen con las diferentes señales obtenidas y su representación en la actividad cerebral. Para mayor información revisar el entregable pasado sobre señales EEG [aquí](https://github.com/ldachirre/IntroSenalesBiomedicas/tree/8d0f69448327d5be9a3340be16b55933ab11a1d4/ISB/Laboratorio%206%20-%20EEG).
 
 ![Captura de pantalla 2023-10-01 200816](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/3491545d-f923-4ba3-9c86-8a0a17b9562d) 
-**Figura 1.** EEG bandas de frecuencia, ocurrencia y tareas para activar la potencia de banda
-
-El análisis de una señal se ve 
+> Figura 1. EEG bandas de frecuencia, ocurrencia y tareas para activar la potencia de banda
 
 La extracción de características es un proceso por el cual a una señal le son extraídas información relevante (características) las cuales son más sencillas de interpretar que la señal original. Dicha información extraída refleja la fisiología y anatomía de la actividad ocurrida en el cerebro donde se puede observar el comportamiento que responde a cierta actividad y/o estímulo. Este proceso requiere un gran número de dataset donde se utilizan algoritmos para su extracción y análisis, por ejemplo Hilbert-Huang Transform (HHT), Principal Component Analysis (PCA), Independent Component Analysis (ICA), etc. [2]
 
@@ -30,7 +28,7 @@ En este entregable se analizarán las señales obtenidas previamente las cuales 
 
 2. **Realizar el análisis de las características y compararlo con valores de la literatura:** Evaluación y comparación de las características extraídas con valores de referencia disponibles en la literatura. Esto ayuda a entender cómo se comporta la señal en relación con los datos previamente documentados.
 
-3. **Verificar el comportamiento de la señal ECG:** Comportamiento general de la señal EMG para identificar patrones, tendencias o anomalías que puedan ser relevantes para tu análisis o aplicación específica.
+3. **Verificar el comportamiento de la señal EEG:** Comportamiento general de la señal EEG para identificar patrones, tendencias o anomalías que puedan ser relevantes para tu análisis o aplicación específica.
 
 ## **Metodología** <a name="id3"></a>
 
@@ -40,44 +38,55 @@ El procesamiento de la señal EEG involucra una serie de pasos esenciales para o
 
 2. **Analizar el EEG en frecuencia:** Se examina la señal en el dominio de la frecuencia para identificar componentes relevantes y características.
 
-3. **Reducir los ruidos con filtro Notch:** Se utiliza un filtro Notch para eliminar ruidos específicos, como interferencias de frecuencia de la red eléctrica.
+3. **Filtrar la señal con un filtro pasa banda:** Aplicar un filtro pasa banda ayuda a aislar las frecuencias de interés en la señal EEG.
 
-4. **Filtrar la señal con un filtro pasa banda:** Aplicar un filtro pasa banda ayuda a aislar las frecuencias de interés en la señal EEG.
+4. **Detección de ERP:** Se detectan potenciales relacionados con eventos (ERP), los cuales pueden desencadenarse por estímulos auditivos, visuales o somatosensoriales. Un ejemplo es el P300 , que es una desviación positiva unos 300 ms después de un evento impar. La sincronización del EEG con el momento preciso del inicio de los estímulos es importante debido a la aparición de potenciales evocados entre 100 y 900 ms después del inicio de los estímulos ( ref ).
 
-5. **Filtrar la señal con un filtro pasa alto:** Este filtro permite eliminar componentes de baja frecuencia no deseados.
-
-6. **Realizar el filtrado derivativo:** Se aplica un filtro derivativo para resaltar los cambios en la señal, XXX
-
-7. **Elevar al cuadrado la señal:** El cuadrado de la señal puede destacar características importantes y suprimir el ruido.
-
-8. **Emplear el operador Moving Window Integration:** Este operador se utiliza para suavizar la señal y resaltar características específicas.
-
-9. **Marcar los picos:** Se detectan los picos R en la señal, que corresponden a la despolarización ventricular.
-
-10. **Realizar el análisis de Threshold:** Se determina el umbral de detección de los picos R y se distingue entre estos picos y el ruido.
+5. **Detección de la banda Alfa:** Se extraen las oscilaciones de la banda alfa oscilan en frecuencias de 8-12 Hz, las cuales se originan en el lóbulo occipital. Las ondas alfa están asociadas a un proceso específico y están presentes principalmente cuando los ojos están cerrados y bloqueadas principalmente cuando los ojos están abiertos.
 
 
 ## **Procesamiento y obtención de características de EEG** <a name="id4"></a>
 
-### 1. Lectura del Dataset
+### Código en Google Colab
+El tratamiento de la señal EEG fue realizado en Google Colab. En el siguiente enlace, podrá visualizar los resultados y el código utilizado.
 
-### 2. Análisis en frecuencia
+`<link>` : https://colab.research.google.com/drive/1vgRHCh9aj3bNEJZHtLRCnnZxudpAYNSe?usp=sharing
 
-### 3. Filtro Notch
+### 1. Leer el DataSet
+Las señales EEG a utilizar en este entregable son en los 4 escenarios obtenidos en el entregable 6: En reposo, Parpadeando, Resolviendo preguntas díficiles y Resolviendo preguntas fáciles.
 
-### 4. Filtro pasa banda
+Se plotea las señales, luego de haber realizo la conversión a uV.
 
-### 5. Filtro pasa alto
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/9e792e1f-8c75-49a3-8006-301ff7d95363)
+> Fig 2. Señales EEG en uV
 
-### 6. Filtrado derivativo
+### 2. Señal EEG en el Dominio de la Frecuencia
+Se procede a graficar la señal EEG en el Dominio de la Frecuencia.
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/eb552874-dd0e-43bc-b039-244708c3bd7e)
+> Fig 3. Señales EEG en el Dominio de la Frecuencia
 
-### 7. Operador cuadrático
+### 3. Señal EEG Filtrada
+Se procede a filtrar la señal EEG.
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/485ff6a0-ad78-4bdb-920a-09ae5057929e)
+> Fig 4. Señales EEG filtrada
 
-### 8. Operador Moving Window Integration
+### 4. Detección de ERP
+El ERP es definido como la actividad del EEG bloqueada en el tiempo o también llamado potencial relacionado con eventos. Los ERP son voltajes muy pequeños generados como respuesta a estímulos específicos. Con ellos se puede capturar la actividad neuronal que esté relacionada a procesos cognitivos y sensoriales ya que reflejan la actividad de los potenciales postsinápticos cuando muchas neuronas piramidales se disparan en sincronía. [3]
 
-### 9. Marcar picos
+Los ERPs se caracterizan por su forma y tiempo de aparición en relación con el estímulo. Se dividen en dos grandes grupos, las que alcanzan su valor máximo en los primeros 100 milisegundos y los que se generan en partes posteriores. [3]
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/eb6f176e-fb67-467a-b042-5cadb1e0d6a9)
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/b2250edb-7686-4fc4-8f8f-b0c63cca75b6)
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/658a2f35-7255-447e-b850-06d73ba15406)
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/6914c851-719f-4964-b368-c7b8d1ed50be)
+> Fig 5. Detección de ERP
 
-### 10. Análisis Threshold
+### 5. Extracción de la Banda Alfa
+Las ondas alfa van de 8 a 13 Hz de frecuencia y generalmente se observan en estado de relajación o descanso. Son lentas y de menor intensidad que las ondas beta y theta. Estas tienen mayor amplitud en las regiones occipital y frontal, pero también pueden ser notables en las zonas parietales y temporales. [4]
+
+Se necesita conocer esta onda para poder diagnosticar y tratar trastornos neurológicos, ya que se ha demostrado que existen diferencias topográficas en la distribución de estas ondas para cada tipo de patología. [5]
+
+![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/348dbe20-34c1-4e59-851e-2c2720d42c8d)
+> Fig 6. Extracción de la Banda Alfa
 
 ## **Conclusiones** <a name="id5"></a>
 
