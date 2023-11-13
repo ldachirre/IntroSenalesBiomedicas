@@ -44,6 +44,13 @@ El procesamiento de la señal EEG involucra una serie de pasos esenciales para o
 
 5. **Detección de la banda Alfa:** Se extraen las oscilaciones de la banda alfa oscilan en frecuencias de 8-12 Hz, las cuales se originan en el lóbulo occipital. Las ondas alfa están asociadas a un proceso específico y están presentes principalmente cuando los ojos están cerrados y bloqueadas principalmente cuando los ojos están abiertos.
 
+ 
+Para extraer las ondas alfa de las señales EEG, se utilizó el método de Welch. Este método divide la señal EEG en ventanas de tiempo y calcula la transformada de Fourier de cada ventana. La transformada de Fourier de una señal es una representación de la señal en el dominio de la frecuencia. En este caso, se utilizó una ventana de tiempo de 4 segundos. Esto dio como resultado una resolución de frecuencia de 0.25 Hz.
+
+Una vez que se calcularon las transformadas de Fourier, se seleccionaron las frecuencias entre 8 Hz y 12 Hz. Estas frecuencias corresponden a la banda alfa.
+
+Los resultados de la extracción de ondas alfa se muestran en los cuatro subplots de la figura. Cada subplot muestra el espectro de frecuencia de las ondas alfa para un escenario diferente: en estado de reposo, parpadeando, preguntas difíciles y preguntas fáciles.
+
 
 ## **Procesamiento y obtención de características de EEG** <a name="id4"></a>
 
