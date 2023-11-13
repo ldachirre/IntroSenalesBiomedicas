@@ -1,4 +1,4 @@
-# LABORATORIO 10: Filtrado de ECG y obtención de sus características
+# LABORATORIO 10: Filtrado de EEG y obtención de sus características
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
