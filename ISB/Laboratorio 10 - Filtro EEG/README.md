@@ -100,11 +100,28 @@ Sin embargo otra posibilidad es que las preguntas matemáticas difíciles sean m
 
 
 
-### 5. Extracción de la Banda Alfa
+### 5.1 Extracción de la Banda Alfa
 Las ondas alfa, con una frecuencia de 8 a 13 Hz, son observadas durante los 4 escenarios: En reposo, Parpadeando, Resolviendo preguntas díficiles y Resolviendo preguntas fáciles. Se caracterizan por ser lentas y menos intensas que las ondas beta y theta, con mayor amplitud en las regiones occipital y frontal, y ocasional presencia en las zonas parietales y temporales. Conocer estas ondas es crucial para el diagnóstico y tratamiento de trastornos neurológicos, ya que las diferencias topográficas en su distribución han demostrado ser específicas para distintos tipos de patologías. [4]
 
 ![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/348dbe20-34c1-4e59-851e-2c2720d42c8d)
 > Fig 6. Extracción de la Banda Alfa
+
+
+### 5.2 Extracción de la Banda Beta
+Las ondas beta, de frecuencia 13 a 30 Hz, se observan en los 4 escenarios.
+
+![download](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/676e0320-0b95-411e-905c-9ab314d5d310)
+> Fig 7. Extracción de la Banda Beta
+
+
+### 5.3 Extracción de la Banda Gamma
+Las ondas beta, de frecuencia 30 a 100 Hz, se observan en los 4 escenarios.
+
+> Fig 8. Extracción de la Banda Gamma
+![download](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/c035000a-a2c3-4f3e-912c-a8d2839a4a73)
+
+
+
 
 ## **Conclusiones** <a name="id5"></a>
 - El filtrado de señales EEG permitió eliminar el ruido de las señales EEG. Esto facilitó la identificación de patrones de actividad cerebral asociados a los diferentes escenarios en los que se registraron las señales EEG.
