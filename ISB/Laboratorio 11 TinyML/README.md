@@ -1,4 +1,4 @@
-# LABORATORIO 10: Filtrado de EEG y obtención de sus características
+# LABORATORIO 11: Edge Impulse.
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
