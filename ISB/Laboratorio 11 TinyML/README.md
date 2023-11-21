@@ -39,7 +39,7 @@ En este entregable se analizarán las señales obtenidas
    - Utilizamos sensores de EMG para recopilar datos durante contracciones del bíceps en un laboratorio de prototipado. Los datos recopilados en este laboratorio son los utilizados en este modelo.
 
 2. **Exportación de Datos:**
-   - Seguidamente, exportamos la data en formato .txt (el mismo formato que guarda el programa OpenSignals) a un archivo .csv para que pueda ser leído por Edge Impulse. Es necesario recalcar que el dataset a ser subido debe tener por lo menos 2 columnas una con los valores (características) a evaluar y el otro con el timestamp (no será evaluado pero genera un error si no hay por lo menos 2 columnas). [1]
+   - Seguidamente, exportamos la data en formato .txt (el mismo formato que guarda el programa OpenSignals) a un archivo .csv para que pueda ser leído por Edge Impulse. Es necesario recalcar que el dataset a ser subido debe tener por lo menos 2 columnas una con los valores (características) a evaluar y el otro con el timestamp (no será evaluado pero genera un error si no hay por lo menos 2 columnas). [2]
 
 3. **Etiquetado de Datos:**
    - Asignamos etiquetas a cada grabación, indicando la intensidad de la contracción y la duración correspondiente. Esto facilita el entrenamiento supervisado del modelo.
@@ -103,7 +103,9 @@ Se reentreno el modelo con la función "Retrain Model" donde se observa como aum
 
 ## **Referencias** <a name="id6"></a>
 [1] Edge impulse (2021) Edge AI and Vision Alliance. Available at: https://www.edge-ai-vision.com/companies/edge-impulse/
+
 [2] Abdalrahman (2022) Dataset from from 2 channels of the EMG sensor/unable to upload due to timestamp, Edge Impulse. Available at: https://forum.edgeimpulse.com/t/dataset-from-from-2-channels-of-the-emg-sensor-unable-to-upload-due-to-timestamp/4693
+
 [3] Zachary / classification of EMG SIGINAL (no date) Classification of EMG siginal - Dashboard - Edge Impulse. Available at: https://studio.edgeimpulse.com/public/107747/latest
 
 
