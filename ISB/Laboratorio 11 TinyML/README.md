@@ -58,10 +58,10 @@ En este entregable se analizarán las señales obtenidas
 
 
 
-
+---
 ## **Resultados** <a name="id4"></a>
 
-**Training 2 labels**
+#### **Training 2 labels**
 
 **Espectral Features**
 ![Imagen de WhatsApp 2023-11-20 a las 22 54 57_91ed5d5f](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/48f08af5-85d5-4fab-8631-b8003fd4d8f5)
@@ -70,15 +70,19 @@ En este entregable se analizarán las señales obtenidas
 **Classifier**
 ![4](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/5cdeaf34-a519-48ac-a917-3700407a171d)
 ![3](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/2eefb2b0-739f-4844-ae0a-e8f8c27f57d7)
+---
+#### **Training 4 labels**
 
-**Training 4 labels**
 **Spectral Features**
+
 ![5](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/7184a3c8-01e2-403c-a66c-884a6720b042)
 ![6](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/54a457b7-9971-43e9-8470-3aa7ef5b0c4b)
 
 **Classifier**
-![7](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/b3423e4a-5502-4212-b458-01fca717810b)
 
+![7](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/b3423e4a-5502-4212-b458-01fca717810b)
+---
+#### Retraining
 ![8](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/c4171648-2ff6-4324-a389-7dd5fce4d370)
 ![9](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/103b8d8b-a108-44be-bdb2-40e44161a0e9)
 ![10](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/dcbd78a9-b83e-4340-b2fe-f5b465a35259)
