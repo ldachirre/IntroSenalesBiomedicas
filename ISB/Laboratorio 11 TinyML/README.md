@@ -73,28 +73,43 @@ Se subieron los modelos analizados por el laboratorio 4 donde se evaluaron los s
 
 ![2](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/fa74f2e9-c5ce-4eda-b670-bc0e7d3d34c3)
 > Figura 3. Características Espectrales, importancia
+
+
 **Classifier**
+Se entrenó el modelo un número de epocs de 200 a un ratio de aprendizaje de 0.001
+![3](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/2eefb2b0-739f-4844-ae0a-e8f8c27f57d7)
+> Figura 3. Classifier, configuración de red neuronal 
 
 ![4](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/5cdeaf34-a519-48ac-a917-3700407a171d)
-![3](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/2eefb2b0-739f-4844-ae0a-e8f8c27f57d7)
+> Figura 4. Classifier, resultados del modelo generado
 ---
 ### **Training 4 labels**
+
+Se agregan los datos generados por el segundo sujeto el cual realizó los mismos ejercicios y se agregó al modelo ya entrenado
 
 **Spectral Features**
 
 ![5](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/7184a3c8-01e2-403c-a66c-884a6720b042)
+> Figura 5. Classifier , configuración de red neuronal
+
 ![6](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/54a457b7-9971-43e9-8470-3aa7ef5b0c4b)
+> Figura 6. Classifier , configuración de red neuronal
 
 **Classifier**
 
 ![7](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/b3423e4a-5502-4212-b458-01fca717810b)
 ---
 ### Retraining
-![8](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/c4171648-2ff6-4324-a389-7dd5fce4d370)
-![9](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/103b8d8b-a108-44be-bdb2-40e44161a0e9)
-![10](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/dcbd78a9-b83e-4340-b2fe-f5b465a35259)
-
 Se reentreno el modelo con la función "Retrain Model" donde se observa como aumenta la precision a 80% con una mejoria deo 0.6% con respecto a la primera vez y tambien se redujo la perdida de datos, en la gráfica creada se pueden diferenciar mejor los valores para cada label.
+
+![8](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/c4171648-2ff6-4324-a389-7dd5fce4d370)
+> Figura 7. Classifier , configuración de red neuronal
+
+![9](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/103b8d8b-a108-44be-bdb2-40e44161a0e9)
+> Figura 8. Classifier , configuración de red neuronal
+
+![10](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/dcbd78a9-b83e-4340-b2fe-f5b465a35259)
+> Figura 9. Classifier , configuración de red neuronal
 
 ## **Conclusiones** <a name="id5"></a>
 - A pesar del tamaño limitado del dataset, el modelo demostró una precisión notable en la diferenciación entre "músculo contraído" y "músculo relajado". Esto sugiere un potencial prometedor para aplicar el modelo en un conjunto de datos más grande y variado.
