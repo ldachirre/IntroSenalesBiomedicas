@@ -61,14 +61,27 @@ En este entregable se analizarán las señales obtenidas
 
 ## **Resultados** <a name="id4"></a>
 
+**Training 2 labels**
 
+**Espectral Features**
+![Imagen de WhatsApp 2023-11-20 a las 22 54 57_91ed5d5f](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/48f08af5-85d5-4fab-8631-b8003fd4d8f5)
+![2](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/fa74f2e9-c5ce-4eda-b670-bc0e7d3d34c3)
 
+**Classifier**
+![4](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/5cdeaf34-a519-48ac-a917-3700407a171d)
+![3](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/2eefb2b0-739f-4844-ae0a-e8f8c27f57d7)
+
+**Training 4 labels**
+**Spectral Features**
+![6](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/54a457b7-9971-43e9-8470-3aa7ef5b0c4b)
+![5](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/7184a3c8-01e2-403c-a66c-884a6720b042)
+
+**Classifier**
+![7](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/b3423e4a-5502-4212-b458-01fca717810b)
 
 
 ## **Conclusiones** <a name="id5"></a>
-- El filtrado de señales EEG permitió eliminar el ruido de las señales EEG. Esto facilitó la identificación de patrones de actividad cerebral asociados a los diferentes escenarios en los que se registraron las señales EEG.
-- En este caso, la detección de ERP permitió identificar diferencias en la actividad cerebral entre los diferentes escenarios. En particular, se observaron diferencias significativas en los ERP asociados a la presentación de preguntas matemáticas difíciles y fáciles.
-- La extracción de ondas alfa mostró que la amplitud de las ondas alfa es mayor en estado de reposo que en los otros escenarios. Esto es consistente con la literatura científica, que muestra que las ondas alfa están asociadas a un estado de relajación y atención relajada.
+
 
 
 ## **Referencias** <a name="id6"></a>
