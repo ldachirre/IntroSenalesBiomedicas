@@ -4,7 +4,7 @@
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
 3. [Metodología](#id3)
-4. [Procesamiento y obtención de características de EEG](#id4)
+4. [Resultados](#id4)
 5. [Conclusiones](#id5)
 6. [Referencias](#id6)
    
@@ -59,73 +59,8 @@ En este entregable se analizarán las señales obtenidas
 
 
 
-## **Procesamiento y obtención de características de EEG** <a name="id4"></a>
+## **Resultados** <a name="id4"></a>
 
-### Código en Google Colab
-El tratamiento de la señal EEG fue realizado en Google Colab. En el siguiente enlace, podrá visualizar los resultados y el código utilizado.
-
-`<link>` : https://colab.research.google.com/drive/1vgRHCh9aj3bNEJZHtLRCnnZxudpAYNSe?usp=sharing
-
-### 1. Leer el DataSet
-Las señales EEG a utilizar en este entregable son en los 4 escenarios obtenidos en el entregable 6:
-En reposo, Parpadeando, Resolviendo preguntas díficiles y Resolviendo preguntas fáciles.
-
-Se plotea las señales, luego de haber realizo la conversión a uV.
-
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/9e792e1f-8c75-49a3-8006-301ff7d95363)
-> Fig 2. Señales EEG en uV
-
-### 2. Señal EEG en el Dominio de la Frecuencia
-Se procede a graficar la señal EEG en el Dominio de la Frecuencia. Plotear la señal de EEG en el dominio de la frecuencia FFT nos permite visualizar la distribución de la energía de la señal en diferentes frecuencias. Esto es útil para identificar diferentes patrones de actividad cerebral, que pueden estar asociados a diferentes estados mentales o procesos cognitivos. Por ejemplo, las ondas alfa, que tienen frecuencias de 8 a 12 Hz, están asociadas a un estado de relajación y atención relajada. Las ondas beta, que tienen frecuencias de 13 a 30 Hz, están asociadas a un estado de alerta y atención concentrada. Las ondas gamma, que tienen frecuencias de 30 a 100 Hz, están asociadas a procesos cognitivos complejos, como el aprendizaje y la memoria.
-
-Además, plotear la señal de EEG en el dominio de la frecuencia FFT nos permite identificar la presencia de ruido. El ruido puede ser causado por una variedad de factores, como el movimiento del paciente, la interferencia electromagnética o la mala calidad del equipo de EEG. Presentamos las ffts de la señal a continuación 
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/eb552874-dd0e-43bc-b039-244708c3bd7e)
-> Fig 3. Señales EEG en el Dominio de la Frecuencia
-
-### 3. Señal EEG Filtrada
-Se procede a filtrar la señal EEG. Las señales de EEG fueron filtradas utilizando un filtro pasabanda. Este filtro permitió que solo las frecuencias entre 3 Hz y 30 Hz pasaran a través del filtro. El filtro pasabanda fue implementado utilizando una función de la biblioteca bsnb. 
-En este caso, se utilizó un orden de filtro de 2. Esto significa que las frecuencias fuera de la banda de paso fueron atenuadas en un factor de 4.Una vez que las señales EEG fueron filtradas, se graficaron utilizando la biblioteca Matplotlib de Python. Los gráficos muestran las señales EEG en el dominio del tiempo.
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/485ff6a0-ad78-4bdb-920a-09ae5057929e)
-> Fig 4. Señales EEG filtrada
-
-### 4. Detección de ERP
-El ERP, o potencial relacionado con eventos, representa la actividad bloqueada en el tiempo del EEG, generando voltajes mínimos en respuesta a estímulos específicos. Estos potenciales reflejan la actividad de potenciales postsinápticos durante la sincronización de la activación de numerosas neuronas piramidales, permitiendo capturar la actividad neuronal relacionada con procesos cognitivos y sensoriales. Se dividen en dos categorías según su tiempo de aparición en relación con el estímulo: aquellos que alcanzan su máximo en los primeros 100 milisegundos y los generados en fases posteriores. La detección de ERP es una técnica que se utiliza para identificar patrones de actividad cerebral asociados a eventos específicos. En este caso, los eventos específicos fueron la presentación de preguntas matemáticas difíciles y fáciles.
-
-Para detectar ERP, se utilizó un procedimiento llamado promediación. En este procedimiento, se promedian las señales EEG registradas en respuesta a un evento específico. El promedio ayuda a eliminar el ruido de la señal y a resaltar los patrones de actividad cerebral asociados al evento. En este caso, se utilizó una ventana de tiempo de 100 milisegundos (ms). La ventana de tiempo pre-estímulo fue de 50 ms y la ventana de tiempo post-estímulo fue de 50 ms. [3]
-
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/eb6f176e-fb67-467a-b042-5cadb1e0d6a9)
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/b2250edb-7686-4fc4-8f8f-b0c63cca75b6)
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/658a2f35-7255-447e-b850-06d73ba15406)
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/6914c851-719f-4964-b368-c7b8d1ed50be)
-> Fig 5. Detección de ERP
-#### Discusión de Resultados de ERP
-Los resultados de la detección de ERP mostraron que los ERP asociados a la presentación de preguntas matemáticas difíciles y fáciles eran diferentes. En particular, los ERP asociados a las preguntas matemáticas difíciles eran más grandes y tenían una latencia más temprana que los ERP asociados a las preguntas matemáticas fáciles. Estas diferencias pueden indicar que la presentación de preguntas matemáticas difíciles activa diferentes regiones del cerebro que la presentación de preguntas matemáticas fáciles.
-
-Una posibilidad es que las preguntas matemáticas difíciles requieran una mayor cantidad de procesamiento cognitivo que las preguntas matemáticas fáciles. Esto podría conducir a una activación más temprana y más intensa de las regiones del cerebro involucradas en el procesamiento cognitivo.
-
-Sin embargo otra posibilidad es que las preguntas matemáticas difíciles sean más emocionalmente desafiantes que las preguntas matemáticas fáciles debido a que se está frente a varias personas y debido a que la probabilidad de fallar en la respuesta es mayor. Esto podría conducir a una activación de las regiones del cerebro involucradas en la emoción.
-
-
-
-### 5.1 Extracción de la Banda Alfa
-Las ondas alfa, con una frecuencia de 8 a 13 Hz, son observadas durante los 4 escenarios: En reposo, Parpadeando, Resolviendo preguntas díficiles y Resolviendo preguntas fáciles. Se caracterizan por ser lentas y menos intensas que las ondas beta y theta, con mayor amplitud en las regiones occipital y frontal, y ocasional presencia en las zonas parietales y temporales. Conocer estas ondas es crucial para el diagnóstico y tratamiento de trastornos neurológicos, ya que las diferencias topográficas en su distribución han demostrado ser específicas para distintos tipos de patologías. [4]
-
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/348dbe20-34c1-4e59-851e-2c2720d42c8d)
-> Fig 6. Extracción de la Banda Alfa
-
-
-### 5.2 Extracción de la Banda Beta
-Las ondas beta, de frecuencia 13 a 30 Hz, se observan en los 4 escenarios. La amplitud de las ondas beta es relativamente baja en comparación con las ondas alfa o theta. La amplitud puede variar dependiendo de la tarea en la que se encuentra el sujeto. Para nuestro caso, debido a la posicion de los electrodos del Bitalino se analizaron las ondas beta frontales las cuales estan asociadas con procesos cognitivos superiores y la toma de decisiones.
-
-![download](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/676e0320-0b95-411e-905c-9ab314d5d310)
-> Fig 7. Extracción de la Banda Beta
-
-
-### 5.3 Extracción de la Banda Gamma
-Las ondas gamma, de frecuencia 30 a 100 Hz, se observan en los 4 escenarios. Las ondas gamma se caracterizan por su alta frecuencia y amplitud relativamente baja en comparación con otras frecuencias de ondas cerebrales. Las ondas gamma pueden aumentar en amplitud y sincronización durante tareas cognitivas que requieren la integración de información, como la resolución de problemas, la memoria de trabajo, la atención selectiva y la percepción visual. Se observa un pico a 60 Hz, el cual suele ser es el resultado de interferencias de fuentes eléctricas externas, como sistemas eléctricos, lámparas fluorescentes, o incluso dispositivos electrónicos cercanos al Bitalino. Este tipo de interferencia electromagnética a menudo se conoce como "ruido de línea"
-
-> Fig 8. Extracción de la Banda Gamma
-![download](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/c035000a-a2c3-4f3e-912c-a8d2839a4a73)
 
 
 
