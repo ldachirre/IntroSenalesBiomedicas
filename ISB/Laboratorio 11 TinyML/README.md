@@ -61,17 +61,20 @@ En este entregable se analizarán las señales obtenidas
 ---
 ## **Resultados** <a name="id4"></a>
 
-#### **Training 2 labels**
+Link de edge-impulse: https://studio.edgeimpulse.com/studio/311698/learning/keras/7
+
+### **Training 2 labels**
 
 **Espectral Features**
 ![Imagen de WhatsApp 2023-11-20 a las 22 54 57_91ed5d5f](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/48f08af5-85d5-4fab-8631-b8003fd4d8f5)
 ![2](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/fa74f2e9-c5ce-4eda-b670-bc0e7d3d34c3)
 
 **Classifier**
+
 ![4](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/5cdeaf34-a519-48ac-a917-3700407a171d)
 ![3](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/2eefb2b0-739f-4844-ae0a-e8f8c27f57d7)
 ---
-#### **Training 4 labels**
+### **Training 4 labels**
 
 **Spectral Features**
 
@@ -82,12 +85,12 @@ En este entregable se analizarán las señales obtenidas
 
 ![7](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/b3423e4a-5502-4212-b458-01fca717810b)
 ---
-#### Retraining
+### Retraining
 ![8](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/c4171648-2ff6-4324-a389-7dd5fce4d370)
 ![9](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/103b8d8b-a108-44be-bdb2-40e44161a0e9)
 ![10](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/dcbd78a9-b83e-4340-b2fe-f5b465a35259)
 
-Se reentreno el modelo con la función "Retrain Model" y se observa como aumenta la precision a 80% con una mejoria deo 0.6% con respecto a la primera vez tambien se ve como en la gráfica creada se puede diferenciar mejor los valores para cada label.
+Se reentreno el modelo con la función "Retrain Model" donde se observa como aumenta la precision a 80% con una mejoria deo 0.6% con respecto a la primera vez y tambien se redujo la perdida de datos, en la gráfica creada se pueden diferenciar mejor los valores para cada label.
 
 ## **Conclusiones** <a name="id5"></a>
 - A pesar del tamaño limitado del dataset, el modelo demostró una precisión notable en la diferenciación entre "músculo contraído" y "músculo relajado". Esto sugiere un potencial prometedor para aplicar el modelo en un conjunto de datos más grande y variado.
