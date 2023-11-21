@@ -1,4 +1,4 @@
-# LABORATORIO 11: Edge Impulse.
+# LABORATORIO 11: Edge Impulse
 # **Tabla de contenidos**
 
 1. [Introducción](#id1)
@@ -73,25 +73,25 @@ En este entregable se analizarán las señales obtenidas
 
 **Training 4 labels**
 **Spectral Features**
-![6](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/54a457b7-9971-43e9-8470-3aa7ef5b0c4b)
 ![5](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/7184a3c8-01e2-403c-a66c-884a6720b042)
+![6](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/54a457b7-9971-43e9-8470-3aa7ef5b0c4b)
 
 **Classifier**
 ![7](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/b3423e4a-5502-4212-b458-01fca717810b)
 
+![8](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/c4171648-2ff6-4324-a389-7dd5fce4d370)
+![9](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/103b8d8b-a108-44be-bdb2-40e44161a0e9)
+![10](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/56425258/dcbd78a9-b83e-4340-b2fe-f5b465a35259)
+
+Se reentreno el modelo con la función "Retrain Model" y se observa como aumenta la precision a 80% con una mejoria deo 0.6% con respecto a la primera vez tambien se ve como en la gráfica creada se puede diferenciar mejor los valores para cada label.
 
 ## **Conclusiones** <a name="id5"></a>
-
+- A pesar del tamaño limitado del dataset, el modelo demostró una precisión notable en la diferenciación entre "músculo contraído" y "músculo relajado". Esto sugiere un potencial prometedor para aplicar el modelo en un conjunto de datos más grande y variado.
+- Es importante señalar que los resultados se basan en un dataset pequeño con muestras de solo 2 sujetos. Esto limita la generalización de los resultados y puede haber cierto sesgo debido a la variabilidad interindividual. Por ello es recomendable ampliar la muestra para obtener resultados menos sesgados.
 
 
 ## **Referencias** <a name="id6"></a>
-[1] S. U. C. M. Ehrotra, Introduction To EEG- and Emotion Recognition. 2018. Accedido: 30 de septiembre de 2023. [En línea]. Disponible en: http://www.sciencedirect.com:5070/book/9780128044902/introduction-to-eeg-and-speech-based-emotion-recognition
 
-[2] W. A. W Azlan and Y. F. Low, "Feature extraction of electroencephalogram (EEG) signal - A review," 2014 IEEE Conference on Biomedical Engineering and Sciences (IECBES), Kuala Lumpur, Malaysia, 2014, pp. 801-806, doi: 10.1109/IECBES.2014.7047620.
-
-[3] S. Sur and V. Sinha, “Event-related potential: An overview,” vol. 18, no. 1, pp. 70–70, Jan. 2009, doi: https://doi.org/10.4103/0972-6748.57865.
-
-[4] Graetzer, D. G., PhD. (2023). Electroencephalography (EEG). Magill’s Medical Guide (Online Edition). Disponible en: https://research-ebsco-com.ezproxybib.pucp.edu.pe/c/d6owsy/details/cdlxy7ttnv
 
 
 
