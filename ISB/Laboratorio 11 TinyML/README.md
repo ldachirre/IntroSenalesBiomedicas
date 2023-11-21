@@ -10,46 +10,53 @@
    
 ## **Introducción** <a name="id1"></a>
 
-Como se ha discutido anteriormente, el EEG es un procedimiento valioso para registrar la actividad eléctrica en el cerebro. Esto debido a que nos permite ver dicha actividad en forma de ondas a diferentes frecuencias, proporcionando una visión detallada de la actividad cerebral en distintos estados. Durante el análisis de los datos de EEG, se examinaron varias bandas de frecuencia que reflejan patrones específicos de actividad neuronal. [1]
+### **¿Qué es Edge Impulse ?**
+Edge Impulse es una plataforma integral de desarrollo de aprendizaje automático que se especializa en la creación e implementación de modelos de inteligencia artificial (IA) en dispositivos con recursos limitados, como microcontroladores y dispositivos IoT (Internet de las cosas). La plataforma facilita la recopilación, el procesamiento y el entrenamiento de datos para construir modelos de aprendizaje automático personalizados, centrándose en la inferencia en el "borde" (edge), es decir, directamente en el dispositivo en lugar de depender de recursos en la nube.
 
-A continuación se presenta una figura resumen con las diferentes señales obtenidas y su representación en la actividad cerebral. Para mayor información revisar el entregable pasado sobre señales EEG [aquí](https://github.com/ldachirre/IntroSenalesBiomedicas/tree/8d0f69448327d5be9a3340be16b55933ab11a1d4/ISB/Laboratorio%206%20-%20EEG).
+Edge Impulse ofrece una interfaz amigable que permite a los desarrolladores, incluso aquellos sin una experiencia extensa en aprendizaje automático, diseñar y desplegar modelos de forma eficiente. Facilita la integración de la IA en una variedad de aplicaciones prácticas, como sistemas de monitoreo, dispositivos médicos, wearables y otros dispositivos conectados.  [1]
 
-![Captura de pantalla 2023-10-01 200816](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/67986101/3491545d-f923-4ba3-9c86-8a0a17b9562d) 
-> Figura 1. EEG bandas de frecuencia, ocurrencia y tareas para activar la potencia de banda
+![ei_cycle_d_e59c64ebeda3ccc80fa9a298cd0835f2_944901ad41](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/90112793/8ae14947-01e1-41e3-9a97-ff6f1c258101)
 
-La extracción de características es un proceso por el cual a una señal le son extraídas información relevante (características) las cuales son más sencillas de interpretar que la señal original. Dicha información extraída refleja la fisiología y anatomía de la actividad ocurrida en el cerebro donde se puede observar el comportamiento que responde a cierta actividad y/o estímulo. Este proceso requiere un gran número de dataset donde se utilizan algoritmos para su extracción y análisis, por ejemplo Hilbert-Huang Transform (HHT), Principal Component Analysis (PCA), Independent Component Analysis (ICA), etc. [2]
 
-En este entregable se analizarán las señales obtenidas previamente (entregable 6) en las cuales se usará la biblioteca de [biosignalsnotebooks](https://github.com/pluxbiosignals/biosignalsnotebooks) para practicidad en la visualización y obtención de data.
+> Figura 1. "Getting Started with Edge Impulse." Evan Rust. TINYML. 
+
+En este entregable se analizarán las señales obtenidas
 
 
 
 ## **Objetivos** <a name="id2"></a>
-1. **Obtener características estadísticas de la señal:** Incluye la extracción de características como la amplitud de la señal, el valor promedio (media), la frecuencia y el valor Root Mean Square (RMS) de la señal EEG.
 
-2. **Realizar el análisis de las características y compararlo con valores de la literatura:** Evaluación y comparación de las características extraídas con valores de referencia disponibles en la literatura. Esto ayuda a entender cómo se comporta la señal en relación con los datos previamente documentados.
 
-3. **Verificar el comportamiento de la señal EEG:** Comportamiento general de la señal EEG para identificar patrones, tendencias o anomalías que puedan ser relevantes para tu análisis o aplicación específica.
+1. **Desarrollar un modelo** que pueda reconocer y clasificar la contracción muscular en el bíceps basados en patrones de actividad EMG.
+
+2. **Analizar la duración de la contracción muscular** en el bíceps y desarrollar un modelo que pueda reconocer patrones temporales.
+
 
 ## **Metodología** <a name="id3"></a>
+## Metodología
 
-El procesamiento de la señal EEG involucra una serie de pasos esenciales para obtener información clara y precisa de la señal. Estos pasos son los siguientes:
+1. **Adquisición de Datos:**
+   - Utilizamos sensores de EMG para recopilar datos durante contracciones del bíceps en un laboratorio de prototipado. Los datos recopilados en este laboratorio son los utilizados en este modelo.
 
-1. **Leer el DataSet:** En esta etapa, se accede a los datos del electrocardiograma para su posterior análisis.
+2. **Exportación de Datos:**
+   - Seguidamente, exportamos la data en formato .txt (el mismo formato que guarda el programa OpenSignals) a un archivo .csv para que pueda ser leído por Edge Impulse.
 
-2. **Analizar el EEG en frecuencia:** Se examina la señal en el dominio de la frecuencia para identificar componentes relevantes y características.
+3. **Etiquetado de Datos:**
+   - Asignamos etiquetas a cada grabación, indicando la intensidad de la contracción y la duración correspondiente. Esto facilita el entrenamiento supervisado del modelo.
 
-3. **Filtrar la señal con un filtro pasa banda:** Aplicar un filtro pasa banda ayuda a aislar las frecuencias de interés en la señal EEG.
+4. **Preprocesamiento de Datos:**
+   - Aplicamos técnicas de preprocesamiento, como filtrado, normalización y extracción de características, para preparar los datos para el entrenamiento del modelo.
 
-4. **Detección de ERP:** Se detectan potenciales relacionados con eventos (ERP), los cuales pueden desencadenarse por estímulos auditivos, visuales o somatosensoriales. Un ejemplo es el P300 , que es una desviación positiva unos 300 ms después de un evento impar. La sincronización del EEG con el momento preciso del inicio de los estímulos es importante debido a la aparición de potenciales evocados entre 100 y 900 ms después del inicio de los estímulos.
+5. **Desarrollo del Modelo:**
+   - Seleccionamos un modelo de aprendizaje automático apropiado y ajustamos sus parámetros utilizando el conjunto de datos de entrenamiento.
 
-5. **Detección de la banda Alfa:** Se extraen las oscilaciones de la banda alfa oscilan en frecuencias de 8-12 Hz, las cuales se originan en el lóbulo occipital. Las ondas alfa están asociadas a un proceso específico y están presentes principalmente cuando los ojos están cerrados y bloqueadas principalmente cuando los ojos están abiertos.
+6. **Evaluación del Modelo:**
+   - Evaluamos el rendimiento del modelo utilizando el conjunto de datos de prueba para asegurarnos de que generalice bien a datos no vistos durante el entrenamiento.
 
- 
-Para extraer las ondas alfa de las señales EEG, se utilizó el método de Welch. Este método divide la señal EEG en ventanas de tiempo y calcula la transformada de Fourier de cada ventana. La transformada de Fourier de una señal es una representación de la señal en el dominio de la frecuencia. En este caso, se utilizó una ventana de tiempo de 4 segundos. Esto dio como resultado una resolución de frecuencia de 0.25 Hz.
+7. **Documentación:**
+   - Documentamos todos los aspectos del proceso, desde la adquisición de datos hasta la configuración del modelo, para facilitar la comprensión y replicación de nuestro trabajo.
 
-Una vez que se calcularon las transformadas de Fourier, se seleccionaron las frecuencias entre 8 Hz y 12 Hz. Estas frecuencias corresponden a la banda alfa.
 
-Los resultados de la extracción de ondas alfa se muestran en los cuatro subplots de la figura. Cada subplot muestra el espectro de frecuencia de las ondas alfa para un escenario diferente: en estado de reposo, parpadeando, preguntas difíciles y preguntas fáciles.
 
 
 ## **Procesamiento y obtención de características de EEG** <a name="id4"></a>
