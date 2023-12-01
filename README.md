@@ -37,7 +37,7 @@ Como estudiantes universitarios, nuestra motivación para llevar a cabo esta inv
 
 ### Links importantes
 * Paper:
-* Sobre el equipo: 
+* Sobre el equipo: https://github.com/ldachirre/IntroSenalesBiomedicas/blob/main/ISB/README.md
 * Códigos utilizados:  
 
 
