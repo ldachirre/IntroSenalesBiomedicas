@@ -35,10 +35,10 @@ Como estudiantes universitarios, nuestra motivación para llevar a cabo esta inv
 Durante la investigación, se identificaron resultados significativos en relación con el impacto de distintas actividades en la fatiga muscular. El envío de mensajes de texto demostró generar una fatiga muscular de intensidad moderada. En contraste, la actividad de gaming se destacó como la que más fatiga los músculos de la muñeca. Este efecto se atribuye a la combinación de movimientos intensos y repetitivos inherentes a dicha actividad.
 
 ##### Muñeca
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/fbadf51a-69b4-4875-9a24-c1696f07c98b)
+<img src="https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/fbadf51a-69b4-4875-9a24-c1696f07c98b" alt="Descripción de la imagen" width="700" height="500">
 
 ##### Trapecio
-![image](https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/fb51b419-a48e-46ab-9bf2-6dd26bb542b4)
+<img src="https://github.com/ldachirre/IntroSenalesBiomedicas/assets/42382614/fb51b419-a48e-46ab-9bf2-6dd26bb542b4" alt="Descripción de la imagen" width="700" height="500">
 
 En el análisis específico del Trapecio Superior, se observaron variaciones notables en la fatiga muscular en función de las posturas cervicales. La postura de flexión cervical máxima mostró una fatiga más pronunciada en comparación con las posturas de flexión cervical media y neutra. Este hallazgo se respalda mediante la identificación de una mayor amplitud de la señal muscular en la posición de flexión cervical máxima. Estos resultados ofrecen una comprensión detallada sobre cómo diferentes actividades y posturas afectan la fatiga muscular, proporcionando perspectivas valiosas para la salud y el bienestar físico. 
 </p>
