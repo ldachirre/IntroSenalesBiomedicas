@@ -27,3 +27,20 @@ El uso prolongado de teléfonos inteligentes es frecuente entre los adultos jóv
 
 ### Motivación
 <p align="justify"> 
+  
+</p>
+
+### Principales hallazgos
+<p align="justify"> 
+  
+</p>
+
+### Links importantes
+<p align="justify"> 
+  
+</p>
+
+### Docentes del curso
+<p align="justify"> 
+  
+</p>
