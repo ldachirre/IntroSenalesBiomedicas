@@ -43,9 +43,14 @@ Como estudiantes universitarios, nuestra motivación para llevar a cabo esta inv
 ### Bibliografía
 <p align="justify"> 
 [1]    	“El 21% de limeños usa su smartphone más de seis horas al día | Tendencias | Gestion.pe.” Accessed: Nov. 22, 2023. [Online]. Available: https://archivo.gestion.pe/tendencias/21-limenos-usa-su-smartphone-mas-seis-horas-al-dia-2174450
+
 [2]    	R. Thaper, M. J. Gibson, K. Mykoniatis, and R. Sesek, “The Role of Smart Hand Held Devices – Smartphones/iPads/Tablets/Smartwatches in Causing Musculoskeletal Disorders: A Systematic Literature Review,” Int J Ind Ergon, vol. 97, p. 103497, Sep. 2023, doi: 10.1016/J.ERGON.2023.103497.
+
 [3] “Asociación entre horas de uso de equipos electrónicos y trastornos musculoesqueléticos durante el estado de emergencia 2020 en alumnos de una Universidad Privada de Lima, Perú”. [Online]. Available: https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/667406/Girón_ZM.pdf?sequence=17.
+
 [4]   	J. H. Choi, M. H. Jung, and K. T. Yoo, “An analysis of the activity and muscle fatigue of the muscles around the neck under the three most frequent postures while using a smartphone,” J Phys Ther Sci, vol. 28, no. 5, p. 1660, May 2016, doi: 10.1589/JPTS.28.1660.
+
 [5] G. Pequera y I. Nicolás Pérez, “Análisis tiempo-frecuencia de la señal de EMG en movimientos explosivos: estudio de la coordinación en el salto vertical”, Edu.uy. [Online]. Available: https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/8156/1/uy24-17718.pdf. 
+
 [6] “GitHub - pluxbiosignals/biosignalsnotebooks: biosignalsnotebooks” Accessed: Nov. 22, 2023. [Online]. Available: https://github.com/pluxbiosignals/biosignalsnotebooks
 </p>
