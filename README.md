@@ -40,7 +40,7 @@ En el análisis específico del Trapecio Superior, se observaron variaciones not
 ### Links importantes
 * Paper:
 * Sobre el equipo: https://github.com/ldachirre/IntroSenalesBiomedicas/blob/main/ISB/README.md
-* Códigos utilizados:  
+* Códigos utilizados:  https://github.com/ldachirre/IntroSenalesBiomedicas/blob/main/Software/Procesamiento%20de%20EMG_proyecto_s1_scrolling.ipynb
 
 
 ### Bibliografía
