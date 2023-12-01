@@ -37,7 +37,9 @@ Como estudiantes universitarios, nuestra motivación para llevar a cabo esta inv
 
 ### Links importantes
 <p align="justify"> 
-  
+* Paper:
+* Sobre el equipo: 
+* Códigos utilizados:  
 </p>
 
 ### Bibliografía
