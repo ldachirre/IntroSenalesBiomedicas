@@ -27,7 +27,7 @@ El uso prolongado de teléfonos inteligentes es frecuente entre los adultos jóv
 
 ### Motivación
 <p align="justify"> 
-  
+Como estudiantes universitarios, nuestra motivación para llevar a cabo esta investigación sobre la fatiga muscular entre los estudiantes universitarios proviene de un gran interés en la intersección del uso de la tecnología y la fisiología humana. Sentimos una verdadera curiosidad por saber cómo influyen las actividades con teléfonos inteligentes en la salud muscular, especialmente en los músculos trapecio superior y flexor de la muñeca. Reconociendo la dependencia diaria de los teléfonos inteligentes entre las personas de nuestro grupo de edad, veo la importancia de explorar las implicaciones prácticas de su uso prolongado. Con esta investigación pretendemos contribuir a la ingeniería biomédica aplicando de forma innovadora la tecnología de electromiografía de superficie (sEMG).   
 </p>
 
 ### Principales hallazgos
