@@ -44,7 +44,7 @@ En el análisis específico del Trapecio Superior, se observaron variaciones not
 </p>
 
 ### Links importantes
-* Paper:
+* Paper: https://paperswithcode.com/paper/effect-of-prolonged-use-of-smartphones-on
 * Sobre el equipo: https://github.com/ldachirre/IntroSenalesBiomedicas/blob/main/ISB/README.md
 * Códigos utilizados:  https://github.com/ldachirre/IntroSenalesBiomedicas/blob/main/Software/Procesamiento%20de%20EMG_proyecto_s1_scrolling.ipynb
 
